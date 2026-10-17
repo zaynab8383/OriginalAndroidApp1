@@ -1,0 +1,1470 @@
+--------- beginning of main
+10-13 11:22:34.562 D/AAL     ( 1229): onALIChanged: 120 -> 125
+10-13 11:22:34.563 D/AALLightSensor( 1229): Notify lux = 125
+10-13 11:22:34.619 E/msys    (10605): E[N mns:DGWClient]_OnResolverSuccess(422)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+10-13 11:22:34.692 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:34.692 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:34.693 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:34.693 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:34.693 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:34.694 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:34.762 D/AAL     ( 1229): onALIChanged: 125 -> 127
+10-13 11:22:34.764 D/AALLightSensor( 1229): Notify lux = 127
+10-13 11:22:34.809 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:34.811 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:34.813 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:34.813 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:34.813 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:34.814 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:34.814 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:34.815 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:34.962 D/AALLightSensor( 1229): oldLux=127 [SA:128 LA:123] newLux=128 (oriLux: 129)
+10-13 11:22:34.962 D/AAL     ( 1229): onALIChanged: 127 -> 128
+10-13 11:22:34.964 D/AALLightSensor( 1229): Notify lux = 128
+10-13 11:22:35.162 D/AAL     ( 1229): onALIChanged: 128 -> 129
+10-13 11:22:35.164 D/AALLightSensor( 1229): Notify lux = 129
+10-13 11:22:35.809 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:35.810 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:35.813 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:35.813 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:35.813 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:35.813 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:35.813 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:35.814 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:35.938 D/ccci_mdinit(  945): (1):monitor_time_update_thread round:17524 ########
+10-13 11:22:35.962 D/AAL     ( 1229): onALIChanged: 129 -> 130
+10-13 11:22:35.963 D/AALLightSensor( 1229): Notify lux = 130
+10-13 11:22:36.362 D/AAL     ( 1229): onALIChanged: 130 -> 131
+10-13 11:22:36.363 D/AALLightSensor( 1229): Notify lux = 131
+10-13 11:22:36.502 D/FiveGDataOptimize( 2245): isAnyCallOngoing callOngoing= false
+10-13 11:22:36.505 D/FiveGDataOptimize( 2245): TxRx: 0, Tx: 0, Rx: 0, Hit: 0
+10-13 11:22:36.675 I/thermal_repeater( 1222): [recvMdThermalInfo] ret=26, strLen=127,  3, 28, -50, 197, 32767, 1
+10-13 11:22:36.762 D/AAL     ( 1229): onALIChanged: 131 -> 132
+10-13 11:22:36.763 D/AALLightSensor( 1229): Notify lux = 132
+10-13 11:22:36.811 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:36.812 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:36.815 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:36.815 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:36.815 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:36.815 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:36.815 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:36.816 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:36.824 I/[BIP]   ( 1451):  [BIP NL] event newaddr match dev 0
+10-13 11:22:36.825 I/[BIP]   ( 1451):  [BIP NL] IPv6: *:*:*:*:*:*:*:*
+10-13 11:22:36.825 I/[BIP]   ( 1451):  [BIP NL] addr state is 3, ipv4=*.*.*.*, ipv6=*:*:*:*:*:*:*:*
+10-13 11:22:36.825 I/[BIP]   ( 1451):  [BIP NL] event newaddr match dev 0
+10-13 11:22:36.825 I/[BIP]   ( 1451):  [BIP NL] IPv6: *:*:*:*:*:*:*:*
+10-13 11:22:36.825 I/[BIP]   ( 1451):  [BIP NL] addr state is 3, ipv4=*.*.*.*, ipv6=*:*:*:*:*:*:*:*
+10-13 11:22:36.825 D/IpClient/wlan0( 2189): addressUpdated: 2a02:4540:aa:5375:84a0:8cff:fec7:7040/64 on ifindex 32 flags 0x00000100 scope 0 deprecationTime 266722242 expirationTime 266722242
+10-13 11:22:36.826 D/IpClient/wlan0( 2189): addressUpdated: 2a02:4540:aa:5375:b8eb:1551:b9dd:b079/64 on ifindex 32 flags 0x00000001 scope 0 deprecationTime 266722242 expirationTime 266722242
+10-13 11:22:36.826 W/AlarmManager( 2189): Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@2273d83
+10-13 11:22:37.096 D/ULogGuard( 1194): Monitoring: 10 threads, 0 requests, 0 time-bombs; 1 guards. ResetFlags = 0x7
+10-13 11:22:37.168 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 2
+10-13 11:22:37.169 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 3
+10-13 11:22:37.170 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 2
+10-13 11:22:37.171 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 3
+10-13 11:22:37.186 W/libprocessgroup( 1630): Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-13 11:22:37.188 I/MiuiNetworkPolicy( 1630): updateUidState uid = 10191, uidState = 8
+10-13 11:22:37.188 I/MiuiNetworkPolicy( 1630): updateUidState uid = 10021, uidState = 8
+10-13 11:22:37.189 W/libprocessgroup( 1630): Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-13 11:22:37.201 I/Finsky  (29204): [2] SCH: job service start with id 9462.
+10-13 11:22:37.210 I/Finsky  (29204): [513] SCH: Satisfied jobs for 9462 are: 12-1
+10-13 11:22:37.211 I/Finsky  (29204): [512] SCH: Job 12-1 starting
+10-13 11:22:37.212 I/Finsky  (29204): [2] WM::SCH: Logging work start for 12-1
+10-13 11:22:37.212 I/Finsky  (29204): [2] [ContentSync] job started
+10-13 11:22:37.517 E/FileUtils(29204): err open mi_exception_log errno=2
+10-13 11:22:37.517 E/FileUtils(29204): err write to mi_exception_log
+10-13 11:22:37.633 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.mainline.primary.libs' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:37.710 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:37.710 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:37.710 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:37.710 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:37.710 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:37.710 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+--------- beginning of system
+10-13 11:22:37.759 I/UsageStatsService( 1630): User[0] Flushing usage stats to disk
+10-13 11:22:37.795 I/UsageStatsService( 1630): User[999] Flushing usage stats to disk
+10-13 11:22:37.812 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:37.813 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:37.815 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:37.815 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:37.815 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:37.815 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:37.815 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:37.815 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:37.823 E/FileUtils( 1630): err open mi_exception_log errno=2
+10-13 11:22:37.823 E/FileUtils( 1630): err write to mi_exception_log
+10-13 11:22:37.904 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.appsearch' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:37.926 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.art' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:37.973 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.mediaprovider' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:38.020 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.resolv' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:38.047 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.media' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:38.193 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.sdkext' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:38.206 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.adservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:38.206 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.tethering' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:38.315 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.cellbroadcast' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:38.336 I/adbd    ( 8192): adbd service requested 'shell,v2,TERM=xterm-256color,raw:am force-stop com.companyname.AndroidApp1'
+10-13 11:22:38.384 W/Settings( 2245): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-13 11:22:38.387 I/ActivityManager( 1630): Force stopping com.companyname.AndroidApp1 appid=10300 user=0: from process:11624
+10-13 11:22:38.388 D/MobileStatusTracker(3)( 2258): onSignalStrengthsChanged signalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 miuiLevel=0 mOptimizedLevel=0 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 miuiLevel=0 mOptimizedLevel=0 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 miuiLevel=0 mOptimizedLevel=0 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 miuiLevel=0 mOptimizedLevel=0 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-81 rsrq=-10 rssnr=3 cqiTableIndex=2147483647 cqi=0 ta=0 miuiLevel=5 mOptimizedLevel=0 level=4 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 miuiLevel = 0 mOptimizedLevel = 0 level = 0 parametersUseForLevel = 0 },primary=CellSignalStrengthLte}, phoneId=0, mMtkLevel=0, mMtkRsrpOnly=false, mMtkLteRsrpThreshold=null, mMtkLteRssnrThreshold=null
+10-13 11:22:38.394 W/ActivityManager( 1630): Invalid packageName: com.companyname.AndroidApp1
+10-13 11:22:38.397 E/adbd    ( 8192): error reading output FD 30: Connection reset by peer
+10-13 11:22:38.398 I/MiuiWallpaper-MiuiWallpaperManagerService( 2090): receive broadcast action = android.intent.action.PACKAGE_RESTARTED
+10-13 11:22:38.400 D/CarrierSvcBindHelper( 2245): onHandleForceStop: [com.companyname.AndroidApp1]
+10-13 11:22:38.400 D/CarrierSvcBindHelper( 2245): No carrier app for: 0
+10-13 11:22:38.401 D/CarrierSvcBindHelper( 2245): No carrier app for: 1
+10-13 11:22:38.511 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.tzdata4' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:38.544 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.permission' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:38.761 D/AAL     ( 1229): onALIChanged: 132 -> 133
+10-13 11:22:38.762 D/AALLightSensor( 1229): Notify lux = 133
+10-13 11:22:38.802 E/FileUtils(29204): err open mi_exception_log errno=2
+10-13 11:22:38.802 E/FileUtils(29204): err write to mi_exception_log
+10-13 11:22:38.812 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:38.813 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:38.814 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:38.814 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:38.814 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:38.814 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:38.814 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:38.815 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:39.114 D/MiuiNetworkPolicy( 1630): updateLimit mLimitEnabled=true,enabled=false,mNetworkPriorityMode=255
+10-13 11:22:39.331 W/BpBinder( 1630): Slow Binder: BpBinder transact took 440 ms, interface=android.os.IInstalld, code=12 oneway=false
+10-13 11:22:39.331 W/BpBinder(29204): Slow Binder: BpBinder transact took 441 ms, interface=android.app.usage.IStorageStatsManager, code=7 oneway=false
+10-13 11:22:39.332 E/FileUtils(29204): err open mi_exception_log errno=2
+10-13 11:22:39.332 E/FileUtils(29204): err write to mi_exception_log
+10-13 11:22:39.334 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.media.swcodec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:39.476 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.adbd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:39.518 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.conscrypt' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:39.564 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.neuralnetworks' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:39.591 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.ipsec' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:39.626 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.ondevicepersonalization' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): Unable to create output stream
+10-13 11:22:39.668 E/fbservices-stub:c(16539): java.net.ConnectException: Failed to connect to graph.facebook.com/10.10.34.36:443
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:145)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:114)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.facebook.rti.common.a.a.c.a(AnalyticsService.java:82)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.facebook.rti.common.a.a.c.a(AnalyticsService.java:60)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.facebook.rti.common.a.a.a.a(AnalyticsHttpClient.java:46)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at com.facebook.rti.common.a.a.g$b.run(CounterAnalytics.java:144)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+10-13 11:22:39.668 E/fbservices-stub:c(16539): 	at java.lang.Thread.run(Thread.java:1571)
+10-13 11:22:39.668 E/fbservices-stub:g(16539): Unsuccessful upload. response code=-1
+10-13 11:22:39.747 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.extservices' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:39.813 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:39.814 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:39.814 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:39.814 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:39.815 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:39.815 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:39.815 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:39.815 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:39.840 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.os.statsd' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:39.877 W/Finsky  (29204): [2] STU: Failed to get storage stats for package 'com.google.android.scheduling' (1601: Error getting stats: android.content.pm.PackageManager.NameNotFoundException)
+10-13 11:22:39.930 I/Finsky  (29204): [2] App states replicator found 78 unowned apps
+10-13 11:22:39.993 E/AuthPII (16939): [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+10-13 11:22:39.993 E/AuthPII (16939): bnxe: Long live credential not available.
+10-13 11:22:39.993 E/AuthPII (16939): 	at akvd.a(:com.google.android.gms@263737029@26.37.37 (190400-994713346):1209)
+10-13 11:22:39.993 E/AuthPII (16939): 	at akvk.b(:com.google.android.gms@263737029@26.37.37 (190400-994713346):26)
+10-13 11:22:39.993 E/AuthPII (16939): 	at akvi.a(:com.google.android.gms@263737029@26.37.37 (190400-994713346):667)
+10-13 11:22:39.993 E/AuthPII (16939): 	at akvh.b(:com.google.android.gms@263737029@26.37.37 (190400-994713346):135)
+10-13 11:22:39.993 E/AuthPII (16939): 	at aebp.d(:com.google.android.gms@263737029@26.37.37 (190400-994713346):846)
+10-13 11:22:39.993 E/AuthPII (16939): 	at akol.getAuthToken(:com.google.android.gms@263737029@26.37.37 (190400-994713346):349)
+10-13 11:22:39.993 E/AuthPII (16939): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+10-13 11:22:39.993 E/AuthPII (16939): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+10-13 11:22:39.993 E/AuthPII (16939): 	at android.os.Binder.transact(Binder.java:1169)
+10-13 11:22:39.993 E/AuthPII (16939): 	at cyet.onTransact(:com.google.android.gms@263737029@26.37.37 (190400-994713346):12)
+10-13 11:22:39.993 E/AuthPII (16939): 	at android.os.Binder.transact(Binder.java:1169)
+10-13 11:22:39.993 E/AuthPII (16939): 	at ckap.onTransact(:com.google.android.gms@263737029@26.37.37 (190400-994713346):169)
+10-13 11:22:39.993 E/AuthPII (16939): 	at android.os.Binder.execTransactInternal(Binder.java:1290)
+10-13 11:22:39.993 E/AuthPII (16939): 	at android.os.Binder.execTransact(Binder.java:1249)
+10-13 11:22:39.994 E/AuthPII (16939): Message is Long live credential not available.
+10-13 11:22:39.994 E/AuthPII (16939): bnxe: Long live credential not available.
+10-13 11:22:39.994 E/AuthPII (16939): 	at akvd.a(:com.google.android.gms@263737029@26.37.37 (190400-994713346):1209)
+10-13 11:22:39.994 E/AuthPII (16939): 	at akvk.b(:com.google.android.gms@263737029@26.37.37 (190400-994713346):26)
+10-13 11:22:39.994 E/AuthPII (16939): 	at akvi.a(:com.google.android.gms@263737029@26.37.37 (190400-994713346):667)
+10-13 11:22:39.994 E/AuthPII (16939): 	at akvh.b(:com.google.android.gms@263737029@26.37.37 (190400-994713346):135)
+10-13 11:22:39.994 E/AuthPII (16939): 	at aebp.d(:com.google.android.gms@263737029@26.37.37 (190400-994713346):846)
+10-13 11:22:39.994 E/AuthPII (16939): 	at akol.getAuthToken(:com.google.android.gms@263737029@26.37.37 (190400-994713346):349)
+10-13 11:22:39.994 E/AuthPII (16939): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+10-13 11:22:39.994 E/AuthPII (16939): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+10-13 11:22:39.994 E/AuthPII (16939): 	at android.os.Binder.transact(Binder.java:1169)
+10-13 11:22:39.994 E/AuthPII (16939): 	at cyet.onTransact(:com.google.android.gms@263737029@26.37.37 (190400-994713346):12)
+10-13 11:22:39.994 E/AuthPII (16939): 	at android.os.Binder.transact(Binder.java:1169)
+10-13 11:22:39.994 E/AuthPII (16939): 	at ckap.onTransact(:com.google.android.gms@263737029@26.37.37 (190400-994713346):169)
+10-13 11:22:39.994 E/AuthPII (16939): 	at android.os.Binder.execTransactInternal(Binder.java:1290)
+10-13 11:22:39.994 E/AuthPII (16939): 	at android.os.Binder.execTransact(Binder.java:1249)
+10-13 11:22:40.010 E/gralloc4( 2258): Empty SMPTE 2094-40 data
+10-13 11:22:40.016 I/Auth    (16939): (REDACTED) [GetToken] GetToken failed for app=%s with userRecoverable status: %s 
+10-13 11:22:40.018 E/gralloc4( 2258): Empty SMPTE 2094-40 data
+10-13 11:22:40.019 W/Auth    (16939): [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gsf, scope=oauth2:https://www.googleapis.com/auth/googleplay [CONTEXT service_id=153 ]
+10-13 11:22:40.019 W/Auth    (16939): akvc: GetToken failed with status code and recovery intent: BadAuthentication
+10-13 11:22:40.019 W/Auth    (16939): 	at akvh.b(:com.google.android.gms@263737029@26.37.37 (190400-994713346):323)
+10-13 11:22:40.019 W/Auth    (16939): 	at aebp.d(:com.google.android.gms@263737029@26.37.37 (190400-994713346):846)
+10-13 11:22:40.019 W/Auth    (16939): 	at akol.getAuthToken(:com.google.android.gms@263737029@26.37.37 (190400-994713346):349)
+10-13 11:22:40.019 W/Auth    (16939): 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+10-13 11:22:40.019 W/Auth    (16939): 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+10-13 11:22:40.019 W/Auth    (16939): 	at android.os.Binder.transact(Binder.java:1169)
+10-13 11:22:40.019 W/Auth    (16939): 	at cyet.onTransact(:com.google.android.gms@263737029@26.37.37 (190400-994713346):12)
+10-13 11:22:40.019 W/Auth    (16939): 	at android.os.Binder.transact(Binder.java:1169)
+10-13 11:22:40.019 W/Auth    (16939): 	at ckap.onTransact(:com.google.android.gms@263737029@26.37.37 (190400-994713346):169)
+10-13 11:22:40.019 W/Auth    (16939): 	at android.os.Binder.execTransactInternal(Binder.java:1290)
+10-13 11:22:40.019 W/Auth    (16939): 	at android.os.Binder.execTransact(Binder.java:1249)
+10-13 11:22:40.020 W/Auth    (16939): [GmsAccountAuthenticatorImpl] error status while fetching token:BadAuthentication [CONTEXT service_id=343 ]
+10-13 11:22:40.020 I/BufferQueueProducer(  940): [StatusBar#89](this:0xb4000070b53bb8a8,id:-1,api:0,p:-1,c:940) queueBuffer: fps=0.03 dur=39978.34 max=39978.34 min=39978.34
+10-13 11:22:40.020 I/BufferQueueProducer(  940): [NavigationBar0#85](this:0xb400007010be78a8,id:-1,api:0,p:-1,c:940) queueBuffer: fps=0.75 dur=41192.59 max=40644.75 min=16.42
+10-13 11:22:40.023 I/hwcomposer(  859): [HWCDisplay] [Display_0 (type:1)] fps:0.345155,dur:40561.51,max:39888.19,min:15.30  
+10-13 11:22:40.023 I/surfaceflinger(  940): surfaceflinger setAffinity mode=0
+10-13 11:22:40.029 I/Finsky  (29204): [514] Completed 1 account content syncs with 0 successful.
+10-13 11:22:40.030 I/Finsky  (29204): [2] [ContentSync] Installation state replication failed, parameters=Id: 12-1, CT: 1791877912862, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }].
+10-13 11:22:40.030 I/Finsky  (29204): [2] [ContentSync] Scheduling replication attempt 0.
+10-13 11:22:40.030 I/Finsky  (29204): [2] SCH: jobFinished: 12-1. TimeElapsed: 2819ms.
+10-13 11:22:40.031 I/Finsky  (29204): [2] WM::SCH: Logging work end for 12-1
+10-13 11:22:40.034 I/Finsky  (29204): [513] SCH: Attempting to reschedule job: Id: 12-1, Constraints: [{ L: 20000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-13 11:22:40.041 I/Finsky  (29204): [191] SCH: Scheduling phonesky job Id: 1-1337, CT: 1791868986979, Constraints: [{ L: 29734422, D: 72934422, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-13 11:22:40.041 I/Finsky  (29204): [191] SCH: Scheduling phonesky job Id: 34-4436, CT: 1791869148744, Constraints: [{ L: 604800000, D: 2591999589, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-13 11:22:40.041 I/Finsky  (29204): [191] SCH: Scheduling phonesky job Id: 34-4442, CT: 1791876201342, Constraints: [{ L: 79199515, D: 1375199515, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-13 11:22:40.042 I/Finsky  (29204): [191] SCH: Scheduling phonesky job Id: 34-4443, CT: 1791876202599, Constraints: [{ L: 604800000, D: 2591999254, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-13 11:22:40.045 I/Finsky  (29204): [187] SCH: Scheduling 1 system job(s)
+10-13 11:22:40.045 I/Finsky  (29204): [187] SCH: Scheduling system job Id: 9468, L: 20761356, D: 63961356, C: false, I: false, N: 1
+10-13 11:22:40.046 D/CompatibilityChangeReporter( 1630): Compat change id reported: 194532703; UID 10191; state: ENABLED
+10-13 11:22:40.051 I/Finsky  (29204): [512] SCH: job service finished with id 9462.
+10-13 11:22:40.056 I/MiuiNetworkPolicy( 1630): updateUidState uid = 10191, uidState = 10
+10-13 11:22:40.058 I/MiuiNetworkPolicy( 1630): updateUidState uid = 10021, uidState = 10
+10-13 11:22:40.062 I/MiuiNetworkPolicy( 1630): updateUidState uid = 10191, uidState = 19
+10-13 11:22:40.063 I/MiuiNetworkPolicy( 1630): updateUidState uid = 10021, uidState = 19
+10-13 11:22:40.090 I/hwcomposer(  859): [HWC] (0)fire a callback of refresh to SF[4]  
+10-13 11:22:40.097 D/ULogGuard( 1194): Monitoring: 10 threads, 0 requests, 0 time-bombs; 1 guards. ResetFlags = 0x7
+10-13 11:22:40.106 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:40.107 I/BufferQueueProducer(  940): [FramebufferSurface](this:0xb4000070b53b46e0,id:-1,api:1,p:940,c:940) queueBuffer: fps=0.05 dur=40389.56 max=39973.14 min=416.42
+10-13 11:22:40.109 I/surfaceflinger(  940): surfaceflinger setAffinity mode=1
+10-13 11:22:40.109 I/surfaceflinger(  940): surfaceflinger setreAffinity reTid=1001
+10-13 11:22:40.126 D/CompatibilityChangeReporter( 1630): Compat change id reported: 161145287; UID 10191; state: DISABLED
+10-13 11:22:40.136 I/Finsky  (29204): [180] WM::SCH: Logging work initialize for 12-1
+10-13 11:22:40.143 I/Finsky  (29204): [190] SCH: Scheduling phonesky job Id: 12-1, CT: 1791877960035, Constraints: [{ L: 20000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-13 11:22:40.148 I/Finsky  (29204): [188] SCH: Scheduling 1 system job(s)
+10-13 11:22:40.149 I/Finsky  (29204): [188] SCH: Scheduling system job Id: 9468, L: 19887, D: 63961253, C: false, I: false, N: 1
+10-13 11:22:40.154 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 2
+10-13 11:22:40.155 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 3
+10-13 11:22:40.155 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 2
+10-13 11:22:40.155 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 3
+10-13 11:22:40.722 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:40.722 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:40.722 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:40.722 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:40.722 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:40.723 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:40.816 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:40.818 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:40.820 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:40.820 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:40.820 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:40.820 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:40.820 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:40.822 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:41.012 I/libPerfCtl(  873): xgfGetFPS pid:2258 fps:-1
+10-13 11:22:41.225 D/DurationCollector( 6422): updateRecord. beginDate = 2026-10-13, isSameDay = true, infos = [{"appVerCode":4062578,"beginTime":1791847131616,"delayTickCount":0,"duration":13},{"appVerCode":4062578,"beginTime":1791847144593,"delayTickCount":0,"duration":90186},{"appVerCode":4062578,"beginTime":1791847370698,"delayTickCount":36,"duration":21569378},{"appVerCode":4062578,"beginTime":1791868991147,"delayTickCount":0,"duration":495872},{"appVerCode":4062578,"beginTime":1791869612063,"delayTickCount":11,"duration":6236565},{"appVerCode":4062578,"beginTime":1791875865243,"delayTickCount":0,"duration":546193},{"appVerCode":4062578,"beginTime":1791876443779,"delayTickCount":0,"duration":45106},{"appVerCode":4062578,"beginTime":1791876492922,"delayTickCount":0,"duration":135291},{"appVerCode":4062578,"beginTime":1791876699261,"delayTickCount":0,"duration":1261950}]
+10-13 11:22:41.260 D/AES     ( 1630): AEEIOCTL_GET/SET_SF_STATE IOCTL,cmd= 1074294797, lParam=0. 
+10-13 11:22:41.260 D/HeapUsage Monitor( 1630): HeapAllocSize : 101MB; monitorSize : 500MB
+10-13 11:22:41.261 D/AES     ( 1630): AEEIOCTL_RT_MON_Kick IOCTL,cmd= 2147774474, lParam=300. 
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): readLine:
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): java.io.FileNotFoundException: /sys/class/thermal/thermal_message/balance_mode: open failed: ENOENT (No such file or directory)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at libcore.io.IoBridge.open(IoBridge.java:569)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at java.io.FileInputStream.<init>(FileInputStream.java:133)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at java.io.FileReader.<init>(FileReader.java:60)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService.readLine(SLAService.java:1237)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService.isPerformanceMode(SLAService.java:1262)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService.checktemp(SLAService.java:1293)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService.access$2500(SLAService.java:125)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService$ThermalStateListener.onEvent(SLAService.java:1226)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at android.os.FileObserver$ObserverThread.onEvent(FileObserver.java:166)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at android.os.FileObserver$ObserverThread.observe(Native Method)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at android.os.FileObserver$ObserverThread.run(FileObserver.java:116)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at libcore.io.Linux.open(Native Method)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8108)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	at libcore.io.IoBridge.open(IoBridge.java:555)
+10-13 11:22:41.412 E/SLM-SRV-SLAService( 3560): 	... 11 more
+10-13 11:22:41.413 D/SLM-SRV-SLAService( 3560): checktemp temperature = 33000 temperature_average = 33166 isPerformanceMode = false thermal_enable_slm = true
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): readLine:
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): java.io.FileNotFoundException: /sys/class/thermal/thermal_message/balance_mode: open failed: ENOENT (No such file or directory)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at libcore.io.IoBridge.open(IoBridge.java:569)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at java.io.FileInputStream.<init>(FileInputStream.java:133)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at java.io.FileReader.<init>(FileReader.java:60)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService.readLine(SLAService.java:1237)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService.isPerformanceMode(SLAService.java:1262)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService.checktemp(SLAService.java:1294)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService.access$2500(SLAService.java:125)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at com.xiaomi.NetworkBoost.slaservice.SLAService$ThermalStateListener.onEvent(SLAService.java:1226)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at android.os.FileObserver$ObserverThread.onEvent(FileObserver.java:166)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at android.os.FileObserver$ObserverThread.observe(Native Method)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at android.os.FileObserver$ObserverThread.run(FileObserver.java:116)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at libcore.io.Linux.open(Native Method)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at libcore.io.ForwardingOs.open(ForwardingOs.java:410)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8108)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	at libcore.io.IoBridge.open(IoBridge.java:555)
+10-13 11:22:41.414 E/SLM-SRV-SLAService( 3560): 	... 11 more
+10-13 11:22:41.511 D/FiveGDataOptimize( 2245): isAnyCallOngoing callOngoing= false
+10-13 11:22:41.514 D/FiveGDataOptimize( 2245): TxRx: 0, Tx: 0, Rx: 0, Hit: 0
+10-13 11:22:41.761 D/AALLightSensor( 1229): oldLux=133 [SA:133 LA:133] newLux=133 (oriLux: 134)
+10-13 11:22:41.817 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:41.818 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:41.820 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:41.820 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:41.821 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:41.821 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:41.821 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:41.822 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:42.012 I/libPerfCtl(  873): xgfGetFPS pid:2258 fps:-1
+10-13 11:22:42.162 D/AAL     ( 1229): onALIChanged: 133 -> 131
+10-13 11:22:42.164 D/AALLightSensor( 1229): Notify lux = 131
+10-13 11:22:42.362 D/AAL     ( 1229): onALIChanged: 131 -> 132
+10-13 11:22:42.364 D/AALLightSensor( 1229): Notify lux = 132
+10-13 11:22:42.562 D/AAL     ( 1229): onALIChanged: 132 -> 131
+10-13 11:22:42.563 D/AALLightSensor( 1229): Notify lux = 131
+10-13 11:22:42.762 D/AAL     ( 1229): onALIChanged: 131 -> 139
+10-13 11:22:42.764 D/AALLightSensor( 1229): Notify lux = 139
+10-13 11:22:42.818 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:42.818 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:42.821 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:42.821 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:42.821 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:42.821 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:42.821 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:42.822 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:42.962 D/AAL     ( 1229): onALIChanged: 139 -> 145
+10-13 11:22:42.963 D/AALLightSensor( 1229): Notify lux = 145
+10-13 11:22:43.012 I/libPerfCtl(  873): xgfGetFPS pid:2258 fps:-1
+10-13 11:22:43.098 D/ULogGuard( 1194): Monitoring: 10 threads, 0 requests, 0 time-bombs; 1 guards. ResetFlags = 0x7
+10-13 11:22:43.162 D/AAL     ( 1229): onALIChanged: 145 -> 153
+10-13 11:22:43.164 D/AALLightSensor( 1229): Notify lux = 153
+10-13 11:22:43.362 D/AAL     ( 1229): onALIChanged: 153 -> 154
+10-13 11:22:43.362 D/AALLightSensor( 1229): Notify lux = 154
+10-13 11:22:43.504 D/MIUIInput( 1630): [MotionEvent] publisher action=0x4, 52829348, channel '5c0dace NavigationBar0 (server)'
+10-13 11:22:43.504 D/MIUIInput( 1630): [MotionEvent] publisher action=0x0, 52829348, channel '5cc66b8 com.miui.home/com.miui.home.launcher.Launcher (server)'
+10-13 11:22:43.505 D/MIUIInput( 1630): [MotionEvent] publisher action=0x0, 52829348, channel '[Gesture Monitor] miui-gesture (server)'
+10-13 11:22:43.505 I/libPowerHal(  873): [perfLockAcq] idx:0 hdl:4989 hint:25 pid:873 duration:120 lock_user:mtkpower@1.0-se => ret_hdl:4989
+10-13 11:22:43.505 D/MIUIInput( 1630): [MotionEvent] publisher action=0x0, 52829348, channel 'c0fdd6f com.miui.miwallpaper.wallpaperservice.MiuiKeyguardPictorialWallpaper (server)'
+10-13 11:22:43.505 D/MIUIInput( 1630): [MotionEvent] publisher action=0x0, 52829348, channel '2fefdc3 com.miui.miwallpaper.wallpaperservice.ImageWallpaper (server)'
+10-13 11:22:43.506 I/libPowerHal(  873): MTKPOWER_HINT_APP_TOUCH: cpu_ctrl set cpu freq: 2000000 -1 2050000 -1
+10-13 11:22:43.506 D/EventBus( 2267): No subscribers registered for event class com.miui.home.launcher.common.messages.EndSpringAnimatorMessage
+10-13 11:22:43.506 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.506 I/libPowerHal(  873): [PE] MTKPOWER_HINT_APP_TOUCH update cmd:1000000, param:0
+10-13 11:22:43.506 I/libPowerHal(  873): [PE] MTKPOWER_HINT_APP_TOUCH update cmd:410000, param:1
+10-13 11:22:43.507 I/libPowerHal(  873): [PE] MTKPOWER_HINT_APP_TOUCH update cmd:1408300, param:100
+10-13 11:22:43.507 I/libPowerHal(  873): [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-13 11:22:43.507 I/libPowerHal(  873): [PE] MTKPOWER_HINT_APP_TOUCH update cmd:1000000 param:0
+10-13 11:22:43.507 I/libPowerHal(  873): [perfLockRel] hdl:4983, idx:-1
+10-13 11:22:43.512 D/FeedSwipeController( 2267): touchState : 0 scrolling : false normalEditing : false WidgetThumbnailViewShowing : false UninstallDialogShowing : false isMinusScreenShowing: false
+10-13 11:22:43.513 D/FeedSwipeController( 2267): can not use
+10-13 11:22:43.513 D/Launcher.StatusBarController( 2267): try intercept touch, isProxySurvive=true
+10-13 11:22:43.513 D/Launcher.Workspace( 2267): Workspace touch down
+10-13 11:22:43.513 D/ScreenView_Workspace( 2267): onIntercept:0.0
+10-13 11:22:43.513 D/ScreenView_Workspace( 2267): not intercept
+10-13 11:22:43.513 D/Launcher.CellLayout( 2267): touch item:ShortcutInfo, id=147, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.companyname.AndroidApp1, className=crc64a6e0c00971f6cd91.MainActivity, screenId=5, container=-100, cellX=0, cellY=4, spanX=1, spanY=1
+10-13 11:22:43.513 D/Launcher.Boost( 2267): bindcore 200
+10-13 11:22:43.513 D/Launcher.itemIcon( 2267): folmeDown
+10-13 11:22:43.532 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.546 I/BufferQueueProducer(  940): [com.miui.home/com.miui.home.launcher.Launcher#3396](this:0xb400006fdbfec8a8,id:-1,api:0,p:-1,c:940) queueBuffer: fps=0.05 dur=44418.60 max=44385.48 min=33.12
+10-13 11:22:43.548 I/hwcomposer(  859): [HWCDisplay] [Display_0 (type:1)] fps:0.567326,dur:3525.31,max:3440.09,min:85.22  
+10-13 11:22:43.549 I/surfaceflinger(  940): surfaceflinger setAffinity mode=0
+10-13 11:22:43.557 I/mtkpower@impl(  873): [mtkPowerHint] hint:25, hold:80, ext:0, ext_hold:0
+10-13 11:22:43.557 D/MIUIInput( 1630): [MotionEvent] publisher action=0x1, 52829403, channel '5cc66b8 com.miui.home/com.miui.home.launcher.Launcher (server)'
+10-13 11:22:43.557 D/MIUIInput( 1630): [MotionEvent] publisher action=0x1, 52829403, channel '[Gesture Monitor] miui-gesture (server)'
+10-13 11:22:43.557 D/MIUIInput( 1630): [MotionEvent] publisher action=0x1, 52829403, channel 'c0fdd6f com.miui.miwallpaper.wallpaperservice.MiuiKeyguardPictorialWallpaper (server)'
+10-13 11:22:43.557 D/MIUIInput( 1630): [MotionEvent] publisher action=0x1, 52829403, channel '2fefdc3 com.miui.miwallpaper.wallpaperservice.ImageWallpaper (server)'
+10-13 11:22:43.558 I/libPowerHal(  873): [perfLockAcq] idx:1 hdl:4990 hint:25 pid:873 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:4990
+10-13 11:22:43.558 I/libPowerHal(  873): [perfLockRel] hdl:4989, idx:0
+10-13 11:22:43.558 D/Launcher.Workspace( 2267): Workspace touch up or cancel
+10-13 11:22:43.559 D/ScreenView_Workspace( 2267): oninterceput up
+10-13 11:22:43.560 E/BranchAllAppsIndicator( 2267): changedByBranch: callBack = null
+10-13 11:22:43.561 D/Launcher.itemIcon( 2267): folmeUp
+10-13 11:22:43.566 E/QuickstepAppTransitionManagerImpl( 2267): getActivityLaunchOptions iconLoc=Rect(74, 1400 - 246, 1572)
+10-13 11:22:43.567 D/CompatibilityChangeReporter( 1630): Compat change id reported: 161252188; UID 10300; state: DISABLED
+10-13 11:22:43.567 I/ActivityTaskManager( 1630): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity bnds=[74,1400][246,1572] (has extras)} from uid 10088 from pid 2267 callingPackage com.miui.home
+10-13 11:22:43.567 D/MiuiMultiWindowAdapter( 1630): MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.hm.health, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.miui.videoplayer, com.miui.packageinstaller, com.mi.android.globallauncher, com.mi.android.globallauncher-poco, com.google.android.dialer, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi, com.tencent.tetris, com.sukhavati.gotoplaying.bubble.BubbleShooter.mint, com.block.puzzle.game.hippo.mi, com.youzu.bs.mi, com.appsomniacs.da2, com.android.stk, com.feiyu.carrot3.mi, com.popcap.pvz2cthdxm, com.mxtech.videoplayer.ad, cn.cisc, com.kiloo.subwaysurf, com.cncyj.mostbrain, pdf.tap.scanner, com.og.ttddz.mi, com.ximalaya.ting.lite, com.google.android.apps.googleassistant, com.netease.mrzh.mi, com.netease.mrzh.bili, com.netease.pes.huawei, com.netease.pes.mi, com.netease.pes.bili, com.flyfish.supermario, com.picsart.studio, com.netease.dwrg.mi, com.netease.dwrg.bili, com.netease.dwrg.nearme.gamecenter, com.netease.dwrg, com.netease.dwrg.huawei, com.tencent.tmgp.dwrg, com.netease.dwrg.m4399, com.netease.dwrg.mz, com.netease.dwrg.aligames, com.netease.dwrg.baidu, com.netease.dwrg.qihoo, com.moji.mjweather, com.tencent.tmgp.kof98, com.taobao.idlefish, com.ledou.mhhy.mi, com.hzfy.ddzbs.mi, com.qsmy.walkmonkey, com.fy.bzzbc.mi, com.dw.xprqj.mi, com.miui.accessibility, com.ymt.nbaftx.mi, com.amazon.kindlefc, com.sinyee.babybus.recommendapp, com.mcdonalds.gma.cn, com.midea.ai.appliances, com.eco.global.app, com.inspur.icity.tianjin, com.zy.game.thief.mi, com.alimama.moon, com.xinhu.steward, com.rytong.ceair, com.nxy.mobilebank.gx, com.xplaygame.mfbwz.mi, cn.gov.lottery, com.zy.game.bubbletea.mi, com.zy.game.psdc.mi, com.microsoft.office.powerpoint, com.duoduo.child.story, com.lemon.lv, com.xiaomi.aiasst.vision, com.road7.ddtdmxandroid.mi]
+10-13 11:22:43.568 D/MiuiMultiWindowAdapter( 1630): MiuiMultiWindowAdapter::getCanStartActivityFromFullscreenToFreefromList::LIST_CAN_START_ACTIVITY_FROM_FULLSCREEN_TO_FREEFROM = [com.alipay.android.phone.wallet.aptrip.ui.ApTripActivity, com.alipay.mobile.onsitepay.merge.OnsitepayActivity, com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main, com.alipay.mobile.scan.as.main.MainCaptureActivity]
+10-13 11:22:43.569 D/CompatibilityChangeReporter( 1630): Compat change id reported: 194480991; UID 10300; state: ENABLED
+10-13 11:22:43.569 D/MiuiMultiWindowAdapter( 1630): MiuiMultiWindowAdapter::getLaunchInTaskList::LIST_LAUNCH_IN_TASK = [com.android.bluetooth/.opp.BluetoothOppLauncherActivity, com.android.bluetooth/.opp.BluetoothOppBtEnableActivity]
+10-13 11:22:43.570 I/OneHandedController( 2258): stopOneHanded mState = 0, uiEvent = 5
+10-13 11:22:43.570 D/OneHandedController( 2258): stopOneHanded state isTransitioning or STATE_NONE
+10-13 11:22:43.572 D/CompatibilityChangeReporter( 1630): Compat change id reported: 174042980; UID 10300; state: DISABLED
+10-13 11:22:43.572 D/CompatibilityChangeReporter( 1630): Compat change id reported: 184838306; UID 10300; state: DISABLED
+10-13 11:22:43.572 D/CompatibilityChangeReporter( 1630): Compat change id reported: 185004937; UID 10300; state: DISABLED
+10-13 11:22:43.572 D/CompatibilityChangeReporter( 1630): Compat change id reported: 181136395; UID 10300; state: DISABLED
+10-13 11:22:43.572 D/CompatibilityChangeReporter( 1630): Compat change id reported: 174042936; UID 10300; state: DISABLED
+10-13 11:22:43.573 D/CompatibilityChangeReporter( 1630): Compat change id reported: 197654537; UID 10300; state: ENABLED
+10-13 11:22:43.573 I/mtkpower@impl(  873): [setMode] type:5, enabled:1
+10-13 11:22:43.574 I/libPowerHal(  873): [perfLockAcq] idx:0 hdl:4991 hint:11 pid:873 duration:30000 lock_user:mtkpower@1.0-se => ret_hdl:4991
+10-13 11:22:43.575 D/CompatibilityChangeReporter( 1630): Compat change id reported: 205907456; UID 10300; state: ENABLED
+10-13 11:22:43.578 D/TaskSnapshot_Helper( 2258): SYS is normal.
+10-13 11:22:43.579 D/SurfaceFlinger(  940): [SF client] NEW(0xb400006fdc029c40) for (2258:com.android.systemui)
+10-13 11:22:43.580 D/VRI[AndroidApp1]( 2258): hardware acceleration = true, forceHwAccelerated = false
+10-13 11:22:43.580 D/CompatibilityChangeReporter( 1630): Compat change id reported: 194833441; UID 10300; state: ENABLED
+10-13 11:22:43.581 D/CompatibilityChangeReporter( 1630): Compat change id reported: 168419799; UID 10300; state: DISABLED
+10-13 11:22:43.582 D/TaskStackChangeListeners( 2267): onTaskDisplayChanged =  taskId = 305 newDisplayId = 0
+10-13 11:22:43.583 I/OneHandedController( 2258): stopOneHanded mState = 0, uiEvent = 5
+10-13 11:22:43.583 D/OneHandedController( 2258): stopOneHanded state isTransitioning or STATE_NONE
+10-13 11:22:43.583 D/TaskStackChangeListeners( 2267): onTaskDescriptionChanged =  taskId = 305
+10-13 11:22:43.584 D/WindowManager( 1630): Update InputWindowHandle: 5cc66b8 com.miui.home/com.miui.home.launcher.Launcher, frame=[0,0,0,0], touchableRegion=SkRegion((0,0,1080,2400)), scaleFactor=1.0, transform=null, windowToken=android.os.BinderProxy@a773415, isClone=false, visibal=true, focusable=true, changed=true
+10-13 11:22:43.584 W/libprocessgroup( 1630): Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-13 11:22:43.584 I/OneHandedController( 2258): stopOneHanded mState = 0, uiEvent = 5
+10-13 11:22:43.584 D/OneHandedController( 2258): stopOneHanded state isTransitioning or STATE_NONE
+10-13 11:22:43.585 D/CoreBackPreview( 1630): Window{1564ccd u0 Splash Screen com.companyname.AndroidApp1}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@e2ee893, mPriority=0}
+10-13 11:22:43.586 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.586 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.586 D/Launcher.Lifecycle( 2267): onPause:UserHandle{0},7b9ca70,true
+10-13 11:22:43.586 D/Launcher_UnlockAnimationStateMachine( 2267): onPause = IDLE
+10-13 11:22:43.586 D/Launcher_UnlockAnimationStateMachine( 2267): setState:PAUSE_WAIT
+10-13 11:22:43.587 I/Launcher.widget( 2267): onInvisible null
+10-13 11:22:43.587 I/A       (14254): onPause
+10-13 11:22:43.588 I/WindowManager( 1630): Override pending remote transitionSet=true adapter=android.view.RemoteAnimationAdapter@7e8c9
+10-13 11:22:43.589 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.592 I/PowerHalWrapper( 1630): amsBoostNotify pid:2267,activity:com.miui.home.launcher.Launcher, package:com.miui.home, mProcessCreatePacknull 
+10-13 11:22:43.592 I/PowerHalWrapper( 1630): state: 0 
+10-13 11:22:43.592 I/mtkpower_client( 1630): [Legacy][PowerHal_Wrap_notifyAppState] com.miui.home/com.miui.home.launcher.Launcher pid=2267 state:0
+10-13 11:22:43.592 I/game_scn( 1630): collectForegroundAppList packName=com.miui.home, actName=com.miui.home.launcher.Launcher, pid=2267, uid=10088, state:PAUSED
+10-13 11:22:43.592 I/PowerHalWrapper( 1630): amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:true 
+10-13 11:22:43.593 I/libPowerHal(  873): [perfNotifyAppState] pack:com.miui.home, act:com.miui.home.launcher.Launcher, state:0, pid:2267, uid:10088, fps:-1
+10-13 11:22:43.593 W/Choreographer( 2267): Frame time is 0.04813  now = 52829439595685  timestampNanos = 52829439643815 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+10-13 11:22:43.593 W/Choreographer( 2258): Frame time is 0.043283  now = 52829439600532  timestampNanos = 52829439643815 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+10-13 11:22:43.593 E/MiuiActivityController( 1630): MiuiLog-ActivityObserver: There was something wrong : null
+10-13 11:22:43.593 D/WindowManager( 1630): Focus not requested for window=Window{5cc66b8 u0 com.miui.home/com.miui.home.launcher.Launcher} because it has no surface or is not focusable.
+10-13 11:22:43.594 D/CompatibilityChangeReporter( 1630): Compat change id reported: 135634846; UID 10300; state: DISABLED
+10-13 11:22:43.594 D/CompatibilityChangeReporter( 1630): Compat change id reported: 177438394; UID 10300; state: DISABLED
+10-13 11:22:43.594 D/CompatibilityChangeReporter( 1630): Compat change id reported: 135772972; UID 10300; state: DISABLED
+10-13 11:22:43.594 D/CompatibilityChangeReporter( 1630): Compat change id reported: 135754954; UID 10300; state: ENABLED
+10-13 11:22:43.595 I/BufferQueueDebug(  940): [Splash Screen com.companyname.AndroidApp1#3461](this:0xb400006fdc07b8a8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(940:/system/bin/surfaceflinger)
+10-13 11:22:43.595 D/CompatibilityChangeReporter( 1630): Compat change id reported: 143937733; UID 10300; state: ENABLED
+10-13 11:22:43.595 I/A       (14254): onStop
+10-13 11:22:43.596 D/SurfaceControl( 1630): nativeSetScreenProjection ===> setScreenProjection
+10-13 11:22:43.597 D/SurfaceControl( 1630): nativeSetScreenProjection ===> setScreenProjection
+10-13 11:22:43.597 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.597 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.597 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.597 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:43.597 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.597 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.597 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:43.597 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.597 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.597 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:43.597 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.597 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.597 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:43.597 D/RecentsModel( 2267): onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+10-13 11:22:43.597 D/RecentsModel( 2267): preloadRecents
+10-13 11:22:43.597 W/RecentsModel( 2267): getRunningTask
+10-13 11:22:43.598 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.598 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:43.598 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.598 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.598 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:43.598 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.600 W/WindowManager( 1630): Changing focus from Window{5cc66b8 u0 com.miui.home/com.miui.home.launcher.Launcher} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:518 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6466 com.android.server.wm.WindowManagerService.relayoutWindow:2785 com.android.server.wm.Session.relayout:277 
+10-13 11:22:43.600 D/WindowManager( 1630): Input focus has changed to null display=0 updateInputWindows = true
+10-13 11:22:43.602 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.602 D/Zygote  (  843): Forked child process 11632
+10-13 11:22:43.602 I/BufferQueueProducer(  940): [FramebufferSurface](this:0xb4000070b53b46e0,id:-1,api:1,p:940,c:940) queueBuffer: fps=0.29 dur=3495.44 max=3495.44 min=3495.44
+10-13 11:22:43.603 I/ActivityManager( 1630): Start proc 11632:com.companyname.AndroidApp1/u0a300 for next-top-activity {com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} caller=com.miui.home
+10-13 11:22:43.604 I/surfaceflinger(  940): surfaceflinger setAffinity mode=1
+10-13 11:22:43.604 I/surfaceflinger(  940): surfaceflinger setreAffinity reTid=1001
+10-13 11:22:43.604 D/BufferQueueConsumer( 2258): [](id:8d2000000ac,api:0,p:-1,c:2258) connect: controlledByApp=false
+10-13 11:22:43.604 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.605 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.607 D/SchedBoost( 1630): com.miui.home boosting, skip reset priority
+10-13 11:22:43.607 D/SchedBoost( 1630): com.miui.home boosting, skip reset priority
+10-13 11:22:43.607 D/SchedBoost( 1630): com.google.android.googlequicksearchbox:search boosting, skip reset priority
+10-13 11:22:43.608 I/MiuiNetworkPolicy( 1630): updateUidState uid = 10300, uidState = 19
+10-13 11:22:43.610 I/SmartPower( 1630): com.google.android.googlequicksearchbox/10193 state=background adj=100 proc size=3 move to inactive adj below visible
+10-13 11:22:43.612 W/libprocessgroup( 1630): Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-13 11:22:43.613 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.613 W/libprocessgroup( 1630): Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-13 11:22:43.614 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.616 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.617 E/gralloc4( 2258): Empty SMPTE 2094-40 data
+10-13 11:22:43.618 D/BLASTBufferQueue( 2258): [VRI[AndroidApp1]#172](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=52829463689147(auto) mPendingTransactions.size=0 graphicBufferId=9698036156283 transform=0
+10-13 11:22:43.618 D/Launcher.Lifecycle( 2267): onWindowFocusChanged:false,UserHandle{0},7b9ca70,true
+10-13 11:22:43.618 D/DecorView[]( 2267): onWindowFocusChanged hasWindowFocus false
+10-13 11:22:43.618 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.618 W/RecentsModel( 2267): getRunningTask   taskInfo=TaskInfo{userId=0 taskId=2 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.miui.home/.launcher.Launcher } baseActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} topActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} origActivity=null realActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} numActivities=1 lastActiveTime=266714027 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@8b9a169} topActivityType=2 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=Rect(0, 93 - 0, 0) topActivityInfo=ActivityInfo{66de7ee com.miui.home.launcher.Launcher} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+10-13 11:22:43.618 W/RecentsModel( 2267): getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}
+10-13 11:22:43.619 W/Parcel  ( 2258): Expecting binder but got null!
+10-13 11:22:43.621 I/ame.AndroidApp1(11632): Late-enabling -Xcheck:jni
+10-13 11:22:43.621 E/ActivityManagerWrapper( 2267): get all recent tasks force including 2
+10-13 11:22:43.621 W/WindowManager( 1630): Execute app transition: mNextAppTransitionRequests=[TRANSIT_OPEN, TRANSIT_OPEN], mNextAppTransitionFlags=, displayId: 0 Callers=com.android.server.wm.ActivityRecord.onStartingWindowDrawn:7109 com.android.server.wm.WindowState.performShowLocked:5094 com.android.server.wm.WindowStateAnimator.commitFinishDrawingLocked:300 com.android.server.wm.DisplayContent.lambda$new$8$com-android-server-wm-DisplayContent:1062 com.android.server.wm.DisplayContent$$ExternalSyntheticLambda16.accept:4 
+10-13 11:22:43.630 D/BufferStateLayer(  940): Splash Screen com.companyname.AndroidApp1#3461 setBuffer frameId=1, bufferId=9698036156283 fenceId=533, w= 1080, h=2400
+10-13 11:22:43.632 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.633 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.636 I/SmartPower.com.miui.home/10088(2267)( 1630): visible->invisible(44514ms) R(become invisible) adj=100.
+10-13 11:22:43.636 I/SmartPower.com.miui.home/10088(2267)( 1630): invisible->background(0ms) R(become background) adj=100.
+10-13 11:22:43.637 I/SmartPower.com.companyname.AndroidApp1/10300(0)( 1630): died->visible(44596ms) R(become visible) adj=-10000.
+10-13 11:22:43.637 I/SmartPower( 1630): com.miui.home/10088 state=foreground adj=100 proc size=1 move to inactive become background
+10-13 11:22:43.637 I/SmartPower( 1630): com.companyname.AndroidApp1/10300 state=died adj=0 proc size=1 move to foreground become visible
+10-13 11:22:43.637 I/SmartPower( 1630): com.google.android.gms/10192 state=hibernation adj=0 proc size=5 move to inactive remove from whitelist
+10-13 11:22:43.638 I/mtkpower@impl(  873): [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:4990
+10-13 11:22:43.638 I/libPowerHal(  873): [perfLockRel] hdl:4990, idx:1
+10-13 11:22:43.638 I/libPowerHal(  873): [PD] MTKPOWER_HINT_APP_TOUCH update cmd:410000 param:0
+10-13 11:22:43.639 I/libPowerHal(  873): [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-13 11:22:43.640 D/SchedBoost( 1630): startBoostInternal 500
+10-13 11:22:43.640 D/SchedBoost( 1630): ready to boost
+10-13 11:22:43.640 D/SchedBoost( 1630): startBoostInternal 500
+10-13 11:22:43.640 D/SchedBoost( 1630): ready to boost
+10-13 11:22:43.643 I/WindowManager( 1630): showSurfaceRobustly mWin:Window{1564ccd u0 Splash Screen com.companyname.AndroidApp1}
+10-13 11:22:43.647 E/LauncherAnimationRunner( 2267): onAnimationStart
+10-13 11:22:43.647 E/LauncherAnimationRunner( 2267): onAnimationStart:   mode=1   taskId=2   isTranslucent=false
+10-13 11:22:43.647 E/LauncherAnimationRunner( 2267): onAnimationStart:   mode=0   taskId=305   isTranslucent=false
+10-13 11:22:43.647 D/BoostRtHelper( 2267): boostGesture main,mode=1
+10-13 11:22:43.647 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.647 E/QuickstepAppTransitionManagerImpl( 2267): startIconLaunchAnimator:launcherClosing=true   iconLoc=Rect(74, 1400 - 246, 1572)
+10-13 11:22:43.648 E/QuickstepAppTransitionManagerImpl( 2267): startOpeningWindowAnimators:iconLoc=Rect(74, 1400 - 246, 1572)
+10-13 11:22:43.648 E/ClipAnimationHelper( 2267): updateSourceStack  mSourceInsets=Rect(0, 93 - 93, 0), mSourceStackBounds=Rect(0, 0 - 1080, 2400)
+10-13 11:22:43.648 E/ClipAnimationHelper( 2267): updateHomeStack  mSourceInsets=Rect(0, 93 - 93, 0), mHomeStackBounds=Rect(0, 0 - 1080, 2400)
+10-13 11:22:43.648 E/ClipAnimationHelper( 2267): updateTargetRect  mSourceRect=RectF(0.0, 93.0, 987.0, 2286.333)   mTargetRect=RectF(0.0, 0.0, 1080.0, 2400.0)   mSourceWindowClipInsets=RectF(0.0, 93.0, 93.0, 113.66699)   mHomeStackBounds=Rect(0, 0 - 1080, 2400)   targetRect=Rect(0, 0 - 1080, 2400)
+10-13 11:22:43.648 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.649 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.649 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.649 D/SchedBoost( 1630): startBoostInternal 2000
+10-13 11:22:43.649 D/SchedBoost( 1630): ready to boost
+10-13 11:22:43.650 D/SchedBoost( 1630): startBoostInternal 2000
+10-13 11:22:43.650 D/SchedBoost( 1630): ready to boost
+10-13 11:22:43.650 D/SchedBoost( 1630): startBoostInternal 2000
+10-13 11:22:43.650 D/SchedBoost( 1630): ready to boost
+10-13 11:22:43.650 I/QuickstepAppTransitionManagerImpl( 2267): startOpeningWindowAnimators, currentDisplayRotation=0, homeRotation=0, startRectF=RectF(74.0, 1400.0, 246.0, 1572.0), endRectF=RectF(0.0, 0.0, 1080.0, 2400.0), startRadius = 226.04651, endRadius = 106.0, isUseTranslucentAnim = false
+10-13 11:22:43.651 E/QuickstepAppTransitionManagerImpl( 2267): startLauncherContentAnimator:isAppOpening=true
+10-13 11:22:43.652 W/FloatingIconLayer( 2267): getFloatingIconLayer
+10-13 11:22:43.653 D/BoundBrokerSvc(16939): onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-13 11:22:43.653 D/SurfaceFlinger(  940): [SF client] NEW(0xb400006fdc02a500) for (2267:com.miui.home)
+10-13 11:22:43.653 D/BoundBrokerSvc(16939): Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-13 11:22:43.653 I/ame.AndroidApp1(11632): Using generational CollectorTypeCC GC.
+10-13 11:22:43.654 I/BufferQueueDebug(  940): [Floating Icon#3469](this:0xb400006fdc07e8a8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(940:/system/bin/surfaceflinger)
+10-13 11:22:43.655 I/BufferQueueDebug(  940): [bbq-wrapper#3470](this:0xb400006fdc0818a8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(940:/system/bin/surfaceflinger)
+10-13 11:22:43.655 D/BufferQueueConsumer( 2267): [](id:8db000000b3,api:0,p:-1,c:2267) connect: controlledByApp=false
+10-13 11:22:43.655 D/BLASTBufferQueue( 2267): [bbq-adapter#179](f:0,a:0) constructor() width=172 height=172 format=1
+10-13 11:22:43.656 W/FloatingIconLayer( 2267): drawIcon 
+10-13 11:22:43.656 D/Surface ( 2267): lockHardwareCanvas
+10-13 11:22:43.658 W/FloatingIconLayer( 2267): drawIcon done
+10-13 11:22:43.659 I/adbd    ( 8192): jdwp connection from 11632
+10-13 11:22:43.661 D/SchedBoost( 1630): com.miui.home already boosted, skip boost priority
+10-13 11:22:43.662 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.662 D/BLASTBufferQueue( 2267): [bbq-adapter#179](f:0,a:1) acquireNextBufferLocked size=172x172 mFrameNumber=1 applyTransaction=true mTimestamp=52829508360608(auto) mPendingTransactions.size=0 graphicBufferId=9736690860727 transform=0
+10-13 11:22:43.663 W/Parcel  ( 2267): Expecting binder but got null!
+10-13 11:22:43.663 D/BufferStateLayer(  940): bbq-wrapper#3470 setBuffer frameId=1, bufferId=9736690860727 fenceId=590, w= 172, h=172
+10-13 11:22:43.664 W/libprocessgroup( 1630): Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-13 11:22:43.667 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.668 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.668 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.668 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.670 E/ActivityManagerWrapper( 2267): getRecentTasks: size=6
+10-13 11:22:43.670 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=305   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} }
+10-13 11:22:43.670 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=278   userId=0   baseIntent=Intent { act=android.settings.WIFI_SETTINGS flag=335544320 cmp=ComponentInfo{com.android.settings/com.android.settings.Settings$WifiSettingsActivity} }
+10-13 11:22:43.670 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=279   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.settings/com.android.settings.MainSettings} }
+10-13 11:22:43.670 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=276   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.termux/com.termux.app.TermuxActivity} }
+10-13 11:22:43.670 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=272   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon} }
+10-13 11:22:43.670 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=257   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{app.jumpjumpvpn.jumpjumpvpn/app.jumpjumpvpn.jumpjumpvpn.MainActivity} }
+10-13 11:22:43.671 D/nativeloader(11632): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-13 11:22:43.673 E/gralloc4( 2258): Empty SMPTE 2094-40 data
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258): [VRI[AndroidApp1]#172](f:0,a:2) producer disconnected before: mAbandoned=0
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258): - BufferQueue mMaxAcquiredBufferCount=2 mMaxDequeuedBufferCount=2
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258):   mDequeueBufferCannotBlock=0 mAsyncMode=0
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258):   mQueueBufferCanDrop=0 mLegacyBufferDrop=1
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258):   default-size=[2307x1080] default-format=1   transform-hint=00 frame-counter=2
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258):   mTransformHintInUse=00 mAutoPrerotation=0
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258): FIFO(0):
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258): (mConsumerName=VRI[AndroidApp1]#172(BLAST Consumer)172, mConnectedApi=1, mConsumerUsageBits=2304, mId=8d2000000ac, producer=[2258:com.android.systemui], consumer=[2258:com.android.systemui])
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258): Slots:
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258):  >[00:0xb400006ef2ff5500] state=ACQUIRED 0xb400006ee45f4900 frame=2 [2307x1080:2336,  1]
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258):   [01:0x0] state=FREE    
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258):   [02:0x0] state=FREE    
+10-13 11:22:43.673 D/BLASTBufferQueue( 2258):   [03:0x0] state=FREE    
+10-13 11:22:43.675 W/libprocessgroup( 1630): Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-13 11:22:43.679 E/FileUtils( 2267): err open mi_exception_log errno=2
+10-13 11:22:43.679 E/FileUtils( 2267): err write to mi_exception_log
+10-13 11:22:43.679 D/RecentsModel( 2267): onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+10-13 11:22:43.679 D/RecentsModel( 2267): preloadRecents
+10-13 11:22:43.679 W/RecentsModel( 2267): getRunningTask
+10-13 11:22:43.680 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.682 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.682 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.682 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.683 W/RecentsModel( 2267): getRunningTask   taskInfo=TaskInfo{userId=0 taskId=305 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity } baseActivity=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} topActivity=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} origActivity=null realActivity=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} numActivities=1 lastActiveTime=266714102 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@3f26687} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=Rect(0, 93 - 0, 0) topActivityInfo=ActivityInfo{cdcf9b4 crc64a6e0c00971f6cd91.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+10-13 11:22:43.683 W/RecentsModel( 2267): getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity}
+10-13 11:22:43.686 E/gralloc4( 2258): Empty SMPTE 2094-40 data
+10-13 11:22:43.687 E/ActivityManagerWrapper( 2267): get all recent tasks force including 305
+10-13 11:22:43.687 I/MessageMonitor(11632): Load libmiui_runtime
+10-13 11:22:43.691 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.692 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.692 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:43.692 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.693 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.693 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:43.693 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.694 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:43.694 I/MultiScreenObserver( 4307): onTaskStackChanged, splitScreenMode: false isCameraFloat: false isSmallScreen: false
+10-13 11:22:43.694 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:43.694 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:43.694 I/SCTaskStackListener( 4069): onTaskStackChanged! inSplit = false
+10-13 11:22:43.694 D/StatusBarController( 2267): handleMessage: flag 800000  disable false
+10-13 11:22:43.695 D/Launcher_WallpaperUtils( 2267): changeStatusBarMode:false
+10-13 11:22:43.695 E/ActivityManagerWrapper( 2267): getRecentTasks: size=6
+10-13 11:22:43.695 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=305   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} }
+10-13 11:22:43.695 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=278   userId=0   baseIntent=Intent { act=android.settings.WIFI_SETTINGS flag=335544320 cmp=ComponentInfo{com.android.settings/com.android.settings.Settings$WifiSettingsActivity} }
+10-13 11:22:43.695 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=279   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.settings/com.android.settings.MainSettings} }
+10-13 11:22:43.696 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=276   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.termux/com.termux.app.TermuxActivity} }
+10-13 11:22:43.696 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=272   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon} }
+10-13 11:22:43.696 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=257   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{app.jumpjumpvpn.jumpjumpvpn/app.jumpjumpvpn.jumpjumpvpn.MainActivity} }
+10-13 11:22:43.696 I/SCTaskStackListener( 4069): onTaskStackChanged! inSplit = false
+10-13 11:22:43.696 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.698 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.699 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.700 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.707 I/PowerHalWrapper( 1630): amsBoostNotify pid:11632,activity:crc64a6e0c00971f6cd91.MainActivity, package:com.companyname.AndroidApp1, mProcessCreatePacknull 
+10-13 11:22:43.707 I/PowerHalWrapper( 1630): state: 1 
+10-13 11:22:43.707 I/mtkpower_client( 1630): [Legacy][PowerHal_Wrap_notifyAppState] com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity pid=11632 state:1
+10-13 11:22:43.707 I/game_scn( 1630): collectForegroundAppList packName=com.companyname.AndroidApp1, actName=crc64a6e0c00971f6cd91.MainActivity, pid=11632, uid=10300, state:RESUMED
+10-13 11:22:43.708 I/PowerHalWrapper( 1630): amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:true 
+10-13 11:22:43.710 I/libPowerHal(  873): [perfNotifyAppState] pack:com.companyname.AndroidApp1, act:crc64a6e0c00971f6cd91.MainActivity, state:1, pid:11632, uid:10300, fps:-1
+10-13 11:22:43.710 I/libPowerHal(  873): [perfNotifyAppState] foreground:com.companyname.AndroidApp1, pid:11632, uid:10300
+10-13 11:22:43.710 I/UxUtility(  873): notifyForegroundApp pack:com.companyname.AndroidApp1, uid:10300
+10-13 11:22:43.710 I/TouchUtility(  873): notifyAppState error = NULL
+10-13 11:22:43.710 I/mtkpower@impl(  873): [notifyAppState] pc:0, com.miui.home => com.companyname.AndroidApp1
+10-13 11:22:43.713 D/RecentsModel( 2267): onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+10-13 11:22:43.713 D/RecentsModel( 2267): preloadRecents
+10-13 11:22:43.713 W/RecentsModel( 2267): getRunningTask
+10-13 11:22:43.714 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.714 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.715 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.716 W/RecentsModel( 2267): getRunningTask   taskInfo=TaskInfo{userId=0 taskId=305 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity } baseActivity=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} topActivity=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} origActivity=null realActivity=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} numActivities=1 lastActiveTime=266714136 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@329fd20} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=Rect(0, 93 - 0, 0) topActivityInfo=ActivityInfo{ac0b6d9 crc64a6e0c00971f6cd91.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+10-13 11:22:43.716 W/RecentsModel( 2267): getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity}
+10-13 11:22:43.716 W/ActivityManager( 1630): Sending non-protected broadcast thermalManagerCurrentActivity from system 4307:com.miui.powerkeeper/1000 pkg com.miui.powerkeeper. Callers=
+10-13 11:22:43.716 W/ActivityManager( 1630): Sending non-protected broadcast thermalManagerCurrentActivity from system 4307:com.miui.powerkeeper/1000 pkg com.miui.powerkeeper. Callers=
+10-13 11:22:43.717 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.717 D/Aurogon ( 1630):  uid = 10300 switch to FG
+10-13 11:22:43.717 D/PMonitor( 5449):  onForegroundActivitiesChanged:pid = 11632,activity-uid=10300,foregroundActivities=true
+10-13 11:22:43.717 E/ActivityManagerWrapper( 2267): get all recent tasks force including 305
+10-13 11:22:43.719 D/Launcher.Boost( 2267): bindcore 45
+10-13 11:22:43.721 E/ActivityManagerWrapper( 2267): getRecentTasks: size=6
+10-13 11:22:43.721 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=305   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} }
+10-13 11:22:43.721 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=278   userId=0   baseIntent=Intent { act=android.settings.WIFI_SETTINGS flag=335544320 cmp=ComponentInfo{com.android.settings/com.android.settings.Settings$WifiSettingsActivity} }
+10-13 11:22:43.721 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=279   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.settings/com.android.settings.MainSettings} }
+10-13 11:22:43.721 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=276   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.termux/com.termux.app.TermuxActivity} }
+10-13 11:22:43.721 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=272   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon} }
+10-13 11:22:43.721 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=257   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{app.jumpjumpvpn.jumpjumpvpn/app.jumpjumpvpn.jumpjumpvpn.MainActivity} }
+10-13 11:22:43.726 I/[BIP]   ( 1451):  [BIP NL] event newaddr match dev 0
+10-13 11:22:43.726 I/[BIP]   ( 1451):  [BIP NL] IPv6: *:*:*:*:*:*:*:*
+10-13 11:22:43.726 I/[BIP]   ( 1451):  [BIP NL] addr state is 3, ipv4=*.*.*.*, ipv6=*:*:*:*:*:*:*:*
+10-13 11:22:43.726 I/[BIP]   ( 1451):  [BIP NL] event newaddr match dev 0
+10-13 11:22:43.726 I/[BIP]   ( 1451):  [BIP NL] IPv6: *:*:*:*:*:*:*:*
+10-13 11:22:43.726 I/[BIP]   ( 1451):  [BIP NL] addr state is 3, ipv4=*.*.*.*, ipv6=*:*:*:*:*:*:*:*
+10-13 11:22:43.727 D/IpClient/wlan0( 2189): addressUpdated: 2a02:4540:aa:5375:84a0:8cff:fec7:7040/64 on ifindex 32 flags 0x00000100 scope 0 deprecationTime 266729144 expirationTime 266729144
+10-13 11:22:43.727 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.728 D/IpClient/wlan0( 2189): addressUpdated: 2a02:4540:aa:5375:b8eb:1551:b9dd:b079/64 on ifindex 32 flags 0x00000001 scope 0 deprecationTime 266729145 expirationTime 266729145
+10-13 11:22:43.728 W/AlarmManager( 2189): Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@2273d83
+10-13 11:22:43.728 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.730 D/AppScoutStateMachine(11632): 11632-ScoutStateMachinecreated
+10-13 11:22:43.732 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.733 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.735 I/ActivityThread(11632): Relaunch all activities: onCoreSettingsChange
+10-13 11:22:43.736 D/CompatibilityChangeReporter(11632): Compat change id reported: 171979766; UID 10300; state: ENABLED
+10-13 11:22:43.737 I/ActivityManager( 1630): Killing 11415:com.miui.guardprovider/u0a110 (adj 250): MiuiMemoryService(service)
+10-13 11:22:43.737 I/system_server( 1630): Background young concurrent copying GC freed 11MB AllocSpace bytes, 73(4260KB) LOS objects, 16% free, 86MB/104MB, paused 765us,194us total 127.657ms
+10-13 11:22:43.733 W/ThermalInfoColl( 4307): type=1400 audit(0.0:99592): avc: denied { read } for name="charge_counter" dev="sysfs" ino=42410 scontext=u:r:system_app:s0 tcontext=u:object_r:sysfs_batteryinfo:s0 tclass=file permissive=0
+10-13 11:22:43.738 I/GST     ( 4035): forePkg: com.companyname.AndroidApp1, preForePkg: com.miui.home
+10-13 11:22:43.738 D/PerfEngineController( 4307): ForegroundInfo{mForegroundPackageName='com.companyname.AndroidApp1', mForegroundUid=10300, mForegroundPid=11632, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10088, mLastForegroundPid=2267, mMultiWindowForegroundPackageName='com.companyname.AndroidApp1', mMultiWindowForegroundUid=10300, mFlags=1}
+10-13 11:22:43.738 D/CameraBlackCoveredManager( 1630): mForegroundPackage = com.companyname.AndroidApp1 mOccupiedPackage = com.miui.face
+10-13 11:22:43.739 D/AppObserver( 2267): ForegroundInfo{mForegroundPackageName='com.companyname.AndroidApp1', mForegroundUid=10300, mForegroundPid=11632, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10088, mLastForegroundPid=2267, mMultiWindowForegroundPackageName='com.companyname.AndroidApp1', mMultiWindowForegroundUid=10300, mFlags=1}
+10-13 11:22:43.739 I/NetworkBoostStatusManager( 3560): onForegroundInfoChanged uid:10300, isColdStart:true
+10-13 11:22:43.739 I/SLM-SRV-SLAToast( 3560): foreground uid:10300, isColdStart:true, isLinkTurboEnable:false
+10-13 11:22:43.739 I/ThermalInfoCollector( 4307): collectForgroundAppsInfo: com.miui.home
+10-13 11:22:43.739 I/ProcessMonitor( 4069): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.companyname.AndroidApp1', mForegroundUid=10300, mForegroundPid=11632, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10088, mLastForegroundPid=2267, mMultiWindowForegroundPackageName='com.companyname.AndroidApp1', mMultiWindowForegroundUid=10300, mFlags=1}
+10-13 11:22:43.741 D/ThermalIECHandler( 4307): IECAll48Allowed: false; IECMonitorAllowed: false; IECTestState: false
+10-13 11:22:43.741 E/ThermalInfoUtils( 4307): getCurrentCapacity Exceptionjava.io.FileNotFoundException: /sys/class/power_supply/battery/charge_counter: open failed: EACCES (Permission denied)
+10-13 11:22:43.742 I/GameBoosterService( 4069): onForegroundInfoChanged: Cur=com.companyname.AndroidApp1	 last=com.miui.home
+10-13 11:22:43.742 I/MiuiNetworkPolicy( 1630): updateUidState uid = 10300, uidState = 2
+10-13 11:22:43.743 I/SmartPower.com.miui.guardprovider/10110(11415)( 1630): idle->died(44328ms) R(process died ) adj=250.
+10-13 11:22:43.743 W/FloatingIconLayer( 2267): release
+10-13 11:22:43.743 I/SmartPower( 1630): com.miui.guardprovider/10110 state=hibernation adj=250 proc size=1 move to died process died 
+10-13 11:22:43.744 I/FreeformWindowUtils( 4069): has app list!
+10-13 11:22:43.745 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.745 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.746 I/BufferQueueDebug(  940): [Floating Icon#3469](this:0xb400006fdc07e8a8,id:-1,api:0,p:-1,c:940) onDestructor()
+10-13 11:22:43.746 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:43.746 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:43.746 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:43.746 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:43.746 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:43.747 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:43.748 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.749 D/BLASTBufferQueue( 2267): [bbq-adapter#179](f:0,a:1) destructor()
+10-13 11:22:43.749 D/BufferQueueConsumer( 2267): [bbq-adapter#179(BLAST Consumer)179](id:8db000000b3,api:0,p:-1,c:2267) disconnect
+10-13 11:22:43.749 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.753 D/GameBoosterService( 4069): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.companyname.AndroidApp1', mForegroundUid=10300, mForegroundPid=11632, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10088, mLastForegroundPid=2267, mMultiWindowForegroundPackageName='com.companyname.AndroidApp1', mMultiWindowForegroundUid=10300, mFlags=1}
+10-13 11:22:43.754 I/VideoBoxUtils( 4069): isSupportVideoBox: false
+10-13 11:22:43.754 I/VideoToolBoxService( 4069): vtb is closed!!!
+10-13 11:22:43.754 I/libprocessgroup( 1630): Successfully killed process cgroup uid 10110 pid 11415 in 12ms
+10-13 11:22:43.761 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.761 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.763 I/BufferQueueDebug(  940): [bbq-wrapper#3470](this:0xb400006fdc0818a8,id:-1,api:0,p:-1,c:940) onDestructor()
+10-13 11:22:43.765 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.766 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.774 I/VirusScanManager( 4069): resetScanState
+10-13 11:22:43.775 W/BinderNative( 4069): Uncaught exception from death notification
+10-13 11:22:43.775 W/BinderNative( 4069): java.lang.NullPointerException: Attempt to invoke interface method 'android.os.IBinder android.os.IInterface.asBinder()' on a null object reference
+10-13 11:22:43.775 W/BinderNative( 4069): 	at d9.a$a.binderDied(SourceFile:15)
+10-13 11:22:43.775 W/BinderNative( 4069): 	at android.os.IBinder$DeathRecipient.binderDied(IBinder.java:317)
+10-13 11:22:43.775 W/BinderNative( 4069): 	at android.os.BinderProxy.sendDeathNotice(BinderProxy.java:768)
+10-13 11:22:43.775 I/Zygote  (  843): Process 11415 exited due to signal 9 (Killed)
+10-13 11:22:43.776 E/ProcessManager( 1630): error write exception log
+10-13 11:22:43.777 D/nativeloader(11632): Configuring clns-4 for other apk /data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/lib/arm64:/data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.companyname.AndroidApp1
+10-13 11:22:43.777 I/MiuiNetworkPolicy( 1630): removeUidState uid = 10110
+10-13 11:22:43.777 I/NetworkBoostStatusManager( 3560): onUidGone uid: 10110
+10-13 11:22:43.777 I/com.xiaomi.xmsf( 5449): oneway function results for code 3 on binder at 0xb400006f854456e0 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-13 11:22:43.778 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.778 I/mtkpower_client( 1630): [Legacy][PowerHal_Wrap_notifyAppState] com.miui.guardprovider/com.miui.guardprovider pid=11415 state:3
+10-13 11:22:43.778 I/game_scn( 1630): collectForegroundAppList packName=com.miui.guardprovider, actName=com.miui.guardprovider, pid=11415, uid=10110, state:DEAD
+10-13 11:22:43.778 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.779 I/libPowerHal(  873): [perfNotifyAppState] pack:com.miui.guardprovider, act:com.miui.guardprovider, state:3, pid:11415, uid:10110, fps:-1
+10-13 11:22:43.779 I/libPowerHal(  873): [perfNotifyAppState] pack:com.miui.guardprovider, pid:11415, STATE_DEAD
+10-13 11:22:43.779 D/RilUtility(  873): notify_rild_crash_pid_set certPid:-1, crash:11415, scn:0x0
+10-13 11:22:43.780 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:43.782 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.791 D/ThermalIECHandler( 4307): storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 263717924
+10-13 11:22:43.791 D/ThermalScenarioManager( 4307): handleMessage -9
+10-13 11:22:43.791 D/ThermalScenarioManager( 4307): current: ScenarioName: 0
+10-13 11:22:43.791 D/ThermalScenarioManager( 4307): Element list : 97	97	98	98	99	99	99	99	99	99	99	98	99	99	99	99	99	99	99	
+10-13 11:22:43.791 D/ThermalScenarioManager( 4307): match scenario 0
+10-13 11:22:43.791 D/ThermalIECHandler( 4307): storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 263717924
+10-13 11:22:43.792 D/nativeloader(11632): Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+10-13 11:22:43.794 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.794 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.797 V/GraphicsEnvironment(11632): ANGLE Developer option for 'com.companyname.AndroidApp1' set to: 'default'
+10-13 11:22:43.798 V/GraphicsEnvironment(11632): ANGLE GameManagerService for com.companyname.AndroidApp1: false
+10-13 11:22:43.799 V/GraphicsEnvironment(11632): Neither updatable production driver nor prerelease driver is supported.
+10-13 11:22:43.799 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.804 I/ForceDarkHelperStubImpl(11632): initialize for com.companyname.AndroidApp1 , ForceDarkOrigin
+10-13 11:22:43.805 D/nativeloader(11632): Load libforcedarkimpl.so using system ns (caller=/system_ext/framework/miui-framework.jar): ok
+10-13 11:22:43.805 D/ame.AndroidApp1(11632): JNI_OnLoad success
+10-13 11:22:43.805 I/MiuiForceDarkConfig(11632): setConfig density:2.750000, mainRule:0, secondaryRule:0, tertiaryRule:0
+10-13 11:22:43.809 D/NetworkSecurityConfig(11632): No Network Security Config specified, using platform default
+10-13 11:22:43.810 D/NetworkSecurityConfig(11632): No Network Security Config specified, using platform default
+10-13 11:22:43.810 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.810 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.811 D/CompatibilityChangeReporter(11632): Compat change id reported: 183155436; UID 10300; state: ENABLED
+10-13 11:22:43.816 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.818 D/CompatibilityChangeReporter( 1630): Compat change id reported: 161145287; UID 10300; state: DISABLED
+10-13 11:22:43.819 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:43.820 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:43.820 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:43.820 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:43.820 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:43.820 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:43.821 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:43.821 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:43.827 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.827 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.828 D/nativeloader(11632): Load /data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/lib/arm64/libmonosgen-2.0.so using class loader ns clns-4 (caller=/data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/base.apk): ok
+10-13 11:22:43.833 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.834 D/nativeloader(11632): Load /data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/lib/arm64/libxamarin-app.so using class loader ns clns-4 (caller=/data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/base.apk): ok
+10-13 11:22:43.837 D/nativeloader(11632): Load /data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/lib/arm64/libmonodroid.so using class loader ns clns-4 (caller=/data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/base.apk): ok
+10-13 11:22:43.842 W/monodroid(11632): Failed to create directory '/data/user/0/com.companyname.AndroidApp1/files/.__override__/arm64-v8a'. File exists
+10-13 11:22:43.842 W/monodroid(11632): Creating public update directory: `/data/user/0/com.companyname.AndroidApp1/files/.__override__/arm64-v8a`
+10-13 11:22:43.843 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.843 W/ame.AndroidApp1(11632): Attempt to remove non-JNI local reference
+10-13 11:22:43.843 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.844 W/monodroid(11632): runtime args empty
+10-13 11:22:43.846 F/monodroid(11632): No assemblies found in '/data/user/0/com.companyname.AndroidApp1/files/.__override__/arm64-v8a' or '<unavailable>'. Assuming this is part of Fast Deployment. Exiting...
+10-13 11:22:43.846 F/monodroid(11632): ALL entries in APK named `lib/arm64-v8a/` MUST be STORED. Gradle's minification may COMPRESS such entries.
+10-13 11:22:43.846 F/monodroid(11632): Abort at monodroid-glue.cc:757:3 ('static MonoDomain *xamarin::android::internal::MonodroidRuntime::create_domain(JNIEnv *, jstring_array_wrapper &, bool, bool)')
+--------- beginning of crash
+10-13 11:22:43.846 F/libc    (11632): Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 11632 (ame.AndroidApp1), pid 11632 (ame.AndroidApp1)
+10-13 11:22:43.849 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.860 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.860 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.865 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.876 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.877 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.878 I/crash_dump64(11653): obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+10-13 11:22:43.878 I/tombstoned(  677): received crash request for pid 11632
+10-13 11:22:43.879 I/crash_dump64(11653): performing dump of process 11632 (target tid = 11632)
+10-13 11:22:43.882 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.893 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.893 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.899 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.910 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.910 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.915 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.926 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.927 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.932 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.943 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.943 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.949 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.960 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.960 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.965 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.976 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.977 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.982 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:43.987 D/Launcher_UnlockAnimationStateMachine( 2267): mResetIdleStateRunnable
+10-13 11:22:43.993 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.993 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:43.998 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.010 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.010 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.012 I/libPerfCtl(  873): xgfGetFPS pid:2258 fps:-1
+10-13 11:22:44.012 I/libPerfCtl(  873): xgfGetFPS pid:2267 fps:52
+10-13 11:22:44.015 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.026 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.026 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.032 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.043 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.043 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.048 F/DEBUG   (11653): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-13 11:22:44.048 F/DEBUG   (11653): Build fingerprint: 'Redmi/secret_global/secret:13/TP1A.220624.014/V14.0.11.0.TKLMIXM:user/release-keys'
+10-13 11:22:44.048 F/DEBUG   (11653): Revision: '0'
+10-13 11:22:44.048 F/DEBUG   (11653): ABI: 'arm64'
+10-13 11:22:44.048 F/DEBUG   (11653): Timestamp: 2026-10-13 11:22:43.888124136+0330
+10-13 11:22:44.048 F/DEBUG   (11653): Process uptime: 1s
+10-13 11:22:44.048 F/DEBUG   (11653): ZygotePid: 843
+10-13 11:22:44.048 F/DEBUG   (11653): Cmdline: com.companyname.AndroidApp1
+10-13 11:22:44.048 F/DEBUG   (11653): pid: 11632, tid: 11632, name: ame.AndroidApp1  >>> com.companyname.AndroidApp1 <<<
+10-13 11:22:44.048 F/DEBUG   (11653): uid: 10300
+10-13 11:22:44.048 F/DEBUG   (11653): signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+10-13 11:22:44.048 F/DEBUG   (11653): Abort message: 'No assemblies found in '/data/user/0/com.companyname.AndroidApp1/files/.__override__/arm64-v8a' or '<unavailable>'. Assuming this is part of Fast Deployment. Exiting...'
+10-13 11:22:44.048 F/DEBUG   (11653):     x0  0000000000000000  x1  0000000000002d70  x2  0000000000000006  x3  0000007ff7cc1c40
+10-13 11:22:44.048 F/DEBUG   (11653):     x4  000000703500f000  x5  000000703500f000  x6  000000703500f000  x7  0000000001389b14
+10-13 11:22:44.048 F/DEBUG   (11653):     x8  00000000000000f0  x9  0000007027887bb0  x10 0000000000000001  x11 00000070278fcb50
+10-13 11:22:44.048 F/DEBUG   (11653):     x12 0000007033a89430  x13 000000000589d1d8  x14 000000000589d118  x15 00004bd3f589ec07
+10-13 11:22:44.048 F/DEBUG   (11653):     x16 000000702796ca58  x17 0000007027945690  x18 00000070349d4000  x19 0000000000002d70
+10-13 11:22:44.048 F/DEBUG   (11653):     x20 0000000000002d70  x21 00000000ffffffff  x22 b400006f68ae7930  x23 0000006f0987adb4
+10-13 11:22:44.048 F/DEBUG   (11653):     x24 0000007ff7cc1d70  x25 0000007ff7cc1d08  x26 0000007ff7cc1d20  x27 0000000000000000
+10-13 11:22:44.048 F/DEBUG   (11653):     x28 0000006f099284b4  x29 0000007ff7cc1cc0
+10-13 11:22:44.048 F/DEBUG   (11653):     lr  00000070278ecd88  sp  0000007ff7cc1c20  pc  00000070278ecdb4  pst 0000000000001000
+10-13 11:22:44.048 F/DEBUG   (11653): backtrace:
+10-13 11:22:44.048 F/DEBUG   (11653):       #00 pc 000000000008cdb4  /apex/com.android.runtime/lib64/bionic/libc.so (abort+164) (BuildId: 3908c7c57fa04c64df24425cf16523cf)
+10-13 11:22:44.048 F/DEBUG   (11653):       #01 pc 00000000000a83a8  /data/app/~~L3pXexR7LgSTV5J7KBeJ3w==/com.companyname.AndroidApp1-VqScyQCTZTaE2Hemfq6qAw==/lib/arm64/libmonodroid.so (xamarin::android::Helpers::abort_application(_LogCategories, char const*, bool, std::__ndk1::source_location)+584) (BuildId: 8ac818685a1e92cdfad44a4a158e52319424c83f)
+10-13 11:22:44.048 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.059 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.059 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.065 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.070 I/crash_dump64(11653): start notify aee_aed tombstone path: /data/tombstones/.temporary39
+10-13 11:22:44.070 I/crash_dump64(11653): socket name: android:aee_aed, sfd: 9
+10-13 11:22:44.071 D/AEE_AED (  625): $===AEE===AEE===AEE===$
+10-13 11:22:44.071 D/AEE_AED (  625): p 2 poll events 1 revents 1
+10-13 11:22:44.071 D/AEE_AED (  625): PPM cpu cores:8, online:8
+10-13 11:22:44.072 D/AEE_AED (  625): aed_main_fork_worker: generator 0xb400007c102150c0, worker 0x7fea9542e0, recv_fd 11
+10-13 11:22:44.073 I/AEE_AED (11656): handle_request(11)
+10-13 11:22:44.073 E/AEE_AED (11656): aee_dconfig_enable: Failed to open file /proc/device-tree/chosen/aee,enable, error: Permission denied
+10-13 11:22:44.073 I/AEE_AED (11656): aed_dynamic_security_check: dynamic security check option is enabled by full dump dconfig
+10-13 11:22:44.073 E/AEE_AED (11656): str2 is not match!
+10-13 11:22:44.065 W/aee_aed64(11656): type=1400 audit(0.0:99593): avc: denied { read } for name="aee,enable" dev="sysfs" ino=109 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs_aee_enable:s0 tclass=file permissive=0
+10-13 11:22:44.074 I/AEE_AED (11656): read_request: receive requirement from crash_dump64
+10-13 11:22:44.074 D/AEE_AED (11656): is_tombstone_path tombstone path is matched
+10-13 11:22:44.074 I/AEE_AED (11656): parse_tombstone: the tombstone file '/data/tombstones/.temporary39' need to be parsed
+10-13 11:22:44.074 D/AEE_AED (11656): u:r:untrusted_app:s0:c44,c257,c512,c768
+10-13 11:22:44.074 E/AEE_AED (11656): Skipped - do not care third party apk
+10-13 11:22:44.074 E/AEE_AED (11656): handle_request: return status is fail
+10-13 11:22:44.075 I/crash_dump64(11653): crash_temporary_file_notify: 
+10-13 11:22:44.075 I/crash_dump64(11653): crash_temporary_file_notify exit
+10-13 11:22:44.076 D/AEE_AED (  625): clear ppm settings
+10-13 11:22:44.076 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.076 I/crash_dump64(11653): start aee dumping
+10-13 11:22:44.076 E/crash_dump64(11653): crash_mini_dump_notify: writing 'start dumping' fail: Broken pipe
+10-13 11:22:44.076 I/crash_dump64(11653): crash_mini_dump_notify exit!
+10-13 11:22:44.076 D/AEE_AED (  625): $===AEE===AEE===AEE===$
+10-13 11:22:44.076 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.076 I/PowerHalWrapper( 1630): <NotifyAppCrash> pack:com.companyname.AndroidApp1 ,pid:com.companyname.AndroidApp1 == myPid:1630 
+10-13 11:22:44.076 E/tombstoned(  677): Tombstone written to: tombstone_21
+10-13 11:22:44.076 W/TombstoneMonitor(  634): Detected creat or modify file: tombstone_21
+10-13 11:22:44.077 E/MIUINDBG(11653): miui_native_debug_process_O
+10-13 11:22:44.077 E/MIUINDBG(11653): unable to connect to mqsas native socket
+10-13 11:22:44.078 W/RescuePartyPlus( 1630): This device support and enable RescuePartyPlus! (Via cloud control)
+10-13 11:22:44.078 I/DropBoxManagerService( 1630): add tag=data_app_native_crash isTagEnabled=true flags=0x2
+10-13 11:22:44.080 W/ActivityTaskManager( 1630):   Force finishing activity com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity
+10-13 11:22:44.081 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.082 W/AES     ( 1630): Exception Log handling...
+10-13 11:22:44.082 W/AES     ( 1630): Skipped - do not care third party apk
+10-13 11:22:44.089 I/ActivityManager( 1630): Showing crash dialog for package com.companyname.AndroidApp1 u0
+10-13 11:22:44.089 W/BroadcastQueue( 1630): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+10-13 11:22:44.091 I/BootReceiver( 1630): Copying /data/tombstones/tombstone_21 to DropBox (SYSTEM_TOMBSTONE)
+10-13 11:22:44.092 I/DropBoxManagerService( 1630): add tag=SYSTEM_TOMBSTONE isTagEnabled=true flags=0x6
+10-13 11:22:44.093 I/OneHandedController( 2258): stopOneHanded mState = 0, uiEvent = 5
+10-13 11:22:44.093 D/OneHandedController( 2258): stopOneHanded state isTransitioning or STATE_NONE
+10-13 11:22:44.093 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.094 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.095 W/MQSEventManager( 3480): neoccur
+10-13 11:22:44.097 D/DigestGenerator( 3480): digest=============com.companyname.AndroidApp1Abort message: 'No assemblies found in '/data/user//com.companyname.AndroidApp/files/.__override__/arm-va' or '<unavailable>'. Assuming this is part of Fast Deployment. Exiting...'
+10-13 11:22:44.097 D/DigestGenerator( 3480): 
+10-13 11:22:44.097 D/DigestGenerator( 3480): com.companyname.AndroidApp1
+10-13 11:22:44.098 W/MQSEventManager( 3480): begin to storeEvent
+10-13 11:22:44.098 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.099 I/adbd    ( 8192): Remote process closed the socket (on MSG_PEEK)
+10-13 11:22:44.099 I/Zygote  (  843): Process 11632 exited due to signal 6 (Aborted)
+10-13 11:22:44.103 I/DropBoxManagerService( 1630): add tag=SYSTEM_TOMBSTONE_PROTO isTagEnabled=true flags=0x4
+10-13 11:22:44.107 D/AlertController( 1630): Alert dialog ime debugEnable = 
+10-13 11:22:44.109 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.110 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.111 W/BroadcastQueue( 1630): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+10-13 11:22:44.112 I/SmartPower.com.companyname.AndroidApp1/10300(11632)( 1630): visible->died(475ms) R(process died ) adj=0.
+10-13 11:22:44.112 D/IS_CTS_MODE( 1630): false
+10-13 11:22:44.112 D/MULTI_WINDOW_ENABLED( 1630): false
+10-13 11:22:44.112 I/ActivityManager( 1630): Process com.companyname.AndroidApp1 (pid 11632) has died: fg  TOP 
+10-13 11:22:44.112 I/SmartPower( 1630): com.companyname.AndroidApp1/10300 state=foreground adj=0 proc size=1 move to died process died 
+10-13 11:22:44.112 E/ProcessManager( 1630): error write exception log
+10-13 11:22:44.112 I/libprocessgroup( 1630): Successfully killed process cgroup uid 10300 pid 11632 in 0ms
+10-13 11:22:44.113 I/mtkpower_client( 1630): [Legacy][PowerHal_Wrap_notifyAppState] com.companyname.AndroidApp1/com.companyname.AndroidApp1 pid=11632 state:3
+10-13 11:22:44.113 I/game_scn( 1630): collectForegroundAppList packName=com.companyname.AndroidApp1, actName=com.companyname.AndroidApp1, pid=11632, uid=10300, state:DEAD
+10-13 11:22:44.113 I/libPowerHal(  873): [perfNotifyAppState] pack:com.companyname.AndroidApp1, act:com.companyname.AndroidApp1, state:3, pid:11632, uid:10300, fps:-1
+10-13 11:22:44.113 I/libPowerHal(  873): [perfNotifyAppState] pack:com.companyname.AndroidApp1, pid:11632, STATE_DEAD
+10-13 11:22:44.113 D/RilUtility(  873): notify_rild_crash_pid_set certPid:-1, crash:11632, scn:0x0
+10-13 11:22:44.115 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.115 D/MiuiNetworkPolicy( 1630): updateLimit mLimitEnabled=false,enabled=true,mNetworkPriorityMode=255
+10-13 11:22:44.116 W/InputManager-JNI( 1630): Input channel object 'Letterbox_left_ActivityRecord{8d711b u0 com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} t305} (client)' was disposed without first being removed with the input manager!
+10-13 11:22:44.116 W/InputManager-JNI( 1630): Input channel object 'Letterbox_top_ActivityRecord{8d711b u0 com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} t305} (client)' was disposed without first being removed with the input manager!
+10-13 11:22:44.116 D/View    ( 2258): [Warning] assignParent to null: this = android.widget.FrameLayout{bcb7b00 V.E...... ......I. 0,0-2307,1080}
+10-13 11:22:44.116 W/InputManager-JNI( 1630): Input channel object 'Letterbox_right_ActivityRecord{8d711b u0 com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} t305} (client)' was disposed without first being removed with the input manager!
+10-13 11:22:44.117 W/InputManager-JNI( 1630): Input channel object 'Letterbox_bottom_ActivityRecord{8d711b u0 com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} t305} (client)' was disposed without first being removed with the input manager!
+10-13 11:22:44.119 D/PerfMTKStubImpl( 1630): perfLockAcquire
+10-13 11:22:44.119 I/mtkpower_client( 1630): perf_lock_acq, hdl:4987, dur:400, num:10, tid:3016
+10-13 11:22:44.119 I/mtkpower_client( 1630): ret_hdl:4992
+10-13 11:22:44.119 I/libPowerHal(  873): [perfLockAcq] idx:1 hdl:4992 hint:-1 pid:1630 duration:400 lock_user:system_server => ret_hdl:4992
+10-13 11:22:44.119 I/libPowerHal(  873): system_server: set gpu opp level: 0
+10-13 11:22:44.120 I/libPowerHal(  873): system_server: set gpu opp level max: 0
+10-13 11:22:44.122 I/SmartPower.com.miui.home/10088(2267)( 1630): background->invisible(485ms) R(become foreground) adj=0.
+10-13 11:22:44.122 I/SmartPower( 1630): com.miui.home/10088 state=inactive adj=0 proc size=1 move to background become foreground
+10-13 11:22:44.122 I/SmartPower( 1630): com.google.android.googlequicksearchbox/10193 state=inactive adj=0 proc size=3 move to background add to whitelist
+10-13 11:22:44.122 I/SmartPower( 1630): com.google.android.gms/10192 state=inactive adj=0 proc size=5 move to hibernation add to whitelist
+10-13 11:22:44.123 W/WindowManager( 1630): Execute app transition: mNextAppTransitionRequests=[TRANSIT_CLOSE, TRANSIT_CLOSE, TRANSIT_OPEN], mNextAppTransitionFlags=TRANSIT_FLAG_KEYGUARD_GOING_AWAY_TO_LAUNCHER_WITH_IN_WINDOW_ANIMATIONS | TRANSIT_FLAG_APP_CRASHED, displayId: 0 Callers=com.android.server.wm.RootWindowContainer.executeAppTransitionForAllDisplay:2262 com.android.server.wm.ActivityTaskSupervisor.reportResumedActivityLocked:1992 com.android.server.wm.ActivityRecord.completeResumeLocked:6633 com.android.server.wm.TaskFragment.resumeTopActivity:1626 com.android.server.wm.Task.resumeTopActivityInnerLocked:5684 
+10-13 11:22:44.123 D/Launcher.Lifecycle( 2267): onResume:UserHandle{0},7b9ca70,false
+10-13 11:22:44.123 D/MiBridge( 2267): requestCpuHighFreq---- uid: 10088 level: 1 timeoutms:500
+10-13 11:22:44.123 W/Settings( 2267): Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+10-13 11:22:44.124 W/MiuiBooster( 1166): "MiuiBoosterService requestCpuHighFreq: 10088, 1, 500"
+10-13 11:22:44.124 W/MiuiBooster( 1166): "requestCpuHighFreq,final level:1,final timeoutms:500"
+10-13 11:22:44.124 W/MiuiBooster( 1166): "perf_hint_hc start"
+10-13 11:22:44.124 E/libPowerHal(  873): Could not open '/proc/1166/comm'
+10-13 11:22:44.117 W/mtkPowerService(  873): type=1400 audit(0.0:99594): avc: denied { getattr } for path="/proc/1166" dev="proc" ino=3644821 scontext=u:r:mtk_hal_power:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+10-13 11:22:44.124 W/MiuiBooster( 1166): "perf_handle:4993"
+10-13 11:22:44.117 W/mtkPowerService(  873): type=1400 audit(0.0:99595): avc: denied { search } for name="1166" dev="proc" ino=3644821 scontext=u:r:mtk_hal_power:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+10-13 11:22:44.125 D/MiBridge( 2267): requestCpuHighFreq handle: 1
+10-13 11:22:44.125 D/Launcher_CPUBooster( 2267): boostCpuToMax:0
+10-13 11:22:44.125 I/libPowerHal(  873): [perfLockAcq] idx:2 hdl:4993 hint:-1 pid:1166 duration:500 lock_user: => ret_hdl:4993
+10-13 11:22:44.125 D/Launcher.FullbackHome( 2267): FallbackHomeCompat::needKillSelf::needKillSelf = false
+10-13 11:22:44.126 D/Launcher_UnlockAnimationStateMachine( 2267): onResume = IDLE
+10-13 11:22:44.126 D/FinderSdkApi( 2267): Finder config support: false
+10-13 11:22:44.126 I/Launcher( 2267): changeMIUIWidgetEditMode false
+10-13 11:22:44.126 I/A       (14254): onStart
+10-13 11:22:44.126 I/A       (14254): onResume
+10-13 11:22:44.127 D/WindowManager( 1630): Loading animation for app transition. transit=TRANSIT_OLD_CRASHING_ACTIVITY_CLOSE enter=true frame=Rect(0, 0 - 1080, 2400) insets=Rect(0, 93 - 0, 130) surfaceInsets=Rect(0, 0 - 0, 0)
+10-13 11:22:44.127 D/WindowManager( 1630): Loading animation for app transition. transit=TRANSIT_OLD_CRASHING_ACTIVITY_CLOSE enter=false frame=Rect(0, 0 - 1080, 2177) insets=Rect(0, 0 - 0, 0) surfaceInsets=Rect(0, 0 - 0, 0)
+10-13 11:22:44.127 I/SmartPower.com.miui.home/10088(2267)( 1630): invisible->visible(5ms) R(become visible) adj=0.
+10-13 11:22:44.127 I/SmartPower( 1630): com.miui.home/10088 state=background adj=0 proc size=1 move to foreground become visible
+10-13 11:22:44.132 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.135 D/CameraBlackCoveredManager( 1630): mForegroundPackage = com.miui.home mOccupiedPackage = com.miui.face
+10-13 11:22:44.135 I/GST     ( 4035): forePkg: com.miui.home, preForePkg: com.companyname.AndroidApp1
+10-13 11:22:44.136 D/PerfEngineController( 4307): ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10088, mForegroundPid=2267, mLastForegroundPackageName='com.companyname.AndroidApp1', mLastForegroundUid=10300, mLastForegroundPid=11632, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10088, mFlags=0}
+10-13 11:22:44.136 I/ProcessMonitor( 4069): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10088, mForegroundPid=2267, mLastForegroundPackageName='com.companyname.AndroidApp1', mLastForegroundUid=10300, mLastForegroundPid=11632, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10088, mFlags=0}
+10-13 11:22:44.137 I/NetworkBoostStatusManager( 3560): onForegroundInfoChanged uid:10088, isColdStart:false
+10-13 11:22:44.137 I/SLM-SRV-SLAToast( 3560): foreground uid:10088, isColdStart:false, isLinkTurboEnable:false
+10-13 11:22:44.137 W/ThermalInfoColl( 4307): type=1400 audit(0.0:99596): avc: denied { read } for name="charge_counter" dev="sysfs" ino=42410 scontext=u:r:system_app:s0 tcontext=u:object_r:sysfs_batteryinfo:s0 tclass=file permissive=0
+10-13 11:22:44.138 I/ThermalInfoCollector( 4307): collectForgroundAppsInfo: com.companyname.AndroidApp1
+10-13 11:22:44.138 E/ThermalInfoUtils( 4307): getCurrentCapacity Exceptionjava.io.FileNotFoundException: /sys/class/power_supply/battery/charge_counter: open failed: EACCES (Permission denied)
+10-13 11:22:44.139 I/AiAi    (25418): onTrimMemory() with level 5
+10-13 11:22:44.140 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 2
+10-13 11:22:44.140 W/libprocessgroup( 1630): Failed to open /dev/blkio//cgroup.procs: No such file or directory
+10-13 11:22:44.140 D/AlarmManagerService( 1630): inside native alarm timerfd set Alarm Type = 3
+10-13 11:22:44.140 D/WindowManager( 1630): relayoutVisibleWindow: Window{1564ccd u0 Splash Screen com.companyname.AndroidApp1 EXITING} mAnimatingExit=true, mRemoveOnExit=true, mDestroying=false
+10-13 11:22:44.141 W/WindowManager( 1630): Changing focus from null to Window{5cc66b8 u0 com.miui.home/com.miui.home.launcher.Launcher} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:518 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6466 com.android.server.wm.WindowManagerService.relayoutWindow:2785 com.android.server.wm.Session.relayout:277 
+10-13 11:22:44.141 D/WindowManager( 1630): Input focus has changed to Window{5cc66b8 u0 com.miui.home/com.miui.home.launcher.Launcher} display=0 updateInputWindows = true
+10-13 11:22:44.143 I/GED     (27339): ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 42, oppidx_max 42, oppidx_min 0
+10-13 11:22:44.143 I/Finsky  (29204): [2] Memory trim requested to level 40
+10-13 11:22:44.143 I/Finsky  (29204): [2] Flushing in-memory image cache
+10-13 11:22:44.144 D/AppObserver( 2267): ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10088, mForegroundPid=2267, mLastForegroundPackageName='com.companyname.AndroidApp1', mLastForegroundUid=10300, mLastForegroundPid=11632, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10088, mFlags=0}
+10-13 11:22:44.145 W/ActivityManager( 1630): Sending non-protected broadcast thermalManagerCurrentActivity from system 4307:com.miui.powerkeeper/1000 pkg com.miui.powerkeeper. Callers=
+10-13 11:22:44.145 W/ActivityManager( 1630): Sending non-protected broadcast thermalManagerCurrentActivity from system 4307:com.miui.powerkeeper/1000 pkg com.miui.powerkeeper. Callers=
+10-13 11:22:44.145 I/GameBoosterService( 4069): onForegroundInfoChanged: Cur=com.miui.home	 last=com.companyname.AndroidApp1
+10-13 11:22:44.145 D/ThermalIECHandler( 4307): IECAll48Allowed: false; IECMonitorAllowed: false; IECTestState: false
+10-13 11:22:44.145 W/BroadcastQueue( 1630): Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+10-13 11:22:44.146 D/Surface ( 2258): lockCanvas
+10-13 11:22:44.147 I/FreeformWindowUtils( 4069): has app list!
+10-13 11:22:44.147 D/GameBoosterService( 4069): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10088, mForegroundPid=2267, mLastForegroundPackageName='com.companyname.AndroidApp1', mLastForegroundUid=10300, mLastForegroundPid=11632, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10088, mFlags=0}
+10-13 11:22:44.147 I/VideoBoxUtils( 4069): isSupportVideoBox: false
+10-13 11:22:44.147 I/VideoToolBoxService( 4069): vtb is closed!!!
+10-13 11:22:44.148 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.148 I/Finsky:background( 4038): [2] Memory trim requested to level 40
+10-13 11:22:44.149 E/FileUtils( 2267): err write to mi_exception_log
+10-13 11:22:44.150 W/System.err( 5742): java.lang.NullPointerException: null receiver
+10-13 11:22:44.150 W/System.err( 5742): 	at java.lang.reflect.Method.invoke(Native Method)
+10-13 11:22:44.150 W/System.err( 5742): 	at cl.g2b.d(SourceFile:26)
+10-13 11:22:44.150 W/System.err( 5742): 	at aashareit.AnyShareApp.onTrimMemory(SourceFile:0)
+10-13 11:22:44.150 I/Launcher.widget( 2267): onVisible null
+10-13 11:22:44.150 W/System.err( 5742): 	at android.app.ActivityThread.handleTrimMemory(ActivityThread.java:6641)
+10-13 11:22:44.150 W/System.err( 5742): 	at android.app.ActivityThread.-$$Nest$mhandleTrimMemory(ActivityThread.java:0)
+10-13 11:22:44.150 W/System.err( 5742): 	at android.app.ActivityThread$ApplicationThread.lambda$scheduleTrimMemory$0(ActivityThread.java:1811)
+10-13 11:22:44.150 W/System.err( 5742): 	at android.app.ActivityThread$ApplicationThread$$ExternalSyntheticLambda2.accept(D8$$SyntheticClass:8)
+10-13 11:22:44.150 W/System.err( 5742): 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:281)
+10-13 11:22:44.150 W/System.err( 5742): 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:204)
+10-13 11:22:44.150 W/System.err( 5742): 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+10-13 11:22:44.150 W/System.err( 5742): 	at android.os.Handler.handleCallback(Handler.java:942)
+10-13 11:22:44.150 W/System.err( 5742): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-13 11:22:44.150 W/System.err( 5742): 	at android.os.Looper.loopOnce(Looper.java:211)
+10-13 11:22:44.150 W/System.err( 5742): 	at android.os.Looper.loop(Looper.java:300)
+10-13 11:22:44.150 W/System.err( 5742): 	at android.app.ActivityThread.main(ActivityThread.java:8232)
+10-13 11:22:44.150 W/System.err( 5742): 	at java.lang.reflect.Method.invoke(Native Method)
+10-13 11:22:44.150 W/System.err( 5742): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+10-13 11:22:44.150 W/System.err( 5742): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1028)
+10-13 11:22:44.150 D/Launcher.RecommendController( 2267): folder display but only request when folder open
+10-13 11:22:44.151 W/System.err( 5702): java.lang.NullPointerException: null receiver
+10-13 11:22:44.151 W/System.err( 5702): 	at java.lang.reflect.Method.invoke(Native Method)
+10-13 11:22:44.151 W/System.err( 5702): 	at cl.g2b.d(SourceFile:26)
+10-13 11:22:44.151 W/System.err( 5702): 	at aashareit.AnyShareApp.onTrimMemory(SourceFile:0)
+10-13 11:22:44.151 W/System.err( 5702): 	at android.app.ActivityThread.handleTrimMemory(ActivityThread.java:6641)
+10-13 11:22:44.151 W/System.err( 5702): 	at android.app.ActivityThread.-$$Nest$mhandleTrimMemory(ActivityThread.java:0)
+10-13 11:22:44.151 W/System.err( 5702): 	at android.app.ActivityThread$ApplicationThread.lambda$scheduleTrimMemory$0(ActivityThread.java:1811)
+10-13 11:22:44.151 D/RecentsImpl( 2267): mActivityStateObserver com.miui.home.launcher.Launcher
+10-13 11:22:44.151 W/System.err( 5702): 	at android.app.ActivityThread$ApplicationThread$$ExternalSyntheticLambda2.accept(D8$$SyntheticClass:8)
+10-13 11:22:44.151 W/System.err( 5702): 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:281)
+10-13 11:22:44.151 W/System.err( 5702): 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:204)
+10-13 11:22:44.151 W/System.err( 5702): 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+10-13 11:22:44.151 W/System.err( 5702): 	at android.os.Handler.handleCallback(Handler.java:942)
+10-13 11:22:44.151 W/System.err( 5702): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-13 11:22:44.151 W/System.err( 5702): 	at android.os.Looper.loopOnce(Looper.java:211)
+10-13 11:22:44.151 W/System.err( 5702): 	at android.os.Looper.loop(Looper.java:300)
+10-13 11:22:44.151 W/System.err( 5702): 	at android.app.ActivityThread.main(ActivityThread.java:8232)
+10-13 11:22:44.151 W/System.err( 5702): 	at java.lang.reflect.Method.invoke(Native Method)
+10-13 11:22:44.151 W/System.err( 5702): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+10-13 11:22:44.151 W/System.err( 5702): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1028)
+10-13 11:22:44.152 W/RecentsImpl( 2267): onResumed className=com.miui.home.launcher.Launcher   mIsInAnotherPro=false   isKeyguardLocked=false   mSecuritySpaceGuideShown=false
+10-13 11:22:44.152 D/Launcher.Lifecycle( 2267): onWindowFocusChanged:true,UserHandle{0},7b9ca70,false
+10-13 11:22:44.152 D/Launcher_UnlockAnimationStateMachine( 2267): onWindowFocus:IDLE
+10-13 11:22:44.152 D/Launcher_UnlockAnimationStateMachine( 2267): showAnimation = IDLE
+10-13 11:22:44.152 D/DecorView[]( 2267): onWindowFocusChanged hasWindowFocus true
+10-13 11:22:44.152 W/System.err( 5606): java.lang.NullPointerException: null receiver
+10-13 11:22:44.152 W/System.err( 5606): 	at java.lang.reflect.Method.invoke(Native Method)
+10-13 11:22:44.152 W/System.err( 5606): 	at cl.g2b.d(SourceFile:26)
+10-13 11:22:44.152 W/System.err( 5606): 	at aashareit.AnyShareApp.onTrimMemory(SourceFile:0)
+10-13 11:22:44.152 W/System.err( 5606): 	at android.app.ActivityThread.handleTrimMemory(ActivityThread.java:6641)
+10-13 11:22:44.152 W/System.err( 5606): 	at android.app.ActivityThread.-$$Nest$mhandleTrimMemory(ActivityThread.java:0)
+10-13 11:22:44.152 W/System.err( 5606): 	at android.app.ActivityThread$ApplicationThread.lambda$scheduleTrimMemory$0(ActivityThread.java:1811)
+10-13 11:22:44.152 W/System.err( 5606): 	at android.app.ActivityThread$ApplicationThread$$ExternalSyntheticLambda2.accept(D8$$SyntheticClass:8)
+10-13 11:22:44.152 W/System.err( 5606): 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:281)
+10-13 11:22:44.152 W/System.err( 5606): 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:204)
+10-13 11:22:44.152 W/System.err( 5606): 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+10-13 11:22:44.152 W/System.err( 5606): 	at android.os.Handler.handleCallback(Handler.java:942)
+10-13 11:22:44.152 W/System.err( 5606): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-13 11:22:44.152 W/System.err( 5606): 	at android.os.Looper.loopOnce(Looper.java:211)
+10-13 11:22:44.152 W/System.err( 5606): 	at android.os.Looper.loop(Looper.java:300)
+10-13 11:22:44.152 W/System.err( 5606): 	at android.app.ActivityThread.main(ActivityThread.java:8232)
+10-13 11:22:44.152 W/System.err( 5606): 	at java.lang.reflect.Method.invoke(Native Method)
+10-13 11:22:44.152 W/System.err( 5606): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+10-13 11:22:44.152 W/System.err( 5606): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1028)
+10-13 11:22:44.153 I/HandWritingStubImpl( 2267): refreshLastKeyboardType: 1
+10-13 11:22:44.153 I/HandWritingStubImpl( 2267): getCurrentKeyboardType: 1
+10-13 11:22:44.153 I/SurfaceFlinger(  940): setTransactionState focusRequest transactionId:7000796720074 frontWin:5cc66b8 com.miui.home/com.miui.home.launcher.Launcher
+10-13 11:22:44.154 W/InputMethodManagerService( 1630): Clear show forced flag.
+10-13 11:22:44.155 D/StatusBarController( 2267): handleMessage: flag 1000000  disable false
+10-13 11:22:44.156 I/GoogleInputMethodService( 5806): GoogleInputMethodService.onFinishInput():3157 
+10-13 11:22:44.156 E/MiuiActivityController( 1630): MiuiLog-ActivityObserver: There was something wrong : null
+10-13 11:22:44.157 I/GoogleInputMethodService( 5806): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+10-13 11:22:44.157 I/mtkpower@impl(  873): [setMode] type:5, enabled:0
+10-13 11:22:44.157 I/GoogleInputMethodService( 5806): GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.miui.home, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131362048, fieldName=null, extras=Bundle[mParcelledData.dataSize=72], hintText=null, hintLocales=[]}}, false)
+10-13 11:22:44.158 I/libPowerHal(  873): [perfLockRel] hdl:4991, idx:0
+10-13 11:22:44.158 I/libPowerHal(  873): [PD] LAUNCH update cmd:1408300 param:0
+10-13 11:22:44.158 I/GoogleInputMethodService( 5806): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+10-13 11:22:44.158 I/AndroidIME( 5806): InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-13 11:22:44.159 I/PowerHalWrapper( 1630): amsBoostStop AMS_BOOST_PACK_SWITCH:false, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:false 
+10-13 11:22:44.160 I/AppBase ( 5806): AppBase.onTrimMemory():412 onTrimMemory(): 5
+10-13 11:22:44.160 I/KeyboardDefCache( 5806): MemoryFileCache$1.onTrimMemory():126 clearMemory() for trim memory: 5
+10-13 11:22:44.160 I/KeyboardDefCache( 5806): MemoryFileCache.clearMemory():410 evictAll()
+10-13 11:22:44.160 I/GoogleInputMethodService( 5806): GoogleInputMethodService.onTrimMemory():4303 onTrimMemory(): 5
+10-13 11:22:44.160 I/GED     (22121): ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 42, oppidx_max 42, oppidx_min 0
+10-13 11:22:44.161 E/gralloc4( 2258): Empty SMPTE 2094-40 data
+10-13 11:22:44.161 D/AAL     ( 1229): onALIChanged: 154 -> 155
+10-13 11:22:44.161 D/AALLightSensor( 1229): Notify lux = 155
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258): [VRI[AndroidApp1]#172](f:0,a:2) producer disconnected before: mAbandoned=0
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258): - BufferQueue mMaxAcquiredBufferCount=2 mMaxDequeuedBufferCount=2
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258):   mDequeueBufferCannotBlock=0 mAsyncMode=0
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258):   mQueueBufferCanDrop=0 mLegacyBufferDrop=1
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258):   default-size=[2307x1080] default-format=1   transform-hint=00 frame-counter=4
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258):   mTransformHintInUse=00 mAutoPrerotation=0
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258): FIFO(0):
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258): (mConsumerName=VRI[AndroidApp1]#172(BLAST Consumer)172, mConnectedApi=2, mConsumerUsageBits=2304, mId=8d2000000ac, producer=[2258:com.android.systemui], consumer=[2258:com.android.systemui])
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258): Slots:
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258):  >[00:0xb400006efa610100] state=ACQUIRED 0xb400006ec21f8700 frame=4 [2307x1080:2320,  1]
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258):   [01:0x0] state=FREE    
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258):   [02:0x0] state=FREE    
+10-13 11:22:44.161 D/BLASTBufferQueue( 2258):   [03:0x0] state=FREE    
+10-13 11:22:44.161 I/SurfaceFlinger(  940): transactionIsReadyToBeApplied focusRequest transactionId:7000796720074
+10-13 11:22:44.165 D/CoreBackPreview( 1630): Window{1564ccd u0 Splash Screen com.companyname.AndroidApp1}: Setting back callback null
+10-13 11:22:44.165 W/MusicApplication(30825): onTrimMemory is called, level=60
+10-13 11:22:44.165 I/ForwardSyncCache( 9968): reclaimMemory: Clearing caches
+10-13 11:22:44.165 W/InputManager-JNI( 1630): Input channel object '1564ccd Splash Screen com.companyname.AndroidApp1 (client)' was disposed without first being removed with the input manager!
+10-13 11:22:44.165 I/VolleyHelper(30825): before compact volley , size=0
+10-13 11:22:44.165 I/VolleyHelper(30825): after compact volley , size=0
+10-13 11:22:44.165 I/VolleyHelper(30825): ImageCache dump: 
+10-13 11:22:44.165 I/VolleyHelper(30825): ImageCache dump is null
+10-13 11:22:44.165 I/BugleSpam( 9968): HadesBitmapStore: Purged 0 images during memory reclamation
+10-13 11:22:44.165 D/WindowManager( 1630): setParent old=ActivityRecord{8d711b u0 com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} t305 f} isExiting},new=null,this window=Window{1564ccd u0 Splash Screen com.companyname.AndroidApp1},callers=com.android.server.wm.WindowContainer.removeChild:820 com.android.server.wm.ActivityRecord.removeChild:4731 com.android.server.wm.ActivityRecord.removeChild:424 com.android.server.wm.WindowContainer.removeImmediately:881 com.android.server.wm.WindowState.removeImmediately:2660 com.android.server.wm.WindowState.removeIfPossible:2859 
+10-13 11:22:44.166 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.166 W/Bugle   ( 9968): TextClassifierLibManagerImpl: Reclaiming memory at level: 60
+10-13 11:22:44.167 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.169 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.170 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.171 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.176 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.177 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.177 I/DropBoxUtil(16939): (REDACTED) Reading dropbox entry with tag %s and timestamp %d
+10-13 11:22:44.182 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.184 D/BLASTBufferQueue( 2258): [VRI[AndroidApp1]#172](f:0,a:1) destructor()
+10-13 11:22:44.184 D/BufferQueueConsumer( 2258): [VRI[AndroidApp1]#172(BLAST Consumer)172](id:8d2000000ac,api:0,p:-1,c:2258) disconnect
+10-13 11:22:44.185 D/SurfaceFlinger(  940): [SF client] NEW(0xb40000702685dc60) for (1630:system_server)
+10-13 11:22:44.186 D/VRI[AndroidApp1]( 1630): hardware acceleration = true, forceHwAccelerated = false
+10-13 11:22:44.188 I/DropBoxUtil(16939): (REDACTED) Reading dropbox entry with tag %s and timestamp %d
+10-13 11:22:44.189 W/WindowManager( 1630): Changing focus from Window{5cc66b8 u0 com.miui.home/com.miui.home.launcher.Launcher} to Window{f90987b u0 Application Error: com.companyname.AndroidApp1} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:518 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6466 com.android.server.wm.WindowManagerService.addWindow:2127 com.android.server.wm.Session.addToDisplayAsUser:225 
+10-13 11:22:44.191 D/WindowManager( 1630): Input focus has changed to Window{f90987b u0 Application Error: com.companyname.AndroidApp1} display=0 updateInputWindows = false
+10-13 11:22:44.191 D/WindowManager( 1630): Focus not requested for window=Window{f90987b u0 Application Error: com.companyname.AndroidApp1} because it has no surface or is not focusable.
+10-13 11:22:44.192 D/CoreBackPreview( 1630): Window{f90987b u0 Application Error: com.companyname.AndroidApp1}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@972044f, mPriority=0}
+10-13 11:22:44.192 E/LauncherAnimationRunner( 2267): finish: mFinishRunnable.run
+10-13 11:22:44.192 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.193 E/FileUtils( 1630): err open mi_exception_log errno=2
+10-13 11:22:44.193 E/FileUtils( 1630): err write to mi_exception_log
+10-13 11:22:44.193 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.193 I/MiuiNetworkPolicy( 1630): removeUidState uid = 10300
+10-13 11:22:44.194 E/RotationHelper( 2267): setCurrentTransitionRequest: request=0
+10-13 11:22:44.194 I/BufferQueueDebug(  940): [Splash Screen com.companyname.AndroidApp1#3461](this:0xb400006fdc07b8a8,id:-1,api:0,p:-1,c:940) onDestructor()
+10-13 11:22:44.195 I/com.xiaomi.xmsf( 5449): oneway function results for code 3 on binder at 0xb400006f854456e0 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-13 11:22:44.196 I/NetworkBoostStatusManager( 3560): onUidGone uid: 10300
+10-13 11:22:44.196 E/gralloc4( 2267): Empty SMPTE 2094-40 data
+10-13 11:22:44.198 I/surfaceflinger(  940): surfaceflinger setAffinity mode=0
+10-13 11:22:44.198 D/Launcher.Lifecycle( 2267): onWindowFocusChanged:false,UserHandle{0},7b9ca70,true
+10-13 11:22:44.198 D/DecorView[]( 2267): onWindowFocusChanged hasWindowFocus false
+10-13 11:22:44.203 D/CompatibilityChangeReporter( 1630): Compat change id reported: 218533173; UID 10300; state: ENABLED
+10-13 11:22:44.204 W/ActivityManager( 1630): Ignoring remove of inactive process: ProcessRecord{98800d0 0:com.companyname.AndroidApp1/u0a300}
+10-13 11:22:44.205 I/BufferQueueDebug(  940): [Application Error: com.companyname.AndroidApp1#3476](this:0xb400006fdc06d8a8,id:-1,api:0,p:-1,c:-1) BufferQueue core=(940:/system/bin/surfaceflinger)
+10-13 11:22:44.206 D/SurfaceControl( 1630): nativeSetScreenProjection ===> setScreenProjection
+10-13 11:22:44.206 D/SurfaceControl( 1630): nativeSetScreenProjection ===> setScreenProjection
+10-13 11:22:44.207 D/ThermalIECHandler( 4307): storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 263717924
+10-13 11:22:44.207 E/FileUtils( 4307): err open mi_exception_log errno=2
+10-13 11:22:44.207 E/FileUtils( 4307): err write to mi_exception_log
+10-13 11:22:44.207 D/ThermalScenarioManager( 4307): handleMessage -9
+10-13 11:22:44.207 D/ThermalScenarioManager( 4307): current: ScenarioName: 0
+10-13 11:22:44.207 D/ThermalScenarioManager( 4307): Element list : 97	97	98	98	99	99	99	99	99	99	99	98	99	99	99	99	99	99	99	
+10-13 11:22:44.207 D/ThermalScenarioManager( 4307): match scenario 0
+10-13 11:22:44.207 D/ThermalIECHandler( 4307): storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 263717924
+10-13 11:22:44.209 D/BufferQueueConsumer( 1630): [](id:65e000000c1,api:0,p:-1,c:1630) connect: controlledByApp=false
+10-13 11:22:44.209 D/WindowManager( 1630): setParent old=Task{cffb891 #305 type=standard A=10300:com.companyname.AndroidApp1 U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0},new=null,this window=ActivityRecord{8d711b u0 com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} t305 f}},callers=com.android.server.wm.WindowContainer.removeChild:820 com.android.server.wm.TaskFragment.removeChild:2722 com.android.server.wm.Task.removeChild:1617 com.android.server.wm.Task.removeChild:1598 com.android.server.wm.WindowContainer.removeImmediately:881 com.android.server.wm.WindowToken.removeImmediately:369 
+10-13 11:22:44.210 D/WindowManager( 1630): setParent old=DefaultTaskDisplayArea@18752331,new=null,this window=Task{cffb891 #305 type=standard A=10300:com.companyname.AndroidApp1 U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0},callers=com.android.server.wm.WindowContainer.removeChild:820 com.android.server.wm.TaskDisplayArea.removeChildTask:366 com.android.server.wm.TaskDisplayArea.removeChild:357 com.android.server.wm.WindowContainer.removeImmediately:881 com.android.server.wm.TaskFragment.removeImmediately:2802 com.android.server.wm.Task.removeImmediately:3019 
+10-13 11:22:44.211 I/GED     ( 1630): [GT]_get_procNameprocess pid(1630)
+10-13 11:22:44.211 I/GED     ( 1630): [GT]_getprocess name(system_server)
+10-13 11:22:44.211 I/system_server( 1630): [GT] ret(1) gt_status(00000000) aniso_debug_level(0) gt_aniso_max_level(16) ani so mask(00000001) tri mask(00000002)
+10-13 11:22:44.211 W/ActivityTaskManager( 1630): Can't find TaskDisplayArea to determine support for multi window. Task id=305 attached=false
+10-13 11:22:44.213 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:44.213 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:44.213 D/RecentsModel( 2267): onTaskStackChangedBackground
+10-13 11:22:44.213 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:44.213 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:44.213 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:44.213 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:44.213 D/RecentsModel( 2267): onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+10-13 11:22:44.213 D/Launcher.Lifecycle( 2267): onWindowFocusChanged:true,UserHandle{0},7b9ca70,false
+10-13 11:22:44.213 D/RecentsModel( 2267): preloadRecents
+10-13 11:22:44.213 W/RecentsModel( 2267): getRunningTask
+10-13 11:22:44.213 D/Launcher_UnlockAnimationStateMachine( 2267): onWindowFocus:IDLE
+10-13 11:22:44.213 D/Launcher_UnlockAnimationStateMachine( 2267): showAnimation = IDLE
+10-13 11:22:44.213 D/DecorView[]( 2267): onWindowFocusChanged hasWindowFocus true
+10-13 11:22:44.213 D/WindowManager( 1630): Update InputWindowHandle: f90987b Application Error: com.companyname.AndroidApp1, frame=[0,0,0,0], touchableRegion=SkRegion((-1080,-2400,2160,4800)), scaleFactor=1.0, transform=null, windowToken=android.view.ViewRootImpl$W@eaa6bac, isClone=false, visibal=true, focusable=true, changed=true
+10-13 11:22:44.213 D/EventBus( 2267): No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+10-13 11:22:44.213 D/EventBus( 2267): No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-13 11:22:44.214 I/HandWritingStubImpl( 2267): refreshLastKeyboardType: 1
+10-13 11:22:44.214 I/HandWritingStubImpl( 2267): getCurrentKeyboardType: 1
+10-13 11:22:44.215 I/SurfaceFlinger(  940): setTransactionState focusRequest transactionId:7000796720106 frontWin:f90987b Application Error: com.companyname.AndroidApp1
+10-13 11:22:44.216 W/InputMethodManagerService( 1630): Clear show forced flag.
+10-13 11:22:44.217 W/RecentsModel( 2267): getRunningTask   taskInfo=TaskInfo{userId=0 taskId=2 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.miui.home/.launcher.Launcher } baseActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} topActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} origActivity=null realActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} numActivities=1 lastActiveTime=266714638 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@bdbff77} topActivityType=2 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{18c37e4 com.miui.home.launcher.Launcher} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+10-13 11:22:44.217 W/RecentsModel( 2267): getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}
+10-13 11:22:44.218 I/GoogleInputMethodService( 5806): GoogleInputMethodService.onFinishInput():3157 
+10-13 11:22:44.218 E/ActivityManagerWrapper( 2267): get all recent tasks force including 2
+10-13 11:22:44.219 I/GoogleInputMethodService( 5806): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+10-13 11:22:44.219 I/GoogleInputMethodService( 5806): GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.miui.home, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131362048, fieldName=null, extras=Bundle[mParcelledData.dataSize=72], hintText=null, hintLocales=[]}}, false)
+10-13 11:22:44.219 I/GoogleInputMethodService( 5806): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+10-13 11:22:44.220 I/AndroidIME( 5806): InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-13 11:22:44.223 E/ActivityManagerWrapper( 2267): getRecentTasks: size=6
+10-13 11:22:44.223 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=305   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} }
+10-13 11:22:44.223 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=278   userId=0   baseIntent=Intent { act=android.settings.WIFI_SETTINGS flag=335544320 cmp=ComponentInfo{com.android.settings/com.android.settings.Settings$WifiSettingsActivity} }
+10-13 11:22:44.223 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=279   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.settings/com.android.settings.MainSettings} }
+10-13 11:22:44.223 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=276   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.termux/com.termux.app.TermuxActivity} }
+10-13 11:22:44.223 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=272   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon} }
+10-13 11:22:44.223 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=257   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{app.jumpjumpvpn.jumpjumpvpn/app.jumpjumpvpn.jumpjumpvpn.MainActivity} }
+10-13 11:22:44.226 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.226 D/StatusBarController( 2267): handleMessage: flag 800000  disable false
+10-13 11:22:44.226 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.226 D/Launcher_WallpaperUtils( 2267): changeStatusBarMode:false
+10-13 11:22:44.227 I/SurfaceFlinger(  940): transactionIsReadyToBeApplied focusRequest transactionId:7000796720106
+10-13 11:22:44.229 D/Launcher.Lifecycle( 2267): onWindowFocusChanged:false,UserHandle{0},7b9ca70,true
+10-13 11:22:44.229 D/DecorView[]( 2267): onWindowFocusChanged hasWindowFocus false
+10-13 11:22:44.230 D/RecentsModel( 2267): onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+10-13 11:22:44.230 D/RecentsModel( 2267): preloadRecents
+10-13 11:22:44.230 W/RecentsModel( 2267): getRunningTask
+10-13 11:22:44.231 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.231 D/BLASTBufferQueue( 1630): [VRI[AndroidApp1]#92](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=52830077519993(auto) mPendingTransactions.size=0 graphicBufferId=7000796693206 transform=0
+10-13 11:22:44.232 W/Parcel  ( 1630): Expecting binder but got null!
+10-13 11:22:44.232 D/WindowManager( 1630): finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{f90987b u0 Application Error: com.companyname.AndroidApp1} in Surface(name=Application Error: com.companyname.AndroidApp1)/@0x9c34c0e
+10-13 11:22:44.233 W/RecentsModel( 2267): getRunningTask   taskInfo=TaskInfo{userId=0 taskId=2 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.miui.home/.launcher.Launcher } baseActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} topActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} origActivity=null realActivity=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher} numActivities=1 lastActiveTime=266714653 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@6462b02} topActivityType=2 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{2871c13 com.miui.home.launcher.Launcher} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+10-13 11:22:44.233 W/RecentsModel( 2267): getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}
+10-13 11:22:44.233 D/TouchInteractionService( 2267): onSystemUiFlagsChanged, mSystemUiStateFlags=0
+10-13 11:22:44.234 I/WindowManager( 1630): showSurfaceRobustly mWin:Window{f90987b u0 Application Error: com.companyname.AndroidApp1}
+10-13 11:22:44.234 E/ActivityManagerWrapper( 2267): get all recent tasks force including 2
+10-13 11:22:44.239 E/ActivityManagerWrapper( 2267): getRecentTasks: size=6
+10-13 11:22:44.239 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=305   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} }
+10-13 11:22:44.239 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=278   userId=0   baseIntent=Intent { act=android.settings.WIFI_SETTINGS flag=335544320 cmp=ComponentInfo{com.android.settings/com.android.settings.Settings$WifiSettingsActivity} }
+10-13 11:22:44.239 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=279   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.settings/com.android.settings.MainSettings} }
+10-13 11:22:44.239 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=276   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.termux/com.termux.app.TermuxActivity} }
+10-13 11:22:44.239 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=272   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon} }
+10-13 11:22:44.239 E/ActivityManagerWrapper( 2267): getRecentTasks: mainTaskId=257   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{app.jumpjumpvpn.jumpjumpvpn/app.jumpjumpvpn.jumpjumpvpn.MainActivity} }
+10-13 11:22:44.242 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.242 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.244 D/BufferStateLayer(  940): Application Error: com.companyname.AndroidApp1#3476 setBuffer frameId=1, bufferId=7000796693206 fenceId=381, w= 1080, h=2400
+10-13 11:22:44.250 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.251 D/DecorView[AndroidApp1]( 1630): onWindowFocusChanged hasWindowFocus true
+10-13 11:22:44.259 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.259 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.262 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.265 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.275 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.275 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.277 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.292 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.292 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.293 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.308 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.308 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.310 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): exception:
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): java.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.android.server.wm.Task.isActivityTypeHome()' on a null object reference
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): 	at com.android.server.wm.TaskSnapshotControllerInjectorImpl.doSnapshotQSInternal(TaskSnapshotControllerInjectorImpl.java:76)
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): 	at com.android.server.wm.TaskSnapshotControllerInjectorImpl.lambda$doSnapshotQS$0$com-android-server-wm-TaskSnapshotControllerInjectorImpl(TaskSnapshotControllerInjectorImpl.java:60)
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): 	at com.android.server.wm.TaskSnapshotControllerInjectorImpl$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:12)
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): 	at android.os.Handler.handleCallback(Handler.java:942)
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): 	at android.os.Looper.loopOnce(Looper.java:211)
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): 	at android.os.Looper.loop(Looper.java:300)
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-13 11:22:44.319 E/TaskSnapshot_CInjector( 1630): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+10-13 11:22:44.325 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.325 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.326 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.341 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.342 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.344 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.358 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.358 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.360 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.361 D/AAL     ( 1229): onALIChanged: 155 -> 156
+10-13 11:22:44.361 D/AALLightSensor( 1229): Notify lux = 156
+10-13 11:22:44.375 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.375 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.377 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.391 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.391 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.394 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.408 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.408 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.410 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.424 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.424 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.427 E/gralloc4( 1630): Empty SMPTE 2094-40 data
+10-13 11:22:44.440 D/CoreBackPreview( 1630): Window{f90987b u0 Application Error: com.companyname.AndroidApp1}: Setting back callback null
+10-13 11:22:44.441 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.441 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.445 D/View    ( 1630): [Warning] assignParent to null: this = DecorView@d65a64b[AndroidApp1]
+10-13 11:22:44.445 W/InputManager-JNI( 1630): Input channel object 'f90987b Application Error: com.companyname.AndroidApp1 (client)' was disposed without first being removed with the input manager!
+10-13 11:22:44.446 D/WindowManager( 1630): setParent old=WindowToken{e667075 type=2003 android.view.ViewRootImpl$W@eaa6bac},new=null,this window=Window{f90987b u0 Application Error: com.companyname.AndroidApp1},callers=com.android.server.wm.WindowContainer.removeChild:820 com.android.server.wm.WindowContainer.removeImmediately:881 com.android.server.wm.WindowState.removeImmediately:2660 com.android.server.wm.WindowState.removeIfPossible:2859 com.android.server.wm.WindowState.removeIfPossible:2710 com.android.server.wm.WindowManagerService.removeWindow:2333 
+10-13 11:22:44.446 D/WindowManager( 1630): setParent old=Leaf:3:12@49572890,new=null,this window=WindowToken{e667075 type=2003 android.view.ViewRootImpl$W@eaa6bac},callers=com.android.server.wm.WindowContainer.removeChild:820 com.android.server.wm.WindowContainer.removeImmediately:881 com.android.server.wm.WindowToken.setExiting:254 com.android.server.wm.DisplayContent.removeWindowToken:1419 com.android.server.wm.WindowToken.removeImmediately:365 com.android.server.wm.WindowManagerService.postWindowRemoveCleanupLocked:2384 
+10-13 11:22:44.447 W/WindowManager( 1630): Changing focus from Window{f90987b u0 Application Error: com.companyname.AndroidApp1} to Window{5cc66b8 u0 com.miui.home/com.miui.home.launcher.Launcher} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:518 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6466 com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace:853 com.android.server.wm.RootWindowContainer.performSurfacePlacement:835 
+10-13 11:22:44.449 D/WindowManager( 1630): Input focus has changed to Window{5cc66b8 u0 com.miui.home/com.miui.home.launcher.Launcher} display=0 updateInputWindows = false
+10-13 11:22:44.452 I/GED     ( 1630): ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 42, oppidx_max 42, oppidx_min 0
+10-13 11:22:44.453 I/GED     ( 1630): ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 42, oppidx_max 42, oppidx_min 0
+10-13 11:22:44.453 D/TouchInteractionService( 2267): onSystemUiFlagsChanged, mSystemUiStateFlags=20000
+10-13 11:22:44.457 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.458 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.461 I/SurfaceFlinger(  940): setTransactionState focusRequest transactionId:7000796720171 frontWin:5cc66b8 com.miui.home/com.miui.home.launcher.Launcher
+10-13 11:22:44.465 D/BLASTBufferQueue( 1630): [VRI[AndroidApp1]#92](f:0,a:1) destructor()
+10-13 11:22:44.465 D/BufferQueueConsumer( 1630): [VRI[AndroidApp1]#92(BLAST Consumer)92](id:65e000000c1,api:0,p:-1,c:1630) disconnect
+10-13 11:22:44.474 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.474 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.476 I/SurfaceFlinger(  940): transactionIsReadyToBeApplied focusRequest transactionId:7000796720171
+10-13 11:22:44.477 I/BufferQueueDebug(  940): [Application Error: com.companyname.AndroidApp1#3476](this:0xb400006fdc06d8a8,id:-1,api:0,p:-1,c:940) onDestructor()
+10-13 11:22:44.479 D/Launcher.Lifecycle( 2267): onWindowFocusChanged:true,UserHandle{0},7b9ca70,false
+10-13 11:22:44.479 D/Launcher_UnlockAnimationStateMachine( 2267): onWindowFocus:IDLE
+10-13 11:22:44.479 D/Launcher_UnlockAnimationStateMachine( 2267): showAnimation = IDLE
+10-13 11:22:44.479 D/DecorView[]( 2267): onWindowFocusChanged hasWindowFocus true
+10-13 11:22:44.480 I/HandWritingStubImpl( 2267): refreshLastKeyboardType: 1
+10-13 11:22:44.480 I/HandWritingStubImpl( 2267): getCurrentKeyboardType: 1
+10-13 11:22:44.481 W/InputMethodManagerService( 1630): Clear show forced flag.
+10-13 11:22:44.482 I/GoogleInputMethodService( 5806): GoogleInputMethodService.onFinishInput():3157 
+10-13 11:22:44.483 I/GoogleInputMethodService( 5806): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+10-13 11:22:44.483 I/GoogleInputMethodService( 5806): GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.miui.home, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131362048, fieldName=null, extras=Bundle[mParcelledData.dataSize=72], hintText=null, hintLocales=[]}}, false)
+10-13 11:22:44.483 I/GoogleInputMethodService( 5806): GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+10-13 11:22:44.483 I/AndroidIME( 5806): InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-13 11:22:44.491 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.491 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.507 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.508 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.521 I/mtkpower@impl(  873): [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:4992
+10-13 11:22:44.521 I/libPowerHal(  873): [perfLockRel] hdl:4992, idx:1
+10-13 11:22:44.521 I/libPowerHal(  873): system_server: cpu_ctrl set cpu freq: 2000000 -1 2000000 -1
+10-13 11:22:44.521 I/libPowerHal(  873): system_server: set gpu opp level: 42
+10-13 11:22:44.522 I/libPowerHal(  873): system_server: set gpu opp level max: 0
+10-13 11:22:44.522 I/libPowerHal(  873): [PD] system_server update cmd:1000000, param:-1
+10-13 11:22:44.522 I/libPowerHal(  873): [PD] system_server update cmd:1000000 param:-1
+10-13 11:22:44.524 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.524 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.541 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.541 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.558 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.558 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.562 I/hwcomposer(  859): [HWCDisplay] [Display_0 (type:1)] fps:59.146976,dur:1014.42,max:32.29,min:13.94  
+10-13 11:22:44.574 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.574 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.581 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.582 W/ActivityTaskManager( 1630): Activity top resumed state loss timeout for ActivityRecord{8d711b u0 com.companyname.AndroidApp1/crc64a6e0c00971f6cd91.MainActivity} t-1 f}}
+10-13 11:22:44.582 I/surfaceflinger(  940): surfaceflinger setAffinity mode=1
+10-13 11:22:44.582 I/surfaceflinger(  940): surfaceflinger setreAffinity reTid=1001
+10-13 11:22:44.583 I/PowerHalWrapper( 1630): amsBoostNotify pid:2267,activity:com.miui.home.launcher.Launcher, package:com.miui.home, mProcessCreatePacknull 
+10-13 11:22:44.583 I/PowerHalWrapper( 1630): state: 1 
+10-13 11:22:44.583 I/mtkpower_client( 1630): [Legacy][PowerHal_Wrap_notifyAppState] com.miui.home/com.miui.home.launcher.Launcher pid=2267 state:1
+10-13 11:22:44.583 I/game_scn( 1630): collectForegroundAppList packName=com.miui.home, actName=com.miui.home.launcher.Launcher, pid=2267, uid=10088, state:RESUMED
+10-13 11:22:44.583 I/PowerHalWrapper( 1630): amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:true 
+10-13 11:22:44.583 I/libPowerHal(  873): [perfNotifyAppState] pack:com.miui.home, act:com.miui.home.launcher.Launcher, state:1, pid:2267, uid:10088, fps:-1
+10-13 11:22:44.583 I/libPowerHal(  873): [perfNotifyAppState] foreground:com.miui.home, pid:2267, uid:10088
+10-13 11:22:44.584 I/UxUtility(  873): notifyForegroundApp pack:com.miui.home, uid:10088
+10-13 11:22:44.584 I/TouchUtility(  873): notifyAppState error = NULL
+10-13 11:22:44.584 I/mtkpower@impl(  873): [notifyAppState] pc:0, com.companyname.AndroidApp1 => com.miui.home
+10-13 11:22:44.591 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.591 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.596 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.607 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.608 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.613 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.613 I/BufferQueueProducer(  940): [FramebufferSurface](this:0xb4000070b53b46e0,id:-1,api:1,p:940,c:940) queueBuffer: fps=37.60 dur=1010.56 max=399.23 min=13.92
+10-13 11:22:44.624 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.624 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.625 I/mtkpower@impl(  873): [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:4993
+10-13 11:22:44.625 I/libPowerHal(  873): [perfLockRel] hdl:4993, idx:2
+10-13 11:22:44.625 I/libPowerHal(  873): : cpu_ctrl set cpu freq: -1 -1 -1 -1
+10-13 11:22:44.631 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.641 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.642 W/OpenGLRenderer( 2090): Surface doesn't have any previously queued frames, nothing to readback from
+10-13 11:22:44.648 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.663 I/surfaceflinger(  940): surfaceflinger setAffinity mode=0
+10-13 11:22:44.750 W/Launcher:WidgetView( 2267): onMiuiWidgetUpdate widget is not miuiWidget!
+10-13 11:22:44.761 D/AAL     ( 1229): onALIChanged: 156 -> 153
+10-13 11:22:44.761 D/AALLightSensor( 1229): Notify lux = 153
+10-13 11:22:44.766 I/hwcomposer(  859): [HWC] (0)fire a callback of refresh to SF[4]  
+10-13 11:22:44.784 E/gralloc4(  940): Empty SMPTE 2094-40 data
+10-13 11:22:44.788 I/surfaceflinger(  940): surfaceflinger setAffinity mode=1
+10-13 11:22:44.788 I/surfaceflinger(  940): surfaceflinger setreAffinity reTid=1001
+10-13 11:22:44.821 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:44.822 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:44.825 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:44.825 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:44.825 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:44.825 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:44.825 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:44.826 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:44.961 D/AAL     ( 1229): onALIChanged: 153 -> 150
+10-13 11:22:44.963 D/AALLightSensor( 1229): Notify lux = 150
+10-13 11:22:45.012 I/libPerfCtl(  873): xgfGetFPS pid:1630 fps:66
+10-13 11:22:45.013 I/libPerfCtl(  873): xgfGetFPS pid:2258 fps:-1
+10-13 11:22:45.013 I/libPerfCtl(  873): xgfGetFPS pid:2267 fps:-1
+10-13 11:22:45.162 D/AAL     ( 1229): onALIChanged: 150 -> 149
+10-13 11:22:45.163 D/AALLightSensor( 1229): Notify lux = 149
+10-13 11:22:45.362 D/AAL     ( 1229): onALIChanged: 149 -> 152
+10-13 11:22:45.363 D/AALLightSensor( 1229): Notify lux = 152
+10-13 11:22:45.561 D/AAL     ( 1229): onALIChanged: 152 -> 153
+10-13 11:22:45.563 D/AALLightSensor( 1229): Notify lux = 153
+10-13 11:22:45.650 D/SchedBoost( 1630): stopBoostInternal:
+10-13 11:22:45.650 D/SchedBoost( 1630): ready to stop boost
+10-13 11:22:45.651 D/SchedBoost( 1630): thread tid=2267, priority is set to -10
+10-13 11:22:45.652 D/SchedBoost( 1630): stopBoostInternal:
+10-13 11:22:45.652 D/SchedBoost( 1630): ready to stop boost
+10-13 11:22:45.652 D/SchedBoost( 1630): thread tid=2464, priority is set to -10
+10-13 11:22:45.652 D/SchedBoost( 1630): stopBoostInternal:
+10-13 11:22:45.652 D/SchedBoost( 1630): ready to stop boost
+10-13 11:22:45.652 D/SchedBoost( 1630): thread tid=0, priority is set to -4
+10-13 11:22:45.822 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:45.823 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:45.826 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:45.826 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:45.826 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:45.826 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:45.826 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:45.827 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:45.962 D/AALLightSensor( 1229): oldLux=153 [SA:154 LA:152] newLux=154 (oriLux: 155)
+10-13 11:22:45.962 D/AAL     ( 1229): onALIChanged: 153 -> 154
+10-13 11:22:45.963 D/AALLightSensor( 1229): Notify lux = 154
+10-13 11:22:46.013 I/libPerfCtl(  873): xgfGetFPS pid:1630 fps:-1
+10-13 11:22:46.013 I/libPerfCtl(  873): xgfGetFPS pid:2258 fps:-1
+10-13 11:22:46.013 I/libPerfCtl(  873): xgfGetFPS pid:2267 fps:-1
+10-13 11:22:46.099 D/ULogGuard( 1194): Monitoring: 10 threads, 0 requests, 0 time-bombs; 1 guards. ResetFlags = 0x7
+10-13 11:22:46.520 D/FiveGDataOptimize( 2245): isAnyCallOngoing callOngoing= false
+10-13 11:22:46.524 D/FiveGDataOptimize( 2245): TxRx: 0, Tx: 0, Rx: 0, Hit: 0
+10-13 11:22:46.562 D/AAL     ( 1229): onALIChanged: 154 -> 129
+10-13 11:22:46.565 D/AALLightSensor( 1229): Notify lux = 129
+10-13 11:22:46.639 I/SmartPower( 1630): com.google.android.gms/10192 state=hibernation adj=100 proc size=5 move to maintenance remove from whitelist
+10-13 11:22:46.694 I/thermal_repeater( 1222): [recvMdThermalInfo] ret=26, strLen=127,  3, 28, -50, 197, 32767, 1
+10-13 11:22:46.761 D/AAL     ( 1229): onALIChanged: 129 -> 113
+10-13 11:22:46.762 D/AALLightSensor( 1229): Notify lux = 113
+10-13 11:22:46.762 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:46.762 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:46.762 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:46.762 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:46.762 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:46.764 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:46.824 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:46.825 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:46.828 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:46.828 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:46.828 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:46.828 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:46.828 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:46.830 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}
+10-13 11:22:46.962 D/AAL     ( 1229): onALIChanged: 113 -> 100
+10-13 11:22:46.964 D/AALLightSensor( 1229): Notify lux = 100
+10-13 11:22:47.013 I/libPerfCtl(  873): xgfGetFPS pid:1630 fps:-1
+10-13 11:22:47.014 I/libPerfCtl(  873): xgfGetFPS pid:2258 fps:-1
+10-13 11:22:47.014 I/libPerfCtl(  873): xgfGetFPS pid:2267 fps:-1
+10-13 11:22:47.088 E/TaskPersister( 1630): File error accessing recents directory (directory doesn't exist?).
+10-13 11:22:47.162 D/AAL     ( 1229): onALIChanged: 100 -> 114
+10-13 11:22:47.164 D/AALLightSensor( 1229): Notify lux = 114
+10-13 11:22:47.362 D/AAL     ( 1229): onALIChanged: 114 -> 123
+10-13 11:22:47.364 D/AALLightSensor( 1229): Notify lux = 123
+10-13 11:22:47.562 D/AAL     ( 1229): onALIChanged: 123 -> 127
+10-13 11:22:47.564 D/AALLightSensor( 1229): Notify lux = 127
+10-13 11:22:47.762 D/AAL     ( 1229): onALIChanged: 127 -> 129
+10-13 11:22:47.764 D/AALLightSensor( 1229): Notify lux = 129
+10-13 11:22:47.779 I/adbd    ( 8192): adbd service requested 'shell,v2:export ANDROID_LOG_TAGS="''"; exec logcat '-d' '-v' 'time''
+10-13 11:22:47.825 I/NetworkSDKService( 3560): getQoEByAvailableIfaceName: wlan0
+10-13 11:22:47.825 D/MiuiWifiService( 1630): ending put WifiLinkLayerStats QOE to map
+10-13 11:22:47.826 I/WifiHAL ( 2041): Get link layer stats
+10-13 11:22:47.826 I/WifiHAL ( 2041): GetLinkStatsCommand::create
+10-13 11:22:47.826 D/android.hardware.wifi@1.0-service-lazy( 2041): WifiRequest::create vendor command to iface 32, vendor_id=0x1a11, subcmd=0x1200, res=0
+10-13 11:22:47.826 I/android.hardware.wifi@1.0-service-lazy( 2041): WifiCommand::requestResponse err=-14
+10-13 11:22:47.826 I/WifiHAL ( 2041): wifi_get_link_stats: result=-1
+10-13 11:22:47.827 E/WifiVendorHal( 1630): $r8$lambda$s6w0pmKyq6-tDdqCEDbOV_xqgVE(l.1176) failed {.code = ERROR_UNKNOWN, .description = unknown}

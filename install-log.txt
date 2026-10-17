@@ -1,0 +1,1503 @@
+--------- beginning of main
+10-13 20:37:14.249  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:37:14.250  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:37:14.250  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:37:14.250  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:14.254   956  1525 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:37:14.259   956  1525 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:14.259   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:14.260   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:37:14.260   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:14.261   956  1525 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:14.261   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:14.261   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:14.261   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:14.262   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:14.262   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:14.262   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:37:14.262   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:37:14.265   956  1525 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:37:14.266   956  1525 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:37:14.267  1193  1353 W PairHelper: stopScan, not connected ,now try again
+--------- beginning of kernel
+01-01 09:36:11.510     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:15.268  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:37:15.269  1193  1353 D PairHelper: discoveryDev 
+10-13 20:37:15.269  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:37:15.270  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:15.273   956  1525 D BtGatt.GattService: registerScanner() - UUID=30974406-f4c6-4897-bd45-aa00b8a16f5e
+10-13 20:37:15.273   956  1525 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:37:15.274   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=30974406-f4c6-4897-bd45-aa00b8a16f5e, scannerId=1, status=0
+10-13 20:37:15.275  1193  1531 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:37:15.276   956  1525 D BtGatt.GattService: start scan with filters
+10-13 20:37:15.277   956  1525 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:37:15.280   956  1525 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:15.280   956  1525 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:15.280   956  1525 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:15.281   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:37:15.282   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:37:15.282  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:37:15.282   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:37:15.282   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:15.283   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:37:15.283   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:15.284   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:15.284   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:15.284   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:37:15.284   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:15.285   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:37:15.285   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:15.286   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:15.286   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:15.286   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:37:15.286   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:15.286   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:15.286   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:15.287   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:37:15.287   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:15.288   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:37:15.288   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:15.289   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:37:15.289   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:15.289   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:36:12.534     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:15.883   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:12.607  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:12.620  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:12.631   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:12.639  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:12.648  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-58
+01-01 09:36:13.558     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:14.582     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:15.606     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:18.949   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:15.673  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:15.686  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:15.697   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:15.705  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:15.714  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-59
+01-01 09:36:16.630     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:17.654     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:18.678     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:22.014   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:18.736  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:18.749  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:18.760   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:18.768  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:18.777  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+01-01 09:36:19.702     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:20.726     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:24.071   886  2292 D IpClient/wlan0: routeRemoved: ::/0 -> fe80::9aa9:42ff:fe4e:ca39 wlan0 mtu 0
+10-13 20:37:24.079   298   298 E netd    : Error deleting route ::/0 -> fe80::9aa9:42ff:fe4e:ca39 wlan0 to table 1016: No such process
+10-13 20:37:24.079   298   298 I netd    : networkRemoveRouteParcel(100, RouteInfoParcel{destination: ::/0, ifName: wlan0, nextHop: fe80::9aa9:42ff:fe4e:ca39, mtu: 0}) -> ServiceSpecificException(3, "No such process") <0.78ms>
+10-13 20:37:24.080   439   709 E ConnectivityService: Exception in networkRemoveRouteParcel: android.os.ServiceSpecificException: No such process (code 3)
+01-01 09:36:21.750     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:25.076   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:21.800  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:21.813  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:21.824   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:21.831  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:21.840  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+10-13 20:37:25.289  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:37:25.289  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:37:25.289  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:37:25.290  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:25.293   956  1525 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:37:25.298   956  1525 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:25.298   956  1525 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:25.299   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:25.299   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:37:25.300   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:25.300   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:25.301   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:25.301   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:25.301   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:25.301   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:25.301   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:37:25.301   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:37:25.302   956  1525 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:37:25.303   956  1525 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:37:25.304  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:36:22.774     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:26.305  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:37:26.306  1193  1353 D PairHelper: discoveryDev 
+10-13 20:37:26.306  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:37:26.307  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:26.310   956  1525 D BtGatt.GattService: registerScanner() - UUID=4c8fdb14-1f3b-4b8d-b28e-417324892f6c
+10-13 20:37:26.310   956  1525 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:37:26.311   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=4c8fdb14-1f3b-4b8d-b28e-417324892f6c, scannerId=1, status=0
+10-13 20:37:26.312  1193  1531 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:37:26.313   956  1525 D BtGatt.GattService: start scan with filters
+10-13 20:37:26.314   956  1525 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:37:26.318   956  1525 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:26.319   956  1525 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:26.319   956  1525 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:26.320   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:37:26.321  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:37:26.321   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:37:26.322   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:37:26.323   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:26.323   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:37:26.324   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:26.324   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:26.325   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:26.325   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:37:26.326   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:26.326   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:37:26.327   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:26.327   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:26.327   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:37:26.328   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:26.328   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:26.329   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:37:26.329   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:26.330   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:37:26.330   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:26.330   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:26.331   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:26.331   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:37:26.333   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:26.333   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:36:23.798     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:24.822     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:28.140   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:24.863  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:24.875  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:24.886   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:24.894  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:24.903  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-61
+01-01 09:36:25.846     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:26.870     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:27.894     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:31.204   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:27.927  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:27.940  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:27.950   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:27.958  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:27.967  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+01-01 09:36:28.918     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:29.942     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:30.966     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:34.267   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:30.991  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:31.003  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:31.014   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:31.022  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:31.031  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-61
+10-13 20:37:34.889  1194  5521 I gle.android.gms: Explicit concurrent mark compact GC freed 100197(3989KB) AllocSpace objects, 6(248KB) LOS objects, 56% free, 10114KB/22MB, paused 744us,6.183ms total 191.156ms
+10-13 20:37:35.146   298   298 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.44ms>
+10-13 20:37:35.148   298   298 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.25ms>
+10-13 20:37:35.149   298   298 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.32ms>
+10-13 20:37:35.150   298   298 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.22ms>
+01-01 09:36:31.990     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:33.014     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:36.332  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:37:36.332  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:37:36.332  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:37:36.332  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:36.335   956  1525 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:37:36.337   956  1525 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:36.338   956  1525 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:36.339   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:36.339   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:37:36.340   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:36.340   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:36.341   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:36.341   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:36.342   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:36.342   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:36.342   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:37:36.342   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:37:36.348   956  1525 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:37:36.349   956  1525 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:37:36.350  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:36:34.038     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:37.330   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:34.053  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:34.066  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+10-13 20:37:37.354  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:37:37.354  1193  1353 D PairHelper: discoveryDev 
+10-13 20:37:37.355  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:37:37.356  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:37.359   956  1525 D BtGatt.GattService: registerScanner() - UUID=a4eccd73-cb8e-467f-a4c4-d4c9e0604910
+10-13 20:37:37.359   956  1525 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:37:37.360   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=a4eccd73-cb8e-467f-a4c4-d4c9e0604910, scannerId=1, status=0
+10-13 20:37:37.361  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:37:37.363   956  1525 D BtGatt.GattService: start scan with filters
+10-13 20:37:37.365   956  1525 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+01-01 09:36:34.076   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:34.084  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+10-13 20:37:37.368   956  1525 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:37.369   956  1525 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:37.369   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:37:37.370   956  1525 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:37.370   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:37:37.370   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:37:37.371  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:37:37.371   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:37.372   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:37:37.372   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:37.373   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:37.373   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:37.373   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:37:37.373   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:37.374   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:37.374   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:37.374   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:37:37.374   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:37:37.374   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:37.375   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:37.375   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:37.375   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:37.375   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:37:37.375   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:37.375   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:37:37.375   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:37.375   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:37:37.375   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:37.376   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:36:34.093  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-58
+01-01 09:36:35.062     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:36.086     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:40.400   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:37.110     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:37.124  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:37.137  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:37.147   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:37.155  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:37.164  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-59
+01-01 09:36:38.134     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:39.158     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+--------- beginning of system
+10-13 20:37:42.795   439   439 V HotPlugDetectionAction: Poll all devices.
+10-13 20:37:42.796   439   439 V HotPlugDetectionAction: Poll all devices.
+01-01 09:36:40.183     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:43.471   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:40.194  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:40.207  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:40.217   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:40.224  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:40.233  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+01-01 09:36:41.206     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:42.230     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:46.543   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:43.254     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:43.266  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:43.278  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:43.289   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:43.296  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:43.305  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-60
+10-13 20:37:47.381  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:37:47.382  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:37:47.383  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:37:47.383  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:47.387   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:37:47.392   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:47.393   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:47.393   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:37:47.394   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:47.394   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:47.394   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:47.394   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:47.394   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:47.395   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:47.395   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:47.395   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:37:47.395   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:37:47.400   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:37:47.400   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:37:47.401  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:36:44.278     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:48.403  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:37:48.404  1193  1353 D PairHelper: discoveryDev 
+10-13 20:37:48.404  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:37:48.406  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:48.411   956  1525 D BtGatt.GattService: registerScanner() - UUID=2617b8ef-cd3b-4467-8812-356a9a093099
+10-13 20:37:48.413   956  1525 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:37:48.414   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=2617b8ef-cd3b-4467-8812-356a9a093099, scannerId=1, status=0
+10-13 20:37:48.415  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:37:48.416   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:37:48.418   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:37:48.421   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:48.421   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:48.422   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:48.422   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:37:48.423  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:37:48.423   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:37:48.423   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:37:48.424   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:48.424   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:37:48.425   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:48.425   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:48.426   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:48.426   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:37:48.426   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:48.427   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:48.427   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:37:48.427   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:48.427   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:37:48.427   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:48.427   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:48.427   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:48.427   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:48.427   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:37:48.427   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:48.427   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:48.427   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:37:48.428   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:48.428   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:37:48.428   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+01-01 09:36:45.302     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:49.615   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:46.326     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:46.339  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:46.351  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:46.362   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:46.370  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:46.378  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-59
+01-01 09:36:47.350     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:48.374     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:49.398     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:52.688   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:49.412  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:49.425  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:49.436   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:49.443  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:49.452  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-63
+01-01 09:36:50.422     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:51.446     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:52.470     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:55.760   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:52.483  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:52.495  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:52.506   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:52.514  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:52.523  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-63
+01-01 09:36:53.494     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:54.518     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:58.434  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:37:58.435  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:37:58.435  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:37:58.436  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:58.440   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:37:58.444   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:58.444   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:58.445   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:58.445   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:37:58.446   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:58.447   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:58.447   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:58.447   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:58.447   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:58.448   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:58.448   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:37:58.448   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:37:58.450   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:37:58.451   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:37:58.453  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:36:55.542     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:37:58.832   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:55.555  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:55.568  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:55.579   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:55.586  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:55.595  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-59
+10-13 20:37:58.953   298   298 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.47ms>
+10-13 20:37:58.954   298   298 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.24ms>
+10-13 20:37:58.955   298   298 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.28ms>
+10-13 20:37:58.956   298   298 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.18ms>
+10-13 20:37:59.455  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:37:59.455  1193  1353 D PairHelper: discoveryDev 
+10-13 20:37:59.455  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:37:59.457  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:37:59.462   956  1529 D BtGatt.GattService: registerScanner() - UUID=f7c1404e-5d8a-42c8-907d-646e1e197cf0
+10-13 20:37:59.463   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:37:59.464   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=f7c1404e-5d8a-42c8-907d-646e1e197cf0, scannerId=1, status=0
+10-13 20:37:59.465  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:37:59.465   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:37:59.467   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:37:59.469   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:59.470   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:37:59.470   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:37:59.470   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:37:59.471   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:37:59.471   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:37:59.471   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:59.471   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:37:59.472   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:37:59.472  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:37:59.472   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:37:59.472   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:37:59.472   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:37:59.473   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:59.473   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:37:59.473   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:59.473   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:37:59.473   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:37:59.473   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:37:59.474   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:37:59.474   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:37:59.474   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:59.474   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:37:59.474   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:37:59.474   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:37:59.474   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:37:59.475   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:37:59.475   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:37:59.475   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+01-01 09:36:56.566     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:00.002   439   652 D PowerManagerService: acquireWakeLockInternal: lock=132952325, flags=0x1, tag="*alarm*", ws=WorkSource{1000}, uid=1000, pid=439
+10-13 20:38:00.003   439   652 D PowerManagerService: updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+10-13 20:38:00.003   439   652 D PowerManagerService: updateUserActivitySummaryLocked: groupId=0, mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=2153154233 (in 2147339903 ms)
+10-13 20:38:00.004   439   652 D PowerManagerService: updateDisplayPowerStateLocked: displayReady=true, groupId=0, policy=BRIGHT, mWakefulness=Awake, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true, screenBrightnessOverride=NaN, mScreenBrightnessBoostInProgress=false, sQuiescent=false
+10-13 20:38:00.004   439   652 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+10-13 20:38:00.007   439   439 D PowerManagerService: releaseWakeLockInternal: lock=132952325 [*alarm*], flags=0x0
+10-13 20:38:00.008   439   439 D PowerManagerService: updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+10-13 20:38:00.008   439   439 D PowerManagerService: updateUserActivitySummaryLocked: groupId=0, mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=2153154233 (in 2147339898 ms)
+10-13 20:38:00.008   439   439 D PowerManagerService: updateDisplayPowerStateLocked: displayReady=true, groupId=0, policy=BRIGHT, mWakefulness=Awake, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true, screenBrightnessOverride=NaN, mScreenBrightnessBoostInProgress=false, sQuiescent=false
+10-13 20:38:00.009   439   439 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+01-01 09:36:57.590     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:36:58.615     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:01.905   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:36:58.628  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:36:58.640  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:36:58.651   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:36:58.659  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:36:58.667  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-61
+01-01 09:36:59.638     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:00.662     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:01.686     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:04.976   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:01.700  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:01.713  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:01.723   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:01.731  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:01.740  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-65
+01-01 09:37:02.710     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:03.734     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:04.758     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:08.048   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:04.772  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:04.785  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:04.795   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:04.803  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:04.812  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-59
+01-01 09:37:05.782     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:09.313   886  2292 D IpClient/wlan0: routeUpdated: ::/0 -> fe80::9aa9:42ff:fe4e:ca39 wlan0 mtu 0
+10-13 20:38:09.315   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:68fa:c8ff:fedd:2e81/64 on ifindex 16 flags 0x00000144 scope 0
+10-13 20:38:09.316   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:7c7d:13d:5b1:6e75/64 on ifindex 16 flags 0x00000045 scope 0
+10-13 20:38:09.321   886  2292 D IpClient.wlan0: set max DTIM multiplier to 2
+10-13 20:38:09.323   439   687 E WifiStaIfaceAidlImpl: setDtimMultiplier failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+10-13 20:38:09.323   298   298 I netd    : networkAddRouteParcel(100, RouteInfoParcel{destination: 2a02:4540:aa:5375::/64, ifName: wlan0, nextHop: , mtu: 0}) <0.78ms>
+10-13 20:38:09.324   298   298 E netd    : Error adding route ::/0 -> fe80::9aa9:42ff:fe4e:ca39 wlan0 to table 1016: File exists
+10-13 20:38:09.324   298   298 I netd    : networkAddRouteParcel(100, RouteInfoParcel{destination: ::/0, ifName: wlan0, nextHop: fe80::9aa9:42ff:fe4e:ca39, mtu: 0}) <0.40ms>
+10-13 20:38:09.483  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:38:09.483  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:38:09.484  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:38:09.484  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:09.488   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:38:09.491   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:09.492   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:09.492   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:09.492   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:38:09.492   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:09.493   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:09.493   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:09.493   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:09.493   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:09.493   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:09.494   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:38:09.494   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:38:09.496   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:38:09.496   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:38:09.497  1193  1353 W PairHelper: stopScan, not connected ,now try again
+10-13 20:38:10.086   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:7c7d:13d:5b1:6e75/64 on ifindex 16 flags 0x00000001 scope 0
+10-13 20:38:10.088   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:68fa:c8ff:fedd:2e81/64 on ifindex 16 flags 0x00000100 scope 0
+01-01 09:37:06.806     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:10.498  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:38:10.499  1193  1353 D PairHelper: discoveryDev 
+10-13 20:38:10.499  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:38:10.501  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:10.506   956  1529 D BtGatt.GattService: registerScanner() - UUID=9e82a8bf-3168-48d5-82d3-b320675f3a6c
+10-13 20:38:10.507   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:38:10.508   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=9e82a8bf-3168-48d5-82d3-b320675f3a6c, scannerId=1, status=0
+10-13 20:38:10.509  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:38:10.509   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:38:10.511   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:38:10.514   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:10.514   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:10.514   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:10.515   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:38:10.515  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:38:10.515   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:38:10.516   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:38:10.516   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:10.516   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:38:10.517   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:10.517   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:10.518   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:10.518   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:38:10.518   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:10.519   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:10.519   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:10.519   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:38:10.519   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:38:10.520   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:10.520   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:10.520   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:10.520   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:10.520   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:38:10.521   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:10.521   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:38:10.521   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:10.521   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:38:10.522   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:10.522   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:37:07.830     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:11.121   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:07.844  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:07.857  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:07.867   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:07.875  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:07.884  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-65
+01-01 09:37:08.854     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:09.878     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:14.025   439   680 D PowerManagerService: acquireWakeLockInternal: lock=69308068, flags=0x1, tag="NetworkStats", ws=null, uid=1000, pid=439
+10-13 20:38:14.025   439   680 D PowerManagerService: updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+10-13 20:38:14.026   439   680 D PowerManagerService: updateUserActivitySummaryLocked: groupId=0, mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=2153154233 (in 2147325880 ms)
+10-13 20:38:14.026   439   680 D PowerManagerService: updateDisplayPowerStateLocked: displayReady=true, groupId=0, policy=BRIGHT, mWakefulness=Awake, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true, screenBrightnessOverride=NaN, mScreenBrightnessBoostInProgress=false, sQuiescent=false
+10-13 20:38:14.027   439   680 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+10-13 20:38:14.058   298   298 I netd    : tetherGetStats() -> {[]} <3.06ms>
+10-13 20:38:14.074   439   680 D PowerManagerService: releaseWakeLockInternal: lock=69308068 [NetworkStats], flags=0x0
+10-13 20:38:14.076   439   680 D PowerManagerService: updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+10-13 20:38:14.077   439   680 D PowerManagerService: updateUserActivitySummaryLocked: groupId=0, mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=2153154233 (in 2147325830 ms)
+10-13 20:38:14.078   439   680 D PowerManagerService: updateDisplayPowerStateLocked: displayReady=true, groupId=0, policy=BRIGHT, mWakefulness=Awake, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true, screenBrightnessOverride=NaN, mScreenBrightnessBoostInProgress=false, sQuiescent=false
+10-13 20:38:14.079   439   680 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+10-13 20:38:14.081   298   298 I netd    : bandwidthSetGlobalAlert(2097152) <1.05ms>
+01-01 09:37:10.902     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:14.192   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:10.916  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:10.929  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:10.940   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:10.947  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:10.956  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+10-13 20:38:14.311   589  4526 E adbd    : [server]: SSL_read failed [invalid library (0)]
+10-13 20:38:14.311   589  4526 I adbd    : host-26: read failed: Success
+10-13 20:38:14.311   589  4526 I adbd    : host-26: connection terminated: read failed
+10-13 20:38:14.311   589   589 I adbd    : host-26: offline
+10-13 20:38:14.311   589   589 I adbd    : ADB wifi device disconnected
+10-13 20:38:14.311   589   589 I adbd    : destroying transport host-26
+10-13 20:38:14.311   589   589 I adbd    : BlockingConnectionAdapter(host-26): stopping
+10-13 20:38:14.312   589   600 I adbd    : adbd_auth: marking framework writable
+10-13 20:38:14.312   589   589 I adbd    : BlockingConnectionAdapter(host-26): stopped
+10-13 20:38:14.312   439  1116 D AdbDebuggingManager: Received WIFI TLS disconnect key message: 
+10-13 20:38:14.312   589   589 I adbd    : BlockingConnectionAdapter(host-26): destructing
+10-13 20:38:14.312   589   589 I adbd    : BlockingConnectionAdapter(host-26): already stopped
+10-13 20:38:14.318   439   439 D CompatibilityChangeReporter: Compat change id reported: 175319604; UID 1000; state: DISABLED
+10-13 20:38:14.319   439   439 D CompatibilityChangeReporter: Compat change id reported: 175319604; UID 1000; state: ENABLED
+10-13 20:38:14.321   439   439 D CompatibilityChangeReporter: Compat change id reported: 195579280; UID 1000; state: DISABLED
+10-13 20:38:14.322   439   439 D CompatibilityChangeReporter: Compat change id reported: 195579280; UID 1000; state: ENABLED
+10-13 20:38:14.326   784   784 D TvNotificationHandler: Notification removed
+01-01 09:37:11.926     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:12.950     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:13.975     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:17.265   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:13.988  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:14.001  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:14.011   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:14.019  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:14.028  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-68
+01-01 09:37:14.998     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:16.022     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:17.046     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:20.336   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:17.060  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:17.073  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:17.084   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:17.092  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:17.101  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-61
+10-13 20:38:20.526  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:38:20.527  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:38:20.527  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:38:20.527  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:20.531   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:38:20.535   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:20.536   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:20.536   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:20.537   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:38:20.537   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:20.538   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:20.538   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:20.538   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:20.538   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:20.538   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:20.538   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:38:20.538   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:38:20.541   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:38:20.541   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:38:20.542  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:37:18.070     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:21.544  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:38:21.544  1193  1353 D PairHelper: discoveryDev 
+10-13 20:38:21.544  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:38:21.546  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:21.549   956  1529 D BtGatt.GattService: registerScanner() - UUID=9f2e8558-6655-4233-9f6c-a2a682765bea
+10-13 20:38:21.549   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:38:21.550   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=9f2e8558-6655-4233-9f6c-a2a682765bea, scannerId=1, status=0
+10-13 20:38:21.550  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:38:21.551   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:38:21.553   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:38:21.556   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:21.556   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:21.556   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:38:21.557   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:21.557   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:38:21.557   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:38:21.558   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:21.558   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:38:21.558  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:38:21.558   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:21.559   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:21.559   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:21.559   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:38:21.560   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:21.560   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:21.560   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:21.560   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:38:21.560   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:38:21.561   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:21.561   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:21.561   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:38:21.562   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:21.562   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:21.562   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:21.562   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:38:21.562   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:38:21.563   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:21.563   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:21.563   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:37:19.094     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:20.118     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:23.408   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:20.132  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:20.145  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:20.155   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:20.163  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:20.172  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+01-01 09:37:21.142     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:24.488   886  2292 D IpClient/wlan0: addressRemoved: 2a02:4540:aa:5375:68fa:c8ff:fedd:2e81/64 on ifindex 16 flags 0x00000100 scope 0
+10-13 20:38:24.490   886  2292 D IpClient/wlan0: addressRemoved: 2a02:4540:aa:5375:7c7d:13d:5b1:6e75/64 on ifindex 16 flags 0x00000001 scope 0
+10-13 20:38:24.495   886  2292 D IpClient.wlan0: set max DTIM multiplier to 9
+10-13 20:38:24.497   439   687 E WifiStaIfaceAidlImpl: setDtimMultiplier failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+10-13 20:38:24.497   298   298 I netd    : networkRemoveRouteParcel(100, RouteInfoParcel{destination: 2a02:4540:aa:5375::/64, ifName: wlan0, nextHop: , mtu: 0}) <1.13ms>
+01-01 09:37:22.166     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:26.480   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:23.190     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:23.204  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:23.219  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:23.230   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:23.238  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:23.247  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-59
+01-01 09:37:24.214     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:25.238     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:26.262     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:29.552   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:26.276  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:26.289  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:26.299   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:26.307  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:26.316  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+01-01 09:37:27.286     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:31.569  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:38:31.569  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:38:31.569  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:38:31.569  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:31.572   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:38:31.574   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:31.574   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:31.574   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:31.575   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:38:31.575   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:31.575   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:31.575   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:31.575   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:31.576   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:31.576   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:31.576   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:38:31.576   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:38:31.578   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:38:31.578   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:38:31.580  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:37:28.314     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:32.209   589  4552 E adbd    : [server]: SSL_read failed [invalid library (0)]
+10-13 20:38:32.209   589  4552 I adbd    : host-28: read failed: Connection reset by peer
+10-13 20:38:32.209   589  4552 I adbd    : host-28: connection terminated: read failed
+10-13 20:38:32.210   589   589 I adbd    : host-28: offline
+10-13 20:38:32.211   589  4550 E adbd    : [server]: SSL_write failed [invalid library (0)]
+10-13 20:38:32.211   589   589 I adbd    : ADB wifi device disconnected
+10-13 20:38:32.211   589   589 I adbd    : destroying transport host-28
+10-13 20:38:32.211   589   600 I adbd    : adbd_auth: marking framework writable
+10-13 20:38:32.211   589   589 I adbd    : BlockingConnectionAdapter(host-28): stopping
+10-13 20:38:32.212   439  1116 D AdbDebuggingManager: Received WIFI TLS disconnect key message: 
+10-13 20:38:32.212   589   589 I adbd    : BlockingConnectionAdapter(host-28): stopped
+10-13 20:38:32.220   589   589 I adbd    : BlockingConnectionAdapter(host-28): destructing
+10-13 20:38:32.220   589   589 I adbd    : BlockingConnectionAdapter(host-28): already stopped
+10-13 20:38:32.211   439   439 I binder:439_9: type=1400 audit(0.0:10273): avc:  denied  { getopt } for  scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=1
+10-13 20:38:32.582  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:38:32.582  1193  1353 D PairHelper: discoveryDev 
+10-13 20:38:32.582  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:38:32.583  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:32.586   956  1529 D BtGatt.GattService: registerScanner() - UUID=22d83ba9-6c2a-4e67-b776-b59ef6e87a10
+10-13 20:38:32.587   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:38:32.588   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=22d83ba9-6c2a-4e67-b776-b59ef6e87a10, scannerId=1, status=0
+10-13 20:38:32.589  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:38:32.589   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:38:32.591   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:38:32.594   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:32.594   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:32.594   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:32.595   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:38:32.595  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:38:32.596   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:38:32.596   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:38:32.596   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:32.596   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:38:32.597   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:32.598   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:32.598   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:32.598   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:38:32.598   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:32.599   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:32.599   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:38:32.599   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:32.599   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:38:32.599   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:32.599   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:32.599   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:38:32.600   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:32.600   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:38:32.600   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:32.600   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:32.601   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:32.601   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:32.601   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:38:32.601   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:38:32.615   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:29.338     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:29.348  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:29.361  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:29.371   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:29.379  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:29.388  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-59
+01-01 09:37:30.358     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:31.382     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:32.407     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:35.696   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:32.420  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:32.433  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:32.443   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:32.451  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:32.460  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-65
+01-01 09:37:33.430     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:34.454     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:38.295   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:68fa:c8ff:fedd:2e81/64 on ifindex 16 flags 0x00000144 scope 0
+10-13 20:38:38.297   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:e48:3d90:1358:986b/64 on ifindex 16 flags 0x00000045 scope 0
+10-13 20:38:38.305   886  2292 D IpClient.wlan0: set max DTIM multiplier to 2
+10-13 20:38:38.306   298   298 I netd    : networkAddRouteParcel(100, RouteInfoParcel{destination: 2a02:4540:aa:5375::/64, ifName: wlan0, nextHop: , mtu: 0}) <0.77ms>
+10-13 20:38:38.308   439   687 E WifiStaIfaceAidlImpl: setDtimMultiplier failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+10-13 20:38:38.768   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:35.478     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:35.492  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:35.504  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:35.515   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:35.523  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:35.532  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-60
+10-13 20:38:39.046   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:e48:3d90:1358:986b/64 on ifindex 16 flags 0x00000001 scope 0
+10-13 20:38:39.047   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:68fa:c8ff:fedd:2e81/64 on ifindex 16 flags 0x00000100 scope 0
+01-01 09:37:36.502     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:37.526     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:41.841   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:38.551     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:38.564  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:38.577  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:38.587   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:38.595  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:38.604  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-60
+10-13 20:38:42.606  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:38:42.606  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:38:42.607  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:38:42.607  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:42.610   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:38:42.613   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:42.613   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:42.613   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:42.614   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:38:42.614   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:42.614   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:42.615   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:42.615   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:42.615   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:42.616   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:42.616   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:38:42.616   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:38:42.620   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:38:42.620   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:38:42.621  1193  1353 W PairHelper: stopScan, not connected ,now try again
+10-13 20:38:42.797   439   439 V HotPlugDetectionAction: Poll all devices.
+10-13 20:38:42.798   439   439 V HotPlugDetectionAction: Poll all devices.
+01-01 09:37:39.574     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:43.622  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:38:43.623  1193  1353 D PairHelper: discoveryDev 
+10-13 20:38:43.623  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:38:43.624  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:43.626   956  1529 D BtGatt.GattService: registerScanner() - UUID=7ffd1efa-c9ec-4e9e-b8b5-bb803a2b735d
+10-13 20:38:43.627   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:38:43.628   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=7ffd1efa-c9ec-4e9e-b8b5-bb803a2b735d, scannerId=1, status=0
+10-13 20:38:43.628  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:38:43.629   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:38:43.630   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:38:43.634   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:43.635   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:43.636   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:43.636   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:38:43.637   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:38:43.637  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:38:43.638   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:38:43.639   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:43.639   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:38:43.640   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:43.641   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:43.641   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:43.642   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:38:43.642   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:43.643   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:38:43.643   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:43.643   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:43.644   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:38:43.644   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:43.645   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:43.645   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:43.645   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:43.645   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:38:43.645   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:43.645   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:43.645   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:38:43.646   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:38:43.648   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:43.648   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:37:40.598     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:41.623     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:44.913   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:41.636  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:41.649  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:41.659   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:41.667  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:41.676  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-66
+01-01 09:37:42.646     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:43.670     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:44.695     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:47.985   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:44.708  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:44.721  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:44.732   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:44.739  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:44.748  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+01-01 09:37:45.718     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:49.224   439   660 D PowerManagerService: userActivityNoUpdateLocked: groupId=0, eventTime=5863547, event=other, flags=0x0, uid=1000
+10-13 20:38:49.225   439   660 D PowerManagerService: updateUserActivitySummaryLocked: groupId=0, mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=2153340193 (in 2147476641 ms)
+10-13 20:38:49.225   439   660 D PowerManagerService: updateDisplayPowerStateLocked: displayReady=true, groupId=0, policy=BRIGHT, mWakefulness=Awake, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true, screenBrightnessOverride=NaN, mScreenBrightnessBoostInProgress=false, sQuiescent=false
+01-01 09:37:46.742     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:47.767     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:51.057   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:47.780  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:47.793  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:47.804   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:47.812  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:47.821  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-60
+01-01 09:37:48.790     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:49.814     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:53.648  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:38:53.648  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:38:53.648  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:38:53.649  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:53.651   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:38:53.653   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:53.653   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:53.654   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:53.654   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:38:53.655   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:53.655   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:53.656   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:53.656   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:53.657   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:53.657   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:53.658   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:38:53.658   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:38:53.666   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:38:53.666   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:38:53.668  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:37:50.839     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:54.129   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:50.853  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:50.865  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:50.877   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:50.884  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:50.893  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-61
+10-13 20:38:54.669  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:38:54.669  1193  1353 D PairHelper: discoveryDev 
+10-13 20:38:54.669  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:38:54.670  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:38:54.673   956  1529 D BtGatt.GattService: registerScanner() - UUID=71afb41d-9221-4061-a7fc-e04e77418287
+10-13 20:38:54.673   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:38:54.674   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=71afb41d-9221-4061-a7fc-e04e77418287, scannerId=1, status=0
+10-13 20:38:54.674  1193  1531 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:38:54.675   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:38:54.676   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:38:54.681   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:54.682   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:38:54.682   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:38:54.683   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:38:54.684   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:38:54.684  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:38:54.685   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:38:54.685   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:54.686   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:38:54.686   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:38:54.687   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:38:54.687   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:38:54.688   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:38:54.688   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:54.689   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:38:54.689   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:54.690   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:54.690   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:38:54.690   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:38:54.691   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:38:54.691   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:38:54.717   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:38:54.717   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:38:54.717   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:38:54.717   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:38:54.717   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:38:54.718   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:38:54.718   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:38:54.718   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:37:51.862     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:52.890     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:53.911     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:57.201   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:53.924  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:53.937  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:53.948   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:53.955  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:53.964  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-58
+01-01 09:37:54.934     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:38:58.882   589   589 I adbd    : New TLS connection [fd=23]
+10-13 20:38:58.883   589  6137 I adbd    : host-23: read thread spawning
+10-13 20:38:58.883   589  6138 I adbd    : host-23: write thread spawning
+10-13 20:38:58.886   589   589 I adbd    : host-23: already offline
+10-13 20:38:58.891   589  6137 I adbd    : host-23: Received STLS packet. Stopping read thread.
+10-13 20:38:58.906   589  6139 I adbd    : [server]: Initializing adbwifi TlsConnection
+10-13 20:38:58.908   589  6139 I adbd    : [server]: Starting adbwifi tls handshake
+10-13 20:38:58.994   589  6139 I adbd    : adbd_tls_verify_cert: auth not required
+10-13 20:38:58.995   589  6139 I adbd    : [server]: Handshake succeeded.
+10-13 20:38:58.996   589  6139 I adbd    : auth_key=
+10-13 20:38:58.996   589  6140 I adbd    : host-23: read thread spawning
+10-13 20:38:58.996   589  6139 I adbd    : adbd_wifi_secure_connect: connected host-23
+10-13 20:38:58.997   589   600 I adbd    : adbd_auth: marking framework writable
+10-13 20:38:58.997   439  1116 D AdbDebuggingManager: Received WIFI TLS connected key message: 
+10-13 20:38:59.210   439   439 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+10-13 20:38:59.214   784   784 D TvNotificationHandler: Notification added
+01-01 09:37:55.962     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:00.003   439   652 D PowerManagerService: acquireWakeLockInternal: lock=132952325, flags=0x1, tag="*alarm*", ws=WorkSource{1000}, uid=1000, pid=439
+10-13 20:39:00.004   439   652 D PowerManagerService: updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+10-13 20:39:00.004   439   652 D PowerManagerService: updateUserActivitySummaryLocked: groupId=0, mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=2153340193 (in 2147465862 ms)
+10-13 20:39:00.005   439   652 D PowerManagerService: updateDisplayPowerStateLocked: displayReady=true, groupId=0, policy=BRIGHT, mWakefulness=Awake, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true, screenBrightnessOverride=NaN, mScreenBrightnessBoostInProgress=false, sQuiescent=false
+10-13 20:39:00.006   439   652 D PowerManagerService: Acquiring suspend blocker "PowerManagerService.WakeLocks".
+10-13 20:39:00.010   439   439 D PowerManagerService: releaseWakeLockInternal: lock=132952325 [*alarm*], flags=0x0
+10-13 20:39:00.010   439   439 D PowerManagerService: updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+10-13 20:39:00.010   439   439 D PowerManagerService: updateUserActivitySummaryLocked: groupId=0, mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=2153340193 (in 2147465856 ms)
+10-13 20:39:00.010   439   439 D PowerManagerService: updateDisplayPowerStateLocked: displayReady=true, groupId=0, policy=BRIGHT, mWakefulness=Awake, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true, screenBrightnessOverride=NaN, mScreenBrightnessBoostInProgress=false, sQuiescent=false
+10-13 20:39:00.011   439   439 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+01-01 09:37:56.983     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:00.273   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:37:56.996  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:37:57.009  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:37:57.020   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:37:57.028  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:37:57.037  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-60
+01-01 09:37:58.006     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:37:59.030     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:02.535   886  2292 D IpClient/wlan0: addressRemoved: 2a02:4540:aa:5375:68fa:c8ff:fedd:2e81/64 on ifindex 16 flags 0x00000100 scope 0
+10-13 20:39:02.537   886  2292 D IpClient/wlan0: addressRemoved: 2a02:4540:aa:5375:e48:3d90:1358:986b/64 on ifindex 16 flags 0x00000001 scope 0
+10-13 20:39:02.546   886  2292 D IpClient.wlan0: set max DTIM multiplier to 9
+10-13 20:39:02.549   439   687 E WifiStaIfaceAidlImpl: setDtimMultiplier failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+10-13 20:39:02.549   298   298 I netd    : networkRemoveRouteParcel(100, RouteInfoParcel{destination: 2a02:4540:aa:5375::/64, ifName: wlan0, nextHop: , mtu: 0}) <0.68ms>
+10-13 20:39:03.335   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:00.054     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:00.059  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:00.075  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:00.086   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:00.093  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:00.102  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:2 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+01-01 09:38:01.078     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:04.690  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:39:04.690  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:39:04.691  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:39:04.691  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:04.694   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:39:04.698   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:04.698   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:04.699   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:04.699   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:39:04.699   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:04.699   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:04.699   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:04.699   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:04.700   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:04.700   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:04.701   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:39:04.701   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:39:04.701   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:39:04.702   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:39:04.702  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:38:02.102     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:05.704  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:39:05.705  1193  1353 D PairHelper: discoveryDev 
+10-13 20:39:05.705  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:39:05.707  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:05.711   956  1529 D BtGatt.GattService: registerScanner() - UUID=65b73667-c347-4481-a281-b97cf5ea9139
+10-13 20:39:05.713   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:39:05.714   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=65b73667-c347-4481-a281-b97cf5ea9139, scannerId=1, status=0
+10-13 20:39:05.715  1193  1531 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:39:05.715   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:39:05.717   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:39:05.720   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:05.720   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:05.720   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:39:05.720   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:05.721   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:39:05.721  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:39:05.722   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:39:05.722   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:05.722   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:39:05.722   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:05.723   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:05.723   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:05.724   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:39:05.724   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:05.724   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:05.724   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:05.724   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:39:05.725   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:39:05.725   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:05.725   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:05.725   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:39:05.726   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:05.726   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:39:05.726   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:05.726   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:05.726   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:05.726   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:05.726   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:39:05.727   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:39:06.403   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:03.126     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:03.127  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:03.147  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:03.157   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:03.165  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:03.174  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-57
+01-01 09:38:04.150     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:07.800  4625  4625 I abb     : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+01-01 09:38:05.174     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:09.475   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:06.198  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:06.210  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:06.214     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:06.229   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:06.237  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:06.245  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-55
+01-01 09:38:07.255     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:08.278     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:12.551   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:09.274  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:09.287  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:09.297   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:09.302     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:09.305  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:09.322  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-58
+01-01 09:38:10.326     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:11.350     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:15.626   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:12.350  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:12.362  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:12.373   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:12.374     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:12.380  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:12.397  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-64
+10-13 20:39:15.732  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:39:15.732  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:39:15.732  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:39:15.733  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:15.735   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:39:15.738   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:15.738   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:15.739   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:15.739   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:39:15.739   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:15.740   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:15.740   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:15.740   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:15.740   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:15.741   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:15.741   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:39:15.741   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:39:15.742   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:39:15.742   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:39:15.743  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:38:13.398     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:16.745  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:39:16.745  1193  1353 D PairHelper: discoveryDev 
+10-13 20:39:16.746  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:39:16.747  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:16.752   956  1529 D BtGatt.GattService: registerScanner() - UUID=60210e2e-b41c-4cb7-935c-e091e9bb8daf
+10-13 20:39:16.753   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:39:16.754   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=60210e2e-b41c-4cb7-935c-e091e9bb8daf, scannerId=1, status=0
+10-13 20:39:16.755  1193  1531 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:39:16.755   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:39:16.757   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:39:16.760   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:16.760   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:16.760   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:39:16.761   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:16.761   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:39:16.762  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:39:16.762   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:39:16.762   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:16.763   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:39:16.763   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:16.764   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:16.764   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:16.764   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:39:16.765   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:16.765   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:16.765   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:39:16.766   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:16.766   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:16.766   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:39:16.766   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:16.766   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:16.766   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:39:16.766   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:39:16.767   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:16.767   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:16.767   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:16.767   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:39:16.768   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:16.768   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:38:14.426     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:18.697   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:15.421  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:15.433  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:15.443   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:15.446     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:15.451  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:15.468  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-64
+01-01 09:38:16.470     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:17.494     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:21.768   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:18.491  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:18.504  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:18.514   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:18.518     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:18.522  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:18.539  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-63
+01-01 09:38:19.542     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:20.566     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:24.839   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:21.563  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:21.575  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:21.585   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:21.590     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:21.593  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:21.610  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-56
+01-01 09:38:22.614     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:26.773  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:39:26.773  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:39:26.773  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:39:26.774  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:26.778   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:39:26.782   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:26.782   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:26.783   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:39:26.783   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:26.784   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:26.784   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:26.784   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:26.784   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:26.785   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:26.785   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:26.785   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:39:26.785   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:39:26.787   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:39:26.788   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:39:26.789  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:38:23.638     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:27.790  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:39:27.791  1193  1353 D PairHelper: discoveryDev 
+10-13 20:39:27.791  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:39:27.793  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:27.797   956  1529 D BtGatt.GattService: registerScanner() - UUID=ba0cf44b-64ad-47e9-acf5-c11ee2ae89e6
+10-13 20:39:27.799   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:39:27.800   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=ba0cf44b-64ad-47e9-acf5-c11ee2ae89e6, scannerId=1, status=0
+10-13 20:39:27.800  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:39:27.801   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:39:27.802   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:39:27.806   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:27.806   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:27.806   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:39:27.806   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:27.807   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:39:27.808  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:39:27.808   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:39:27.808   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:27.808   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:39:27.808   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:27.809   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:27.809   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:27.809   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:39:27.810   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:27.810   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:27.810   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:27.810   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:39:27.811   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:39:27.811   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:27.812   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:27.812   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:27.812   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:27.812   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:39:27.813   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:27.813   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:39:27.814   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:39:27.814   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:27.814   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:27.814   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:39:27.911   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:24.634  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:24.647  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:24.657   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:24.662     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:24.665  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:24.682  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:0 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-60
+01-01 09:38:25.686     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:26.710     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:30.983   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:27.707  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:27.721  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:27.731   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:27.738     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:27.738  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:27.756  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-58
+01-01 09:38:28.758     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:29.786     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:33.282   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:68fa:c8ff:fedd:2e81/64 on ifindex 16 flags 0x00000144 scope 0
+10-13 20:39:33.283   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:ce15:1c57:e43:900a/64 on ifindex 16 flags 0x00000045 scope 0
+10-13 20:39:33.288   886  2292 D IpClient.wlan0: set max DTIM multiplier to 2
+10-13 20:39:33.290   298   298 I netd    : networkAddRouteParcel(100, RouteInfoParcel{destination: 2a02:4540:aa:5375::/64, ifName: wlan0, nextHop: , mtu: 0}) <0.79ms>
+10-13 20:39:33.290   439   687 E WifiStaIfaceAidlImpl: setDtimMultiplier failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+10-13 20:39:34.055   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:ce15:1c57:e43:900a/64 on ifindex 16 flags 0x00000001 scope 0
+10-13 20:39:34.057   886  2292 D IpClient/wlan0: addressUpdated: 2a02:4540:aa:5375:68fa:c8ff:fedd:2e81/64 on ifindex 16 flags 0x00000100 scope 0
+10-13 20:39:34.060   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:30.783  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:30.795  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:30.805   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:30.813     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:30.822  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:30.830  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-69
+01-01 09:38:31.830     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:32.854     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:37.135   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:33.859  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:33.871  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:33.878     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:33.890   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:33.897  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:33.906  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+10-13 20:39:37.818  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:39:37.819  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:39:37.819  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:39:37.820  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:37.824   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:39:37.828   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:37.828   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:37.829   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:37.829   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:39:37.830   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:37.830   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:37.830   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:37.830   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:37.831   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:37.831   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:37.832   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:39:37.832   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:39:37.835   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:39:37.836   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:39:37.837  1193  1353 W PairHelper: stopScan, not connected ,now try again
+01-01 09:38:34.902     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:38.838  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:39:38.839  1193  1353 D PairHelper: discoveryDev 
+10-13 20:39:38.839  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:39:38.841  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:38.845   956  1529 D BtGatt.GattService: registerScanner() - UUID=98d568ef-02d7-4dfc-a473-0f4625caf434
+10-13 20:39:38.847   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:39:38.848   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=98d568ef-02d7-4dfc-a473-0f4625caf434, scannerId=1, status=0
+10-13 20:39:38.848  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:39:38.849   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:39:38.850   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:39:38.854   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:38.854   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:38.854   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:38.854   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:39:38.855  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:39:38.855   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:39:38.856   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:39:38.856   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:38.857   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:39:38.857   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:38.858   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:38.858   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:38.859   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:39:38.859   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:38.859   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:38.860   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:39:38.860   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:38.860   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:38.860   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:39:38.861   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:38.861   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:38.861   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:39:38.861   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:39:38.861   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:38.861   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:38.861   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:38.861   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:39:38.861   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:38.861   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:38:35.926     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:40.211   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:36.935  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:36.948  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:36.958   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:36.958     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:36.966  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:36.983  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-61
+01-01 09:38:37.974     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:38.998     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:42.799   439   439 V HotPlugDetectionAction: Poll all devices.
+10-13 20:39:42.800   439   439 V HotPlugDetectionAction: Poll all devices.
+10-13 20:39:43.284   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:40.008  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:40.021  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:40.031   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:40.034     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:40.039  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:40.056  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-63
+01-01 09:38:41.078     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:42.102     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:46.357   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:43.080  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:43.094  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:43.104   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:43.112  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:43.120  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-62
+01-01 09:38:43.126     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:44.150     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:45.174     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:48.491   886  2292 D IpClient/wlan0: addressRemoved: 2a02:4540:aa:5375:68fa:c8ff:fedd:2e81/64 on ifindex 16 flags 0x00000100 scope 0
+10-13 20:39:48.493   886  2292 D IpClient/wlan0: addressRemoved: 2a02:4540:aa:5375:ce15:1c57:e43:900a/64 on ifindex 16 flags 0x00000001 scope 0
+10-13 20:39:48.503   886  2292 D IpClient.wlan0: set max DTIM multiplier to 9
+10-13 20:39:48.504   298   298 I netd    : networkRemoveRouteParcel(100, RouteInfoParcel{destination: 2a02:4540:aa:5375::/64, ifName: wlan0, nextHop: , mtu: 0}) <0.73ms>
+10-13 20:39:48.506   439   687 E WifiStaIfaceAidlImpl: setDtimMultiplier failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+10-13 20:39:48.866  1193  1353 D PairHelper: MSG_CANCEL_SCAN
+10-13 20:39:48.867  1193  1353 W PairHelper: stopscan(), isScanning = false reason:cancel
+10-13 20:39:48.867  1193  1353 D BluetoothAdapter: stopLeScan()
+10-13 20:39:48.867  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:48.871   956  1529 D BtGatt.GattService: stopScan() - queue size =1
+10-13 20:39:48.875   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:48.876   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:48.876   956  1286 D BtGatt.ScanManager: handling stopping scan  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:48.877   956  1286 D BtGatt.ScanManager: stop gattClientScanNative
+10-13 20:39:48.877   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:48.878   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:48.878   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:48.878   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:48.879   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:48.879   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:48.879   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+10-13 20:39:48.879   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue empty, scan stopped
+10-13 20:39:48.883   956  1529 D BtGatt.GattService: unregisterScanner() - scannerId=1
+10-13 20:39:48.883   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(162)] Unregister in shim layer, scanner_id:1
+10-13 20:39:48.884  1193  1353 W PairHelper: stopScan, not connected ,now try again
+10-13 20:39:49.421   439   687 E WifiStaIfaceAidlImpl: getLinkLayerStats failed with service-specific exception: android.os.ServiceSpecificException: unknown error (code 9)
+01-01 09:38:46.144  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_send_msg (118)MM_GET_STA_INFO_CFM reqcfm:1 in_irq:0 in_softirq:0 in_atomic:0
+01-01 09:38:46.157  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_malloc get cmd_array[0]:000000008ffc6027
+01-01 09:38:46.167   907   907 W         : AICWFDBG(LOGDEBUG)	rwnx_rx_handle_msg msg->id:0x76
+01-01 09:38:46.175  1803  1803 W         : AICWFDBG(LOGTRACE)	rwnx_cmd_free cmd_array[0]:000000008ffc6027
+01-01 09:38:46.183  1803  1803 W         : AICWFDBG(LOGDEBUG)	rwnx_fill_station_info ModTx:5 TxIndex:1 ModRx:0 RxHTIndex:0 RxVHTIndex:0 RxHEIndex:0 RSSI:-60
+01-01 09:38:46.198     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:49.885  1193  1353 D PairHelper: MSG_DISCOVERY_DEV
+10-13 20:39:49.886  1193  1353 D PairHelper: discoveryDev 
+10-13 20:39:49.886  1193  1353 D BluetoothAdapter: startLeScan(): null
+10-13 20:39:49.888  1193  1353 D BluetoothAdapter: isLeEnabled(): ON
+10-13 20:39:49.893   956  1529 D BtGatt.GattService: registerScanner() - UUID=6d473ac8-fe09-47a3-ac45-a011ffa21d1d
+10-13 20:39:49.894   956  1529 I bt_stack: [INFO:le_scanning_manager.cc(155)] RegisterScanner in shim layer
+10-13 20:39:49.895   956  1126 D BtGatt.GattService: onScannerRegistered() - UUID=6d473ac8-fe09-47a3-ac45-a011ffa21d1d, scannerId=1, status=0
+10-13 20:39:49.896  1193  5055 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=1 mScannerId=0
+10-13 20:39:49.897   956  1529 D BtGatt.GattService: start scan with filters
+10-13 20:39:49.900   956  1529 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([])
+10-13 20:39:49.905   956  1529 D BtGatt.ScanManager: startScan()  [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:49.906   956  1529 D ActivityAttributionService: notifyActivityAttributionInfo UID=1002 packageName=com.android.bluetooth deviceAddress=no_active_device_address
+10-13 20:39:49.906   956  1529 I bt_btif : packages/modules/Bluetooth/system/btif/src/bluetooth.cc:829 get_profile_interface: get_profile_interface: id = activity_attribution
+10-13 20:39:49.907   956  1286 D BtGatt.ScanManager: handling starting scan
+10-13 20:39:49.908   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(268)] ScanFilterEnable in shim layer
+10-13 20:39:49.908  1193  1353 W PairHelper: mBluetoothAdapter.startLeScan(), isScanning = true
+10-13 20:39:49.908   956  1126 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=1, status=0, action=1
+10-13 20:39:49.908   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:49.909   956  1286 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0
+10-13 20:39:49.910   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(204)] ScanFilterParamSetup in shim layer
+10-13 20:39:49.910   956  1126 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=1, status=0, action=0, availableSpace=0
+10-13 20:39:49.910   956  1126 D BtGatt.ScanManager: callback done for scannerId - 1 status - 0
+10-13 20:39:49.911   956  1286 D BtGatt.ScanManager: start gattClientScanNative from startRegularScan()
+10-13 20:39:49.911   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:49.911   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:49.912   956  1286 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+10-13 20:39:49.912   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer stopped
+10-13 20:39:49.912   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:49.912   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+10-13 20:39:49.912   956  1286 D BtGatt.ScanManager: Start gattClientScanNative with old scanMode -2147483648 new scanMode 2 ( in MS: 100 / 100, in scan unit: 160 / 160 ) [ScanClient scanModeApp 2 scanModeUsed 2 [appScanStats android.uid.system:1000]]
+10-13 20:39:49.912   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(346)] SetScanParameters in shim layer
+10-13 20:39:49.913   956  1286 I bt_stack: [INFO:le_scanning_manager.cc(168)] Scan in shim layer started
+10-13 20:39:49.913   956  1286 D BtGatt.ScanManager: apply scan timeout (600000)to scannerId 1
+10-13 20:39:49.913   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:193 unregister_client: Client unregistered
+10-13 20:39:49.913   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:197 unregister_client: Cancelled address rotation alarm
+10-13 20:39:49.913   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_scanning_manager.cc:588 stop_scan: Scanning already stopped, return!
+10-13 20:39:49.913   956  1126 D BtGatt.GattService: onScanParamSetupCompleted : 0
+10-13 20:39:49.913   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:175 register_client: Scheduled address rotation for first client registered
+10-13 20:39:49.913   956  1080 I bluetooth: packages/modules/Bluetooth/system/gd/hci/le_address_manager.cc:178 register_client: Client registered
+01-01 09:38:47.222     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+01-01 09:38:48.246     0     0 D         : [    C0] [BT_LPM] bluesleep_rx_timer_expire: bluesleep_rx_timer_expire
+10-13 20:39:51.881   589   589 I adbd    : New TLS connection [fd=26]
+10-13 20:39:51.882   589  6144 I adbd    : host-26: read thread spawning
+10-13 20:39:51.882   589  6145 I adbd    : host-26: write thread spawning
+10-13 20:39:51.890   589   589 I adbd    : host-26: already offline
+10-13 20:39:51.896   589  6144 I adbd    : host-26: Received STLS packet. Stopping read thread.
+10-13 20:39:51.914   589  6146 I adbd    : [server]: Initializing adbwifi TlsConnection
+10-13 20:39:51.916   589  6146 I adbd    : [server]: Starting adbwifi tls handshake
+10-13 20:39:52.091   589  6146 I adbd    : adbd_tls_verify_cert: auth not required
+10-13 20:39:52.092   589  6146 I adbd    : [server]: Handshake succeeded.
+10-13 20:39:52.093   589  6146 I adbd    : auth_key=
+10-13 20:39:52.093   589  6147 I adbd    : host-26: read thread spawning
+10-13 20:39:52.093   589  6146 I adbd    : adbd_wifi_secure_connect: connected host-26
+10-13 20:39:52.093   589   600 I adbd    : adbd_auth: marking framework writable
+10-13 20:39:52.094   439  1116 D AdbDebuggingManager: Received WIFI TLS connected key message: 
