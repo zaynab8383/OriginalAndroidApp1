@@ -888,12 +888,35 @@ public class MainActivity : Activity
         _receiverRegistered = true;
     }
 
+    //private void AppendLog(string text)
+    //{
+    //    RunOnUiThread(() =>
+    //    {
+    //        if (_textView == null) return;
+    //        _textView.Append("\n" + DateTime.Now.ToString("HH:mm:ss") + "  " + text);
+    //        var layout = _textView.Layout;
+    //        if (layout != null)
+    //            _textView.ScrollTo(0, Math.Max(0, layout.GetLineTop(_textView.LineCount) - _textView.Height));
+    //    });
+    //}
+    private const int MaxLogChars = 20000;
+
     private void AppendLog(string text)
     {
         RunOnUiThread(() =>
         {
             if (_textView == null) return;
+
             _textView.Append("\n" + DateTime.Now.ToString("HH:mm:ss") + "  " + text);
+
+            var all = _textView.Text ?? "";
+            if (all.Length > MaxLogChars)
+            {
+                var tail = all.Substring(all.Length - MaxLogChars / 2);
+                var nl = tail.IndexOf('\n');
+                _textView.Text = nl >= 0 ? tail.Substring(nl + 1) : tail;
+            }
+
             var layout = _textView.Layout;
             if (layout != null)
                 _textView.ScrollTo(0, Math.Max(0, layout.GetLineTop(_textView.LineCount) - _textView.Height));

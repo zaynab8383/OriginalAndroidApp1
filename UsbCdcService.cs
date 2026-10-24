@@ -237,11 +237,26 @@ public class UsbCdcService
         return false;
     }
 
-    public void Write_Byte(byte[] buffer, int Time_out)
+    //public void Write_Byte(byte[] buffer, int Time_out)
+    //{
+    //    if (_connection == null || _endpointOut == null || buffer == null || buffer.Length == 0)
+    //        return;
+    //    _connection.BulkTransfer(_endpointOut, buffer, buffer.Length, Time_out);
+    //}
+    public bool Write_Byte(byte[] buffer, int Time_out)
     {
         if (_connection == null || _endpointOut == null || buffer == null || buffer.Length == 0)
-            return;
-        _connection.BulkTransfer(_endpointOut, buffer, buffer.Length, Time_out);
+            return false;
+
+        var offset = 0;
+        var failures = 0;
+        while (offset < buffer.Length && failures < 5)
+        {
+            var n = _connection.BulkTransfer(_endpointOut, buffer, offset, buffer.Length - offset, Time_out);
+            if (n > 0) offset += n;
+            else failures++;
+        }
+        return offset >= buffer.Length;
     }
 
     public void Write_Str(string text, int Time_out) => Write_Byte(Encoding.UTF8.GetBytes(text), Time_out);
